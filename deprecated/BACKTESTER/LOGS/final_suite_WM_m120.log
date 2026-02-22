@@ -1,0 +1,14 @@
+2025-11-09 21:31:53,770 [INFO   ] --- [Trading Simulator v4.1 Started for WM] ---
+2025-11-09 21:31:53,772 [INFO   ] Loaded 15 archetypes.
+2025-11-09 21:31:54,563 [INFO   ] Loaded 1259 data points and pre-calculated ATR.
+2025-11-09 21:31:54,563 [INFO   ] Pre-calculating historical growth distribution for learning system...
+2025-11-09 21:31:54,565 [INFO   ] Pre-calculating all CAC valleys with m=120...
+2025-11-09 21:32:21,363 [INFO   ] Found 0 potential entry dates.
+2025-11-09 21:32:21,903 [INFO   ] 
+
+============================================================
+2025-11-09 21:32:21,903 [INFO   ] --- [TRADING SIMULATION REPORT] ---
+2025-11-09 21:32:21,903 [INFO   ] ============================================================
+2025-11-09 21:32:21,903 [INFO   ] No trades were executed during the simulation period.
+2025-11-09 21:32:21,903 [INFO   ] ============================================================
+2025-11-09 21:32:21,903 [INFO   ] --- [Trading Simulator Finished] ---

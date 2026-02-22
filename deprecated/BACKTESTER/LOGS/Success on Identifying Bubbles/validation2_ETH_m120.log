@@ -1,0 +1,24 @@
+2025-10-29 20:05:43,209 [INFO   ] --- [Historical Analyzer Started for ETH-USD] ---
+2025-10-29 20:05:44,038 [INFO   ] Loaded 1461 data points for ETH-USD.
+2025-10-29 20:05:44,039 [INFO   ] Computing full CAC curve with m=120...
+2025-10-29 20:06:08,825 [INFO   ] Found 1 significant valleys in the CAC curve.
+2025-10-29 20:06:08,825 [INFO   ] 
+--- Analyzing Valley at 2020-12-10 (index 709) ---
+2025-10-29 20:06:08,827 [INFO   ]   [Filter 2] Valley at 2020-12-10: Slope Check (30d) = 20.0349
+2025-10-29 20:06:08,828 [INFO   ]   [Filter 2] Valley at 2020-12-10: Slope Check (60d) = 19.4564
+2025-10-29 20:06:08,828 [INFO   ]   [Filter 2] Valley at 2020-12-10: Slope Check (90d) = 15.3458
+2025-10-29 20:06:08,828 [INFO   ]   [Filter 2] PASSED. Best positive slope: 20.0349
+2025-10-29 20:06:09,693 [INFO   ]     [Filter 3] DNA Test vs 'DOGE-USD_m30_ramp': Distance = 6.1420
+2025-10-29 20:06:09,695 [INFO   ]     [Filter 3] DNA Test vs 'SHIB-USD_m30_ramp': Distance = 5.0015
+2025-10-29 20:06:09,697 [INFO   ]     [Filter 3] DNA Test vs 'CSCO_m90_ramp': Distance = 4.4242
+2025-10-29 20:06:09,698 [INFO   ]     [Filter 3] DNA Test vs 'GME_m90_ramp': Distance = 6.5108
+2025-10-29 20:06:09,700 [INFO   ]     [Filter 3] DNA Test vs 'IYR_m120_ramp': Distance = 2.9717
+2025-10-29 20:06:09,701 [INFO   ]     [Filter 3] DNA Test vs 'VWAGY_m15_ramp': Distance = 6.2190
+2025-10-29 20:06:09,703 [INFO   ]     [Filter 3] DNA Test vs 'AMC_m30_ramp': Distance = 3.5367
+2025-10-29 20:06:09,703 [INFO   ]     [Filter 3] FAILED. No DNA match found below threshold 2.75.
+2025-10-29 20:06:09,703 [INFO   ] 
+--- [Analysis Summary] ---
+2025-10-29 20:06:09,703 [INFO   ] Total Valleys Found: 1
+2025-10-29 20:06:09,703 [INFO   ] Valleys Passing Filter 2 (Slope Test): 1
+2025-10-29 20:06:09,703 [INFO   ] Valleys Passing Filter 3 (DNA Test): 0
+2025-10-29 20:06:09,704 [INFO   ] --- [Historical Analyzer Finished] ---

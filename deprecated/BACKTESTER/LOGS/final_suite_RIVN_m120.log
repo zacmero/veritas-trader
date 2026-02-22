@@ -1,0 +1,14 @@
+2025-11-09 21:12:13,129 [INFO   ] --- [Trading Simulator v4.1 Started for RIVN] ---
+2025-11-09 21:12:13,131 [INFO   ] Loaded 15 archetypes.
+2025-11-09 21:12:13,999 [INFO   ] Loaded 287 data points and pre-calculated ATR.
+2025-11-09 21:12:13,999 [INFO   ] Pre-calculating historical growth distribution for learning system...
+2025-11-09 21:12:14,001 [INFO   ] Pre-calculating all CAC valleys with m=120...
+2025-11-09 21:12:37,170 [INFO   ] Found 0 potential entry dates.
+2025-11-09 21:12:37,238 [INFO   ] 
+
+============================================================
+2025-11-09 21:12:37,238 [INFO   ] --- [TRADING SIMULATION REPORT] ---
+2025-11-09 21:12:37,238 [INFO   ] ============================================================
+2025-11-09 21:12:37,238 [INFO   ] No trades were executed during the simulation period.
+2025-11-09 21:12:37,239 [INFO   ] ============================================================
+2025-11-09 21:12:37,239 [INFO   ] --- [Trading Simulator Finished] ---

@@ -1,0 +1,38 @@
+2025-10-30 22:00:27,558 [INFO   ] --- [Historical Analyzer Started for KO] ---
+2025-10-30 22:00:28,610 [INFO   ] Loaded 1510 data points for KO.
+2025-10-30 22:00:28,615 [INFO   ] Computing full CAC curve with m=90...
+2025-10-30 22:01:21,332 [INFO   ] Found 4 significant valleys in the CAC curve.
+2025-10-30 22:01:21,332 [INFO   ] 
+--- Analyzing Valley at 2019-03-15 (index 552) ---
+2025-10-30 22:01:21,337 [INFO   ]   [Filter 2] Valley at 2019-03-15: Slope Check (30d) = 0.0684
+2025-10-30 22:01:21,343 [INFO   ]   [Filter 2] Valley at 2019-03-15: Slope Check (60d) = 0.0695
+2025-10-30 22:01:21,344 [INFO   ]   [Filter 2] Valley at 2019-03-15: Slope Check (90d) = 0.0724
+2025-10-30 22:01:21,345 [INFO   ]   [Filter 2] 30-Day Growth Check: 6.53%
+2025-10-30 22:01:21,345 [INFO   ]   [Filter 2] FAILED. Growth of 6.53% < 10.0% threshold.
+2025-10-30 22:01:21,345 [INFO   ] 
+--- Analyzing Valley at 2019-11-08 (index 718) ---
+2025-10-30 22:01:21,347 [INFO   ]   [Filter 2] Valley at 2019-11-08: Slope Check (30d) = 0.0892
+2025-10-30 22:01:21,348 [INFO   ]   [Filter 2] Valley at 2019-11-08: Slope Check (60d) = 0.0915
+2025-10-30 22:01:21,349 [INFO   ]   [Filter 2] Valley at 2019-11-08: Slope Check (90d) = 0.0146
+2025-10-30 22:01:21,350 [INFO   ]   [Filter 2] 30-Day Growth Check: 6.07%
+2025-10-30 22:01:21,350 [INFO   ]   [Filter 2] FAILED. Growth of 6.07% < 10.0% threshold.
+2025-10-30 22:01:21,350 [INFO   ] 
+--- Analyzing Valley at 2020-03-27 (index 813) ---
+2025-10-30 22:01:21,351 [INFO   ]   [Filter 2] Valley at 2020-03-27: Slope Check (30d) = 0.0248
+2025-10-30 22:01:21,352 [INFO   ]   [Filter 2] Valley at 2020-03-27: Slope Check (60d) = 0.0259
+2025-10-30 22:01:21,354 [INFO   ]   [Filter 2] Valley at 2020-03-27: Slope Check (90d) = 0.0169
+2025-10-30 22:01:21,354 [INFO   ]   [Filter 2] 30-Day Growth Check: 7.71%
+2025-10-30 22:01:21,354 [INFO   ]   [Filter 2] FAILED. Growth of 7.71% < 10.0% threshold.
+2025-10-30 22:01:21,354 [INFO   ] 
+--- Analyzing Valley at 2020-08-13 (index 909) ---
+2025-10-30 22:01:21,356 [INFO   ]   [Filter 2] Valley at 2020-08-13: Slope Check (30d) = 0.0863
+2025-10-30 22:01:21,358 [INFO   ]   [Filter 2] Valley at 2020-08-13: Slope Check (60d) = 0.0209
+2025-10-30 22:01:21,364 [INFO   ]   [Filter 2] Valley at 2020-08-13: Slope Check (90d) = 0.0571
+2025-10-30 22:01:21,365 [INFO   ]   [Filter 2] 30-Day Growth Check: 1.48%
+2025-10-30 22:01:21,365 [INFO   ]   [Filter 2] FAILED. Growth of 1.48% < 10.0% threshold.
+2025-10-30 22:01:21,365 [INFO   ] 
+--- [Analysis Summary] ---
+2025-10-30 22:01:21,365 [INFO   ] Total Valleys Found: 4
+2025-10-30 22:01:21,365 [INFO   ] Valleys Passing Filter 2 (Qualification Test): 0
+2025-10-30 22:01:21,365 [INFO   ] Valleys Passing Filter 3 (DNA Test): 0
+2025-10-30 22:01:21,365 [INFO   ] --- [Historical Analyzer Finished] ---

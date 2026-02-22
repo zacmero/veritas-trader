@@ -1,0 +1,49 @@
+2025-11-06 21:41:57,365 [INFO   ] --- [Historical Analyzer Started for AAPL] ---
+2025-11-06 21:41:58,254 [INFO   ] Loaded 1510 data points for AAPL.
+2025-11-06 21:41:58,256 [INFO   ] Computing full CAC curve with m=60...
+2025-11-06 21:42:19,698 [INFO   ] Found 4 significant valleys in the CAC curve.
+2025-11-06 21:42:19,698 [INFO   ] 
+--- Analyzing Valley at 2018-05-23 (index 349) ---
+2025-11-06 21:42:19,699 [INFO   ]   [Filter 2] Valley at 2018-05-23: Slope Check (30d) = -0.0508
+2025-11-06 21:42:19,700 [INFO   ]   [Filter 2] Valley at 2018-05-23: Slope Check (60d) = 0.0793
+2025-11-06 21:42:19,701 [INFO   ]   [Filter 2] Valley at 2018-05-23: Slope Check (90d) = 0.1249
+2025-11-06 21:42:19,701 [INFO   ]   [Filter 2] 30-Day Growth Check: -1.57%
+2025-11-06 21:42:19,701 [INFO   ]   [Filter 2] FAILED. Growth of -1.57% < 10.0% threshold.
+2025-11-06 21:42:19,702 [INFO   ] 
+--- Analyzing Valley at 2018-08-29 (index 417) ---
+2025-11-06 21:42:19,702 [INFO   ]   [Filter 2] Valley at 2018-08-29: Slope Check (30d) = 0.0078
+2025-11-06 21:42:19,703 [INFO   ]   [Filter 2] Valley at 2018-08-29: Slope Check (60d) = -0.1327
+2025-11-06 21:42:19,704 [INFO   ]   [Filter 2] Valley at 2018-08-29: Slope Check (90d) = -0.2280
+2025-11-06 21:42:19,704 [INFO   ]   [Filter 2] 30-Day Growth Check: -2.97%
+2025-11-06 21:42:19,704 [INFO   ]   [Filter 2] FAILED. Growth of -2.97% < 10.0% threshold.
+2025-11-06 21:42:19,704 [INFO   ] 
+--- Analyzing Valley at 2020-06-23 (index 873) ---
+2025-11-06 21:42:19,705 [INFO   ]   [Filter 2] Valley at 2020-06-23: Slope Check (30d) = 0.4080
+2025-11-06 21:42:19,706 [INFO   ]   [Filter 2] Valley at 2020-06-23: Slope Check (60d) = 0.6367
+2025-11-06 21:42:19,707 [INFO   ]   [Filter 2] Valley at 2020-06-23: Slope Check (90d) = 0.3154
+2025-11-06 21:42:19,707 [INFO   ]   [Filter 2] 30-Day Growth Check: 19.68%
+2025-11-06 21:42:19,707 [INFO   ]   [Filter 2] PASSED. Growth of 19.68% >= 10.0% threshold.
+2025-11-06 21:42:19,709 [INFO   ]   [Filter 2.5] Historical Context Check (m=60, Tier 1):
+2025-11-06 21:42:19,709 [INFO   ]     - Current growth is in the 95.34th percentile of this stock's history.
+2025-11-06 21:42:19,709 [INFO   ]     - Required Threshold: 95.0%
+2025-11-06 21:42:19,710 [INFO   ]   [Filter 2.5] PASSED. Percentile rank 95.34% >= 95.0% threshold.
+2025-11-06 21:42:19,710 [ERROR  ]     [Filter 3] CRITICAL ERROR during normalization: module 'stumpy' has no attribute 'z_norm'
+2025-11-06 21:42:19,710 [INFO   ]     [Filter 3] FAILED. No DNA match found below loose threshold.
+2025-11-06 21:42:19,710 [INFO   ] 
+--- Analyzing Valley at 2021-06-11 (index 1117) ---
+2025-11-06 21:42:19,711 [INFO   ]   [Filter 2] Valley at 2021-06-11: Slope Check (30d) = 0.7286
+2025-11-06 21:42:19,712 [INFO   ]   [Filter 2] Valley at 2021-06-11: Slope Check (60d) = 0.3537
+2025-11-06 21:42:19,713 [INFO   ]   [Filter 2] Valley at 2021-06-11: Slope Check (90d) = 0.1196
+2025-11-06 21:42:19,713 [INFO   ]   [Filter 2] 30-Day Growth Check: 16.65%
+2025-11-06 21:42:19,713 [INFO   ]   [Filter 2] PASSED. Growth of 16.65% >= 10.0% threshold.
+2025-11-06 21:42:19,715 [INFO   ]   [Filter 2.5] Historical Context Check (m=60, Tier 1):
+2025-11-06 21:42:19,715 [INFO   ]     - Current growth is in the 90.48th percentile of this stock's history.
+2025-11-06 21:42:19,715 [INFO   ]     - Required Threshold: 95.0%
+2025-11-06 21:42:19,716 [INFO   ]   [Filter 2.5] FAILED. Percentile rank 90.48% < 95.0% threshold.
+2025-11-06 21:42:19,716 [INFO   ] 
+--- [Analysis Summary] ---
+2025-11-06 21:42:19,716 [INFO   ] Total Valleys Found: 4
+2025-11-06 21:42:19,716 [INFO   ] Valleys Passing Filter 2 (Intensity Test): 2
+2025-11-06 21:42:19,716 [INFO   ] Valleys Passing Filter 2.5 (Context Test): 1
+2025-11-06 21:42:19,716 [INFO   ] Valleys Passing Filter 3 (DNA Test): 0
+2025-11-06 21:42:19,716 [INFO   ] --- [Historical Analyzer Finished] ---

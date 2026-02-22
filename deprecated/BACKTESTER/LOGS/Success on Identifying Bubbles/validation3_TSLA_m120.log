@@ -1,0 +1,10 @@
+2025-10-29 22:06:28,354 [INFO   ] --- [Historical Analyzer Started for TSLA] ---
+2025-10-29 22:06:29,114 [INFO   ] Loaded 1008 data points for TSLA.
+2025-10-29 22:06:29,115 [INFO   ] Computing full CAC curve with m=120...
+2025-10-29 22:06:51,860 [INFO   ] Found 0 significant valleys in the CAC curve.
+2025-10-29 22:06:51,861 [INFO   ] 
+--- [Analysis Summary] ---
+2025-10-29 22:06:51,861 [INFO   ] Total Valleys Found: 0
+2025-10-29 22:06:51,861 [INFO   ] Valleys Passing Filter 2 (Slope Test): 0
+2025-10-29 22:06:51,861 [INFO   ] Valleys Passing Filter 3 (DNA Test): 0
+2025-10-29 22:06:51,861 [INFO   ] --- [Historical Analyzer Finished] ---

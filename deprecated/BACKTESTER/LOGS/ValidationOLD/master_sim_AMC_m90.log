@@ -1,0 +1,13 @@
+2025-11-08 04:32:31,669 [INFO   ] --- [Trading Simulator v2.3 Started for AMC] ---
+2025-11-08 04:32:31,671 [INFO   ] Loaded 8 archetypes.
+2025-11-08 04:32:32,635 [INFO   ] Loaded 1259 data points and pre-calculated ATR.
+2025-11-08 04:32:32,636 [INFO   ] Pre-calculating all CAC valleys with m=90...
+2025-11-08 04:33:08,133 [INFO   ] Found 0 potential entry dates.
+2025-11-08 04:32:57,956 [INFO   ] 
+
+============================================================
+2025-11-08 04:32:57,956 [INFO   ] --- [TRADING SIMULATION REPORT] ---
+2025-11-08 04:32:57,956 [INFO   ] ============================================================
+2025-11-08 04:32:57,957 [INFO   ] No trades were executed during the simulation period.
+2025-11-08 04:32:57,957 [INFO   ] ============================================================
+2025-11-08 04:32:57,957 [INFO   ] --- [Trading Simulator Finished] ---

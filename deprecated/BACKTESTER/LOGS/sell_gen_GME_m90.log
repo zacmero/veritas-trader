@@ -1,0 +1,5 @@
+2025-11-21 19:25:28,077 [INFO   ] --- Generating SELL (Ramp Down) Archetype for: GME ---
+2025-11-21 19:25:29,314 [INFO   ] Finding regime change to locate bubble context...
+2025-11-21 19:25:51,146 [INFO   ] --- SUCCESS: New SELL Archetype Created ---
+2025-11-21 19:25:51,146 [INFO   ]   Peak Date: 2021-01-27
+2025-11-21 19:25:51,146 [INFO   ]   Saved to: /home/zacmero/stock-bubble/BACKTESTER/../SELL_ARCHETYPE_LIBRARY_FINAL

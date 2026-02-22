@@ -1,0 +1,10 @@
+2025-10-30 22:00:27,563 [INFO   ] --- [Historical Analyzer Started for KO] ---
+2025-10-30 22:00:28,753 [INFO   ] Loaded 1510 data points for KO.
+2025-10-30 22:00:28,754 [INFO   ] Computing full CAC curve with m=30...
+2025-10-30 22:01:22,064 [INFO   ] Found 0 significant valleys in the CAC curve.
+2025-10-30 22:01:22,618 [INFO   ] 
+--- [Analysis Summary] ---
+2025-10-30 22:01:22,619 [INFO   ] Total Valleys Found: 0
+2025-10-30 22:01:22,619 [INFO   ] Valleys Passing Filter 2 (Qualification Test): 0
+2025-10-30 22:01:22,619 [INFO   ] Valleys Passing Filter 3 (DNA Test): 0
+2025-10-30 22:01:22,619 [INFO   ] --- [Historical Analyzer Finished] ---

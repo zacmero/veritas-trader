@@ -1,0 +1,11 @@
+2025-11-06 20:44:01,700 [INFO   ] --- [Historical Analyzer Started for JPM] ---
+2025-11-06 20:44:02,853 [INFO   ] Loaded 1510 data points for JPM.
+2025-11-06 20:44:02,855 [INFO   ] Computing full CAC curve with m=120...
+2025-11-06 20:44:28,037 [INFO   ] Found 0 significant valleys in the CAC curve.
+2025-11-06 20:44:28,037 [INFO   ] 
+--- [Analysis Summary] ---
+2025-11-06 20:44:28,037 [INFO   ] Total Valleys Found: 0
+2025-11-06 20:44:28,038 [INFO   ] Valleys Passing Filter 2 (Intensity Test): 0
+2025-11-06 20:44:28,038 [INFO   ] Valleys Passing Filter 2.5 (Context Test): 0
+2025-11-06 20:44:28,038 [INFO   ] Valleys Passing Filter 3 (DNA Test): 0
+2025-11-06 20:44:28,038 [INFO   ] --- [Historical Analyzer Finished] ---

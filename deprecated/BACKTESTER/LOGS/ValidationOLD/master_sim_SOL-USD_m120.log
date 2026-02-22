@@ -1,0 +1,17 @@
+2025-11-08 12:55:34,996 [INFO   ] --- [Trading Simulator v4.0 Started for SOL-USD] ---
+2025-11-08 12:55:34,998 [INFO   ] Loaded 8 archetypes.
+2025-11-08 12:55:29,922 [INFO   ] Loaded 1361 data points and pre-calculated ATR.
+2025-11-08 12:55:29,922 [INFO   ] Pre-calculating all CAC valleys with m=120...
+2025-11-08 12:55:54,348 [INFO   ] Found 1 potential entry dates.
+2025-11-08 12:55:54,536 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2021-12-01 ---
+2025-11-08 12:55:54,536 [INFO   ]   [Filter 2] 30-Day Growth Check: 4.34%
+2025-11-08 12:55:54,536 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 12:55:54,840 [INFO   ] 
+
+============================================================
+2025-11-08 12:55:54,840 [INFO   ] --- [TRADING SIMULATION REPORT] ---
+2025-11-08 12:55:54,840 [INFO   ] ============================================================
+2025-11-08 12:55:54,840 [INFO   ] No trades were executed during the simulation period.
+2025-11-08 12:55:54,840 [INFO   ] ============================================================
+2025-11-08 12:55:54,840 [INFO   ] --- [Trading Simulator Finished] ---

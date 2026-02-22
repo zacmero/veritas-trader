@@ -1,0 +1,13 @@
+2025-11-08 12:57:13,907 [INFO   ] --- [Trading Simulator v4.0 Started for TSLA] ---
+2025-11-08 12:57:13,909 [INFO   ] Loaded 8 archetypes.
+2025-11-08 12:57:14,181 [INFO   ] Loaded 1259 data points and pre-calculated ATR.
+2025-11-08 12:57:14,182 [INFO   ] Pre-calculating all CAC valleys with m=120...
+2025-11-08 12:57:39,550 [INFO   ] Found 0 potential entry dates.
+2025-11-08 12:57:39,984 [INFO   ] 
+
+============================================================
+2025-11-08 12:57:39,984 [INFO   ] --- [TRADING SIMULATION REPORT] ---
+2025-11-08 12:57:39,985 [INFO   ] ============================================================
+2025-11-08 12:57:39,985 [INFO   ] No trades were executed during the simulation period.
+2025-11-08 12:57:39,985 [INFO   ] ============================================================
+2025-11-08 12:57:39,985 [INFO   ] --- [Trading Simulator Finished] ---

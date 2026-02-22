@@ -1,0 +1,10 @@
+2025-10-29 18:48:21,472 [INFO   ] --- [Historical Analyzer Started for TLRY] ---
+2025-10-29 18:48:22,112 [INFO   ] Loaded 366 data points for TLRY.
+2025-10-29 18:48:22,113 [INFO   ] Computing full CAC curve with m=60...
+2025-10-29 18:48:44,581 [INFO   ] Found 0 significant valleys in the CAC curve.
+2025-10-29 18:48:44,581 [INFO   ] 
+--- [Analysis Summary] ---
+2025-10-29 18:48:44,581 [INFO   ] Total Valleys Found: 0
+2025-10-29 18:48:44,581 [INFO   ] Valleys Passing Filter 2 (Slope Test): 0
+2025-10-29 18:48:44,581 [INFO   ] Valleys Passing Filter 3 (DNA Test): 0
+2025-10-29 18:48:44,582 [INFO   ] --- [Historical Analyzer Finished] ---

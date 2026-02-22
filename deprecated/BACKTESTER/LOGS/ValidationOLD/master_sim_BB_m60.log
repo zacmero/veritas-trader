@@ -1,0 +1,64 @@
+2025-11-08 04:37:25,438 [INFO   ] --- [Trading Simulator v2.3 Started for BB] ---
+2025-11-08 04:37:25,439 [INFO   ] Loaded 8 archetypes.
+2025-11-08 04:37:26,176 [INFO   ] Loaded 1259 data points and pre-calculated ATR.
+2025-11-08 04:37:26,176 [INFO   ] Pre-calculating all CAC valleys with m=60...
+2025-11-08 04:37:54,886 [INFO   ] Found 7 potential entry dates.
+2025-11-08 04:37:55,048 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2019-06-10 ---
+2025-11-08 04:37:55,048 [INFO   ]   [Filter 2] 30-Day Growth Check: -14.75%
+2025-11-08 04:37:55,048 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 04:37:55,089 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2019-09-26 ---
+2025-11-08 04:37:55,089 [INFO   ]   [Filter 2] 30-Day Growth Check: -18.41%
+2025-11-08 04:37:55,089 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 04:37:55,127 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-01-07 ---
+2025-11-08 04:37:55,127 [INFO   ]   [Filter 2] 30-Day Growth Check: 18.93%
+2025-11-08 04:37:55,127 [INFO   ]   [Filter 2] PASSED.
+2025-11-08 04:37:56,175 [INFO   ]   [Filter 3] DNA Test Best Match: 'IYR_m120_ramp' (Distance: 2.3271)
+2025-11-08 04:37:56,175 [INFO   ]   [Filter 3] PASSED (Strict Match).
+2025-11-08 04:37:56,175 [INFO   ] 
+!!! BUY SIGNAL on 2020-01-07 at $6.66. Match: IYR_m120_ramp (Strict), Dist: 2.33 !!!
+2025-11-08 04:37:56,176 [INFO   ]    Initial ATR Trailing Stop set at: $6.01
+
+2025-11-08 04:37:56,183 [INFO   ] 
+!!! SELL SIGNAL on 2020-01-27 at $6.26. Reason: ATR Trailing Stop. Profit: -6.01% !!!
+
+2025-11-08 04:37:56,251 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-08-13 ---
+2025-11-08 04:37:56,251 [INFO   ]   [Filter 2] 30-Day Growth Check: 0.82%
+2025-11-08 04:37:56,251 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 04:37:56,288 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-11-27 ---
+2025-11-08 04:37:56,288 [INFO   ]   [Filter 2] 30-Day Growth Check: 23.49%
+2025-11-08 04:37:56,288 [INFO   ]   [Filter 2] PASSED.
+2025-11-08 04:37:56,303 [INFO   ]   [Filter 3] DNA Test Best Match: 'IYR_m120_ramp' (Distance: 4.0983)
+2025-11-08 04:37:56,303 [INFO   ]   [Filter 3] PASSED (Loose Match).
+2025-11-08 04:37:56,303 [INFO   ] 
+!!! BUY SIGNAL on 2020-11-27 at $6.15. Match: IYR_m120_ramp (Loose), Dist: 4.10 !!!
+2025-11-08 04:37:56,303 [INFO   ]    Initial ATR Trailing Stop set at: $5.46
+
+2025-11-08 04:37:56,324 [INFO   ] 
+!!! SELL SIGNAL on 2021-01-28 at $14.65. Reason: ATR Trailing Stop. Profit: 138.21% !!!
+
+2025-11-08 04:37:56,369 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2021-05-24 ---
+2025-11-08 04:37:56,369 [INFO   ]   [Filter 2] 30-Day Growth Check: -5.27%
+2025-11-08 04:37:56,369 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 04:37:56,577 [INFO   ] 
+
+============================================================
+2025-11-08 04:37:56,577 [INFO   ] --- [TRADING SIMULATION REPORT] ---
+2025-11-08 04:37:56,577 [INFO   ] ============================================================
+2025-11-08 04:37:56,578 [INFO   ] 
+--- [Trade Log] ---
+2025-11-08 04:37:56,582 [INFO   ] 
+| Entry Date   | Entry Price   | Exit Date   | Exit Price   | Exit Reason       | Profit %   |
+|:-------------|:--------------|:------------|:-------------|:------------------|:-----------|
+| 2020-01-07   | $6.66         | 2020-01-27  | $6.26        | ATR Trailing Stop | -6.01%     |
+| 2020-11-27   | $6.15         | 2021-01-28  | $14.65       | ATR Trailing Stop | 138.21%    |
+2025-11-08 04:37:56,582 [INFO   ] 
+Total Trades: 2 | Win Rate: 50.00%
+2025-11-08 04:37:56,582 [INFO   ] Average Profit/Loss per Trade: 66.10%
+2025-11-08 04:37:56,582 [INFO   ] ============================================================
+2025-11-08 04:37:56,582 [INFO   ] --- [Trading Simulator Finished] ---

@@ -1,0 +1,6 @@
+2025-10-29 19:54:20,349 [INFO   ] --- Generating Archetype for: AMC (m=30) ---
+2025-10-29 19:54:21,791 [INFO   ] --- SUCCESS: New Archetype Created ---
+2025-10-29 19:54:21,791 [INFO   ]   Source: AMC
+2025-10-29 19:54:21,792 [INFO   ]   Start Date: 2021-02-09
+2025-10-29 19:54:21,792 [INFO   ]   Chart saved to: /home/zacmero/stock-bubble/BACKTESTER/../ARCHETYPE_LIBRARY/AMC_m30_ramp.png
+2025-10-29 19:54:21,792 [INFO   ]   Data saved to: /home/zacmero/stock-bubble/BACKTESTER/../ARCHETYPE_LIBRARY/AMC_m30_ramp.npy

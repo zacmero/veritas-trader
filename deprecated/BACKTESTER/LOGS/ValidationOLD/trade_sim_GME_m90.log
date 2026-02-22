@@ -1,0 +1,42 @@
+2025-11-08 03:20:14,910 [INFO   ] --- [Trading Simulator v2.3 Started for GME] ---
+2025-11-08 03:20:14,916 [INFO   ] Loaded 8 archetypes.
+2025-11-08 03:20:16,071 [INFO   ] Loaded 1259 data points and pre-calculated ATR.
+2025-11-08 03:20:16,071 [INFO   ] Pre-calculating all CAC valleys with m=90...
+2025-11-08 03:20:45,126 [INFO   ] Found 3 potential entry dates.
+2025-11-08 03:20:45,368 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-01-06 ---
+2025-11-08 03:20:45,368 [INFO   ]   [Filter 2] 30-Day Growth Check: 6.36%
+2025-11-08 03:20:45,369 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 03:20:45,440 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-07-02 ---
+2025-11-08 03:20:45,440 [INFO   ]   [Filter 2] 30-Day Growth Check: -3.38%
+2025-11-08 03:20:45,440 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 03:20:45,493 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-11-09 ---
+2025-11-08 03:20:45,494 [INFO   ]   [Filter 2] 30-Day Growth Check: 11.01%
+2025-11-08 03:20:45,494 [INFO   ]   [Filter 2] PASSED.
+2025-11-08 03:20:46,307 [INFO   ]   [Filter 3] DNA Test Best Match: 'GME_m90_ramp' (Distance: 3.5232)
+2025-11-08 03:20:46,307 [INFO   ]   [Filter 3] PASSED (Loose Match).
+2025-11-08 03:20:46,307 [INFO   ] 
+!!! BUY SIGNAL on 2020-11-09 at $2.87. Match: GME_m90_ramp (Loose), Dist: 3.52 !!!
+2025-11-08 03:20:46,307 [INFO   ]    Initial ATR Trailing Stop set at: $1.99
+
+2025-11-08 03:20:46,343 [INFO   ] 
+!!! SELL SIGNAL on 2021-01-28 at $48.40. Reason: ATR Trailing Stop. Profit: 1584.94% !!!
+
+2025-11-08 03:20:46,616 [INFO   ] 
+
+============================================================
+2025-11-08 03:20:46,617 [INFO   ] --- [TRADING SIMULATION REPORT] ---
+2025-11-08 03:20:46,617 [INFO   ] ============================================================
+2025-11-08 03:20:46,617 [INFO   ] 
+--- [Trade Log] ---
+2025-11-08 03:20:46,627 [INFO   ] 
+| Entry Date   | Entry Price   | Exit Date   | Exit Price   | Exit Reason       | Profit %   |
+|:-------------|:--------------|:------------|:-------------|:------------------|:-----------|
+| 2020-11-09   | $2.87         | 2021-01-28  | $48.40       | ATR Trailing Stop | 1584.94%   |
+2025-11-08 03:20:46,627 [INFO   ] 
+Total Trades: 1 | Win Rate: 100.00%
+2025-11-08 03:20:46,628 [INFO   ] Average Profit/Loss per Trade: 1584.94%
+2025-11-08 03:20:46,628 [INFO   ] ============================================================
+2025-11-08 03:20:46,628 [INFO   ] --- [Trading Simulator Finished] ---

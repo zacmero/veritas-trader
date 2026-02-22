@@ -1,0 +1,24 @@
+2025-10-30 22:18:23,599 [INFO   ] --- [Historical Analyzer Started for PG] ---
+2025-10-30 22:18:24,832 [INFO   ] Loaded 1510 data points for PG.
+2025-10-30 22:18:24,833 [INFO   ] Computing full CAC curve with m=90...
+2025-10-30 22:18:45,804 [INFO   ] Found 2 significant valleys in the CAC curve.
+2025-10-30 22:18:45,805 [INFO   ] 
+--- Analyzing Valley at 2019-11-13 (index 721) ---
+2025-10-30 22:18:45,807 [INFO   ]   [Filter 2] Valley at 2019-11-13: Slope Check (30d) = 0.1656
+2025-10-30 22:18:45,808 [INFO   ]   [Filter 2] Valley at 2019-11-13: Slope Check (60d) = 0.0803
+2025-10-30 22:18:45,809 [INFO   ]   [Filter 2] Valley at 2019-11-13: Slope Check (90d) = -0.0792
+2025-10-30 22:18:45,810 [INFO   ]   [Filter 2] 30-Day Growth Check: 3.79%
+2025-10-30 22:18:45,810 [INFO   ]   [Filter 2] FAILED. Growth of 3.79% < 10.0% threshold.
+2025-10-30 22:18:45,810 [INFO   ] 
+--- Analyzing Valley at 2020-07-30 (index 899) ---
+2025-10-30 22:18:45,811 [INFO   ]   [Filter 2] Valley at 2020-07-30: Slope Check (30d) = 0.2185
+2025-10-30 22:18:45,812 [INFO   ]   [Filter 2] Valley at 2020-07-30: Slope Check (60d) = 0.1435
+2025-10-30 22:18:45,813 [INFO   ]   [Filter 2] Valley at 2020-07-30: Slope Check (90d) = 0.0758
+2025-10-30 22:18:45,813 [INFO   ]   [Filter 2] 30-Day Growth Check: 4.02%
+2025-10-30 22:18:45,813 [INFO   ]   [Filter 2] FAILED. Growth of 4.02% < 10.0% threshold.
+2025-10-30 22:18:45,814 [INFO   ] 
+--- [Analysis Summary] ---
+2025-10-30 22:18:45,814 [INFO   ] Total Valleys Found: 2
+2025-10-30 22:18:45,814 [INFO   ] Valleys Passing Filter 2 (Qualification Test): 0
+2025-10-30 22:18:45,814 [INFO   ] Valleys Passing Filter 3 (DNA Test): 0
+2025-10-30 22:18:45,814 [INFO   ] --- [Historical Analyzer Finished] ---

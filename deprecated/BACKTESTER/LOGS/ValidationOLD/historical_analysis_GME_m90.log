@@ -1,0 +1,46 @@
+2025-10-26 05:32:46,538 [INFO   ] --- [Historical Analyzer Started] ---
+2025-10-26 05:32:47,686 [INFO   ] Loaded 1510 data points for GME.
+2025-10-26 05:32:47,687 [INFO   ] Computing full CAC curve with m=90...
+2025-10-26 05:33:15,360 [INFO   ] Found 4 significant valleys in the CAC curve.
+2025-10-26 05:33:15,360 [INFO   ] 
+--- Analyzing Valley at 2018-10-16 (index 450) ---
+2025-10-26 05:33:15,362 [INFO   ]   [Filter 2] Valley at 2018-10-16: Slope Check (30d) = -0.0151
+2025-10-26 05:33:15,364 [INFO   ]   [Filter 2] Valley at 2018-10-16: Slope Check (60d) = -0.0033
+2025-10-26 05:33:15,365 [INFO   ]   [Filter 2] Valley at 2018-10-16: Slope Check (90d) = -0.0060
+2025-10-26 05:33:15,365 [INFO   ]   [Filter 2] FAILED. No positive slope found.
+2025-10-26 05:33:15,366 [INFO   ] 
+--- Analyzing Valley at 2019-04-09 (index 569) ---
+2025-10-26 05:33:15,366 [INFO   ]   [Filter 2] Valley at 2019-04-09: Slope Check (30d) = -0.0101
+2025-10-26 05:33:15,367 [INFO   ]   [Filter 2] Valley at 2019-04-09: Slope Check (60d) = -0.0211
+2025-10-26 05:33:15,368 [INFO   ]   [Filter 2] Valley at 2019-04-09: Slope Check (90d) = -0.0190
+2025-10-26 05:33:15,368 [INFO   ]   [Filter 2] FAILED. No positive slope found.
+2025-10-26 05:33:15,368 [INFO   ] 
+--- Analyzing Valley at 2020-02-21 (index 788) ---
+2025-10-26 05:33:15,369 [INFO   ]   [Filter 2] Valley at 2020-02-21: Slope Check (30d) = 0.0003
+2025-10-26 05:33:15,369 [INFO   ]   [Filter 2] Valley at 2020-02-21: Slope Check (60d) = 0.0069
+2025-10-26 05:33:15,370 [INFO   ]   [Filter 2] Valley at 2020-02-21: Slope Check (90d) = 0.0029
+2025-10-26 05:33:15,370 [INFO   ]   [Filter 2] PASSED. Best positive slope: 0.0069
+2025-10-26 05:33:16,048 [INFO   ]     [Filter 3] DNA Test vs 'SHIB-USD_m30_ramp': Distance = 7.4795
+2025-10-26 05:33:16,050 [INFO   ]     [Filter 3] DNA Test vs 'CSCO_m90_ramp': Distance = 6.9435
+2025-10-26 05:33:16,052 [INFO   ]     [Filter 3] DNA Test vs 'GME_m90_ramp': Distance = 6.6961
+2025-10-26 05:33:16,054 [INFO   ]     [Filter 3] DNA Test vs 'IYR_m120_ramp': Distance = 7.8231
+2025-10-26 05:33:16,056 [INFO   ]     [Filter 3] DNA Test vs 'VWAGY_m15_ramp': Distance = 9.5405
+2025-10-26 05:33:16,056 [INFO   ]     [Filter 3] FAILED. No DNA match found below threshold 2.75.
+2025-10-26 05:33:16,056 [INFO   ] 
+--- Analyzing Valley at 2020-11-09 (index 970) ---
+2025-10-26 05:33:16,057 [INFO   ]   [Filter 2] Valley at 2020-11-09: Slope Check (30d) = 0.0352
+2025-10-26 05:33:16,058 [INFO   ]   [Filter 2] Valley at 2020-11-09: Slope Check (60d) = 0.5552
+2025-10-26 05:33:16,059 [INFO   ]   [Filter 2] Valley at 2020-11-09: Slope Check (90d) = 0.5515
+2025-10-26 05:33:16,059 [INFO   ]   [Filter 2] PASSED. Best positive slope: 0.5552
+2025-10-26 05:33:16,061 [INFO   ]     [Filter 3] DNA Test vs 'SHIB-USD_m30_ramp': Distance = 5.3451
+2025-10-26 05:33:16,063 [INFO   ]     [Filter 3] DNA Test vs 'CSCO_m90_ramp': Distance = 4.7592
+2025-10-26 05:33:16,064 [INFO   ]     [Filter 3] DNA Test vs 'GME_m90_ramp': Distance = 0.0000
+2025-10-26 05:33:16,065 [INFO   ]     [Filter 3] DNA Test vs 'IYR_m120_ramp': Distance = 4.8300
+2025-10-26 05:33:16,066 [INFO   ]     [Filter 3] DNA Test vs 'VWAGY_m15_ramp': Distance = 6.4393
+2025-10-26 05:33:16,067 [INFO   ]     [Filter 3] PASSED. Best Match: 'GME_m90_ramp' (Distance: 0.0000)
+2025-10-26 05:33:16,067 [INFO   ] 
+--- [Analysis Summary] ---
+2025-10-26 05:33:16,067 [INFO   ] Total Valleys Found: 4
+2025-10-26 05:33:16,067 [INFO   ] Valleys Passing Filter 2 (Slope Test): 2
+2025-10-26 05:33:16,067 [INFO   ] Valleys Passing Filter 3 (DNA Test): 1
+2025-10-26 05:33:16,067 [INFO   ] --- [Historical Analyzer Finished] ---

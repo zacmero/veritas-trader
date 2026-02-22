@@ -1,0 +1,68 @@
+2025-11-08 03:20:24,435 [INFO   ] --- [Trading Simulator v2.3 Started for GME] ---
+2025-11-08 03:20:24,436 [INFO   ] Loaded 8 archetypes.
+2025-11-08 03:20:25,252 [INFO   ] Loaded 1259 data points and pre-calculated ATR.
+2025-11-08 03:20:25,252 [INFO   ] Pre-calculating all CAC valleys with m=30...
+2025-11-08 03:20:55,335 [INFO   ] Found 11 potential entry dates.
+2025-11-08 03:20:55,405 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2018-08-13 ---
+2025-11-08 03:20:55,405 [INFO   ]   [Filter 2] 30-Day Growth Check: 7.42%
+2025-11-08 03:20:55,405 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 03:20:55,424 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2018-09-28 ---
+2025-11-08 03:20:55,424 [INFO   ]   [Filter 2] 30-Day Growth Check: 1.92%
+2025-11-08 03:20:55,424 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 03:20:55,448 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2018-11-20 ---
+2025-11-08 03:20:55,448 [INFO   ]   [Filter 2] 30-Day Growth Check: -17.19%
+2025-11-08 03:20:55,449 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 03:20:55,469 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2019-01-14 ---
+2025-11-08 03:20:55,469 [INFO   ]   [Filter 2] 30-Day Growth Check: 9.96%
+2025-11-08 03:20:55,469 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 03:20:55,494 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2019-03-07 ---
+2025-11-08 03:20:55,495 [INFO   ]   [Filter 2] 30-Day Growth Check: -26.65%
+2025-11-08 03:20:55,495 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 03:20:55,534 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2019-06-13 ---
+2025-11-08 03:20:55,534 [INFO   ]   [Filter 2] 30-Day Growth Check: -35.01%
+2025-11-08 03:20:55,534 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 03:20:55,559 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2019-08-01 ---
+2025-11-08 03:20:55,559 [INFO   ]   [Filter 2] 30-Day Growth Check: -30.56%
+2025-11-08 03:20:55,560 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 03:20:55,679 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-03-16 ---
+2025-11-08 03:20:55,680 [INFO   ]   [Filter 2] 30-Day Growth Check: 10.63%
+2025-11-08 03:20:55,680 [INFO   ]   [Filter 2] PASSED.
+2025-11-08 03:20:56,491 [INFO   ]   [Filter 3] DNA Test Best Match: 'SSYS_m90_ramp' (Distance: 6.3809)
+2025-11-08 03:20:56,491 [INFO   ]   [Filter 3] FAILED. Distance > 4.75.
+2025-11-08 03:20:56,510 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-04-30 ---
+2025-11-08 03:20:56,510 [INFO   ]   [Filter 2] 30-Day Growth Check: 36.75%
+2025-11-08 03:20:56,510 [INFO   ]   [Filter 2] PASSED.
+2025-11-08 03:20:56,523 [INFO   ]   [Filter 3] DNA Test Best Match: 'SHIB-USD_m30_ramp' (Distance: 4.0057)
+2025-11-08 03:20:56,523 [INFO   ]   [Filter 3] PASSED (Loose Match).
+2025-11-08 03:20:56,524 [INFO   ] 
+!!! BUY SIGNAL on 2020-04-30 at $1.43. Match: SHIB-USD_m30_ramp (Loose), Dist: 4.01 !!!
+2025-11-08 03:20:56,524 [INFO   ]    Initial ATR Trailing Stop set at: $0.83
+
+2025-11-08 03:20:56,592 [INFO   ] 
+!!! SELL SIGNAL on 2020-10-30 at $2.62. Reason: ATR Trailing Stop. Profit: 82.72% !!!
+
+2025-11-08 03:20:56,894 [INFO   ] 
+
+============================================================
+2025-11-08 03:20:56,894 [INFO   ] --- [TRADING SIMULATION REPORT] ---
+2025-11-08 03:20:56,894 [INFO   ] ============================================================
+2025-11-08 03:20:56,895 [INFO   ] 
+--- [Trade Log] ---
+2025-11-08 03:20:56,898 [INFO   ] 
+| Entry Date   | Entry Price   | Exit Date   | Exit Price   | Exit Reason       | Profit %   |
+|:-------------|:--------------|:------------|:-------------|:------------------|:-----------|
+| 2020-04-30   | $1.43         | 2020-10-30  | $2.62        | ATR Trailing Stop | 82.72%     |
+2025-11-08 03:20:56,898 [INFO   ] 
+Total Trades: 1 | Win Rate: 100.00%
+2025-11-08 03:20:56,899 [INFO   ] Average Profit/Loss per Trade: 82.72%
+2025-11-08 03:20:56,899 [INFO   ] ============================================================
+2025-11-08 03:20:56,899 [INFO   ] --- [Trading Simulator Finished] ---

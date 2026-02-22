@@ -1,0 +1,13 @@
+2025-11-08 12:45:43,886 [INFO   ] --- [Trading Simulator v4.0 Started for PTON] ---
+2025-11-08 12:45:43,887 [INFO   ] Loaded 8 archetypes.
+2025-11-08 12:45:44,597 [INFO   ] Loaded 823 data points and pre-calculated ATR.
+2025-11-08 12:45:44,597 [INFO   ] Pre-calculating all CAC valleys with m=120...
+2025-11-08 12:46:05,073 [INFO   ] Found 0 potential entry dates.
+2025-11-08 12:46:05,338 [INFO   ] 
+
+============================================================
+2025-11-08 12:46:05,339 [INFO   ] --- [TRADING SIMULATION REPORT] ---
+2025-11-08 12:46:05,339 [INFO   ] ============================================================
+2025-11-08 12:46:05,339 [INFO   ] No trades were executed during the simulation period.
+2025-11-08 12:46:05,339 [INFO   ] ============================================================
+2025-11-08 12:46:05,339 [INFO   ] --- [Trading Simulator Finished] ---

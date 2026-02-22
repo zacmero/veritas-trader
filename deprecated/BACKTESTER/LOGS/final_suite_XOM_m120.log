@@ -1,0 +1,14 @@
+2025-11-09 21:22:23,596 [INFO   ] --- [Trading Simulator v4.1 Started for XOM] ---
+2025-11-09 21:22:23,599 [INFO   ] Loaded 15 archetypes.
+2025-11-09 21:22:24,772 [INFO   ] Loaded 1259 data points and pre-calculated ATR.
+2025-11-09 21:22:24,772 [INFO   ] Pre-calculating historical growth distribution for learning system...
+2025-11-09 21:22:24,773 [INFO   ] Pre-calculating all CAC valleys with m=120...
+2025-11-09 21:22:49,921 [INFO   ] Found 0 potential entry dates.
+2025-11-09 21:22:56,994 [INFO   ] 
+
+============================================================
+2025-11-09 21:22:56,995 [INFO   ] --- [TRADING SIMULATION REPORT] ---
+2025-11-09 21:22:56,995 [INFO   ] ============================================================
+2025-11-09 21:22:56,995 [INFO   ] No trades were executed during the simulation period.
+2025-11-09 21:22:56,995 [INFO   ] ============================================================
+2025-11-09 21:22:56,995 [INFO   ] --- [Trading Simulator Finished] ---

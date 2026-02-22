@@ -1,0 +1,14 @@
+2025-11-09 19:30:10,757 [INFO   ] --- [Trading Simulator v4.1 Started for NVAX] ---
+2025-11-09 19:30:10,759 [INFO   ] Loaded 14 archetypes.
+2025-11-09 19:30:11,489 [INFO   ] Loaded 1259 data points and pre-calculated ATR.
+2025-11-09 19:30:11,489 [INFO   ] Pre-calculating historical growth distribution for learning system...
+2025-11-09 19:30:11,491 [INFO   ] Pre-calculating all CAC valleys with m=120...
+2025-11-09 19:30:31,686 [INFO   ] Found 0 potential entry dates.
+2025-11-09 19:30:32,125 [INFO   ] 
+
+============================================================
+2025-11-09 19:30:32,125 [INFO   ] --- [TRADING SIMULATION REPORT] ---
+2025-11-09 19:30:32,125 [INFO   ] ============================================================
+2025-11-09 19:30:32,125 [INFO   ] No trades were executed during the simulation period.
+2025-11-09 19:30:32,125 [INFO   ] ============================================================
+2025-11-09 19:30:32,126 [INFO   ] --- [Trading Simulator Finished] ---

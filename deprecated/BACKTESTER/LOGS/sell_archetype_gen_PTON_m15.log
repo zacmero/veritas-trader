@@ -1,0 +1,6 @@
+2025-11-17 22:43:42,581 [INFO   ] --- Generating SELL Archetype for: PTON (m=15) ---
+2025-11-17 22:44:08,953 [INFO   ] --- SUCCESS: New SELL Archetype Created ---
+2025-11-17 22:44:08,953 [INFO   ]   Source: PTON
+2025-11-17 22:44:08,953 [INFO   ]   Peak Date: 2021-01-13
+2025-11-17 22:44:08,954 [INFO   ]   Chart saved to: /home/zacmero/stock-bubble/BACKTESTER/../SELL_ARCHETYPE_LIBRARY/sell_PTON_m15_top.png
+2025-11-17 22:44:08,954 [INFO   ]   Data saved to: /home/zacmero/stock-bubble/BACKTESTER/../SELL_ARCHETYPE_LIBRARY/sell_PTON_m15_top.npy

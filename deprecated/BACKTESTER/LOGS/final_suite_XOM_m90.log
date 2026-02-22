@@ -1,0 +1,22 @@
+2025-11-09 21:22:18,373 [INFO   ] --- [Trading Simulator v4.1 Started for XOM] ---
+2025-11-09 21:22:18,375 [INFO   ] Loaded 15 archetypes.
+2025-11-09 21:22:18,866 [INFO   ] Loaded 1259 data points and pre-calculated ATR.
+2025-11-09 21:22:18,866 [INFO   ] Pre-calculating historical growth distribution for learning system...
+2025-11-09 21:22:18,868 [INFO   ] Pre-calculating all CAC valleys with m=90...
+2025-11-09 21:22:51,936 [INFO   ] Found 2 potential entry dates.
+2025-11-09 21:22:45,065 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-03-04 ---
+2025-11-09 21:22:45,065 [INFO   ]   [Filter 2] 30-Day Growth Check: -20.86%
+2025-11-09 21:22:45,065 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-09 21:22:45,111 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-07-21 ---
+2025-11-09 21:22:45,111 [INFO   ]   [Filter 2] 30-Day Growth Check: -16.57%
+2025-11-09 21:22:45,111 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-09 21:22:45,372 [INFO   ] 
+
+============================================================
+2025-11-09 21:22:45,373 [INFO   ] --- [TRADING SIMULATION REPORT] ---
+2025-11-09 21:22:45,373 [INFO   ] ============================================================
+2025-11-09 21:22:45,373 [INFO   ] No trades were executed during the simulation period.
+2025-11-09 21:22:45,373 [INFO   ] ============================================================
+2025-11-09 21:22:45,373 [INFO   ] --- [Trading Simulator Finished] ---

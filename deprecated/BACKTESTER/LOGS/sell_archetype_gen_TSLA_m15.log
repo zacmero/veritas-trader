@@ -1,0 +1,6 @@
+2025-11-17 22:44:24,137 [INFO   ] --- Generating SELL Archetype for: TSLA (m=15) ---
+2025-11-17 22:44:37,728 [INFO   ] --- SUCCESS: New SELL Archetype Created ---
+2025-11-17 22:44:37,728 [INFO   ]   Source: TSLA
+2025-11-17 22:44:37,728 [INFO   ]   Peak Date: 2021-11-04
+2025-11-17 22:44:37,729 [INFO   ]   Chart saved to: /home/zacmero/stock-bubble/BACKTESTER/../SELL_ARCHETYPE_LIBRARY/sell_TSLA_m15_top.png
+2025-11-17 22:44:37,729 [INFO   ]   Data saved to: /home/zacmero/stock-bubble/BACKTESTER/../SELL_ARCHETYPE_LIBRARY/sell_TSLA_m15_top.npy

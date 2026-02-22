@@ -1,0 +1,63 @@
+2025-11-09 19:15:56,045 [INFO   ] --- [Trading Simulator v4.1 Started for NVAX] ---
+2025-11-09 19:15:56,047 [INFO   ] Loaded 14 archetypes.
+2025-11-09 19:15:56,756 [INFO   ] Loaded 1259 data points and pre-calculated ATR.
+2025-11-09 19:15:56,757 [INFO   ] Pre-calculating historical growth distribution for learning system...
+2025-11-09 19:15:56,758 [INFO   ] Pre-calculating all CAC valleys with m=60...
+2025-11-09 19:16:19,088 [INFO   ] Found 6 potential entry dates.
+2025-11-09 19:16:24,816 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2019-04-25 ---
+2025-11-09 19:16:24,816 [INFO   ]   [Filter 2] 30-Day Growth Check: -5.66%
+2025-11-09 19:16:24,816 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-09 19:16:24,845 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2019-08-15 ---
+2025-11-09 19:16:24,846 [INFO   ]   [Filter 2] 30-Day Growth Check: 29.04%
+2025-11-09 19:16:24,846 [INFO   ]   [Filter 2] PASSED.
+2025-11-09 19:16:19,526 [INFO   ]   [Filter 3] DNA Test Best Match: 'VWAGY_m15_ramp' (Distance: 4.1041)
+2025-11-09 19:16:19,526 [INFO   ]   [Filter 3] PASSED (Loose Match).
+2025-11-09 19:16:19,526 [INFO   ] 
+!!! BUY SIGNAL on 2019-08-15 at $6.62. Match: VWAGY_m15_ramp (Loose), Dist: 4.10 !!!
+2025-11-09 19:16:19,526 [INFO   ]    Initial ATR Trailing Stop set at: $5.06
+
+2025-11-09 19:16:19,531 [INFO   ] 
+!!! SELL SIGNAL on 2019-09-03 at $5.73. Reason: ATR Trailing Stop. Profit: -13.44% !!!
+
+2025-11-09 19:16:19,607 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-06-23 ---
+2025-11-09 19:16:19,607 [INFO   ]   [Filter 2] 30-Day Growth Check: 74.94%
+2025-11-09 19:16:19,607 [INFO   ]   [Filter 2] PASSED.
+2025-11-09 19:16:19,626 [INFO   ]   [Filter 3] DNA Test Best Match: 'SOL_20210204_m60' (Distance: 3.0978)
+2025-11-09 19:16:19,626 [INFO   ]   [Filter 3] PASSED (Loose Match).
+2025-11-09 19:16:19,626 [INFO   ] 
+!!! BUY SIGNAL on 2020-06-23 at $69.66. Match: SOL_20210204_m60 (Loose), Dist: 3.10 !!!
+2025-11-09 19:16:19,626 [INFO   ]    Initial ATR Trailing Stop set at: $54.35
+
+2025-11-09 19:16:19,640 [INFO   ] 
+!!! SELL SIGNAL on 2020-08-12 at $124.42. Reason: ATR Trailing Stop. Profit: 78.61% !!!
+
+2025-11-09 19:16:19,640 [INFO   ] --- [LEARNING CHECK] Trade was >50.0% profitable. Ramp growth was 74.94% (90.73th percentile). ---
+2025-11-09 19:16:19,641 [INFO   ] --- [LEARNING] FAILED. Growth percentile < 98.0%. Not saving archetype. ---
+2025-11-09 19:16:19,703 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2021-04-05 ---
+2025-11-09 19:16:19,703 [INFO   ]   [Filter 2] 30-Day Growth Check: -27.66%
+2025-11-09 19:16:19,703 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-09 19:16:19,730 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2021-07-16 ---
+2025-11-09 19:16:19,730 [INFO   ]   [Filter 2] 30-Day Growth Check: 1.99%
+2025-11-09 19:16:19,730 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-09 19:16:19,864 [INFO   ] 
+
+============================================================
+2025-11-09 19:16:19,864 [INFO   ] --- [TRADING SIMULATION REPORT] ---
+2025-11-09 19:16:19,865 [INFO   ] ============================================================
+2025-11-09 19:16:19,865 [INFO   ] 
+--- [Trade Log] ---
+2025-11-09 19:16:19,868 [INFO   ] 
+| Entry Date   | Entry Price   | Exit Date   | Exit Price   | Exit Reason       | Profit %   |
+|:-------------|:--------------|:------------|:-------------|:------------------|:-----------|
+| 2019-08-15   | $6.62         | 2019-09-03  | $5.73        | ATR Trailing Stop | -13.44%    |
+| 2020-06-23   | $69.66        | 2020-08-12  | $124.42      | ATR Trailing Stop | 78.61%     |
+2025-11-09 19:16:19,869 [INFO   ] 
+Total Trades: 2 | Win Rate: 50.00%
+2025-11-09 19:16:19,869 [INFO   ] Average Profit/Loss per Trade: 32.58%
+2025-11-09 19:16:19,869 [INFO   ] ============================================================
+2025-11-09 19:16:19,869 [INFO   ] --- [Trading Simulator Finished] ---

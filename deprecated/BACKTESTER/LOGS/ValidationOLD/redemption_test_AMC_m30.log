@@ -1,0 +1,103 @@
+2025-11-06 23:01:21,480 [INFO   ] --- [Historical Analyzer Started for AMC] ---
+2025-11-06 23:01:22,564 [INFO   ] Loaded 1259 data points for AMC.
+2025-11-06 23:01:22,565 [INFO   ] Computing full CAC curve with m=30...
+2025-11-06 23:01:46,268 [INFO   ] Found 19 candidate valleys in the CAC curve.
+2025-11-06 23:01:46,268 [INFO   ] 
+--- Analyzing Valley at 2018-08-16 (index 157) ---
+2025-11-06 23:01:46,268 [INFO   ]   [Filter 2] 30-Day Growth Check: 23.07%
+2025-11-06 23:01:46,269 [INFO   ]   [Filter 2] PASSED. Growth of 23.07% >= 10.0% threshold.
+2025-11-06 23:01:46,270 [INFO   ]   [Filter 2.5] Volatility Context Check:
+2025-11-06 23:01:46,270 [INFO   ]     - Current Ramp Volatility (Std Dev): 9.6469
+2025-11-06 23:01:46,270 [INFO   ]     - Percentile Rank in History: 54.63%
+2025-11-06 23:01:46,270 [INFO   ]   [Filter 2.5] FAILED. Volatility is not anomalous for this stock (54.63% < 95.0%).
+2025-11-06 23:01:46,270 [INFO   ] 
+--- Analyzing Valley at 2018-10-02 (index 189) ---
+2025-11-06 23:01:46,270 [INFO   ]   [Filter 2] 30-Day Growth Check: -23.13%
+2025-11-06 23:01:46,271 [INFO   ]   [Filter 2] FAILED. Growth of -23.13% < 10.0% threshold.
+2025-11-06 23:01:46,271 [INFO   ] 
+--- Analyzing Valley at 2019-01-17 (index 262) ---
+2025-11-06 23:01:46,271 [INFO   ]   [Filter 2] 30-Day Growth Check: 13.39%
+2025-11-06 23:01:46,271 [INFO   ]   [Filter 2] PASSED. Growth of 13.39% >= 10.0% threshold.
+2025-11-06 23:01:46,272 [INFO   ]   [Filter 2.5] Volatility Context Check:
+2025-11-06 23:01:46,272 [INFO   ]     - Current Ramp Volatility (Std Dev): 4.8959
+2025-11-06 23:01:46,272 [INFO   ]     - Percentile Rank in History: 9.67%
+2025-11-06 23:01:46,272 [INFO   ]   [Filter 2.5] FAILED. Volatility is not anomalous for this stock (9.67% < 95.0%).
+2025-11-06 23:01:46,273 [INFO   ] 
+--- Analyzing Valley at 2019-03-08 (index 296) ---
+2025-11-06 23:01:46,273 [INFO   ]   [Filter 2] 30-Day Growth Check: 9.04%
+2025-11-06 23:01:46,273 [INFO   ]   [Filter 2] FAILED. Growth of 9.04% < 10.0% threshold.
+2025-11-06 23:01:46,273 [INFO   ] 
+--- Analyzing Valley at 2019-06-05 (index 357) ---
+2025-11-06 23:01:46,273 [INFO   ]   [Filter 2] 30-Day Growth Check: -10.64%
+2025-11-06 23:01:46,274 [INFO   ]   [Filter 2] FAILED. Growth of -10.64% < 10.0% threshold.
+2025-11-06 23:01:46,274 [INFO   ] 
+--- Analyzing Valley at 2019-07-19 (index 388) ---
+2025-11-06 23:01:46,274 [INFO   ]   [Filter 2] 30-Day Growth Check: 7.21%
+2025-11-06 23:01:46,274 [INFO   ]   [Filter 2] FAILED. Growth of 7.21% < 10.0% threshold.
+2025-11-06 23:01:46,274 [INFO   ] 
+--- Analyzing Valley at 2019-10-02 (index 440) ---
+2025-11-06 23:01:46,274 [INFO   ]   [Filter 2] 30-Day Growth Check: -9.20%
+2025-11-06 23:01:46,275 [INFO   ]   [Filter 2] FAILED. Growth of -9.20% < 10.0% threshold.
+2025-11-06 23:01:46,275 [INFO   ] 
+--- Analyzing Valley at 2019-11-18 (index 473) ---
+2025-11-06 23:01:46,275 [INFO   ]   [Filter 2] 30-Day Growth Check: -12.44%
+2025-11-06 23:01:46,275 [INFO   ]   [Filter 2] FAILED. Growth of -12.44% < 10.0% threshold.
+2025-11-06 23:01:46,275 [INFO   ] 
+--- Analyzing Valley at 2020-01-17 (index 514) ---
+2025-11-06 23:01:46,276 [INFO   ]   [Filter 2] 30-Day Growth Check: -16.07%
+2025-11-06 23:01:46,276 [INFO   ]   [Filter 2] FAILED. Growth of -16.07% < 10.0% threshold.
+2025-11-06 23:01:46,276 [INFO   ] 
+--- Analyzing Valley at 2020-03-27 (index 562) ---
+2025-11-06 23:01:46,276 [INFO   ]   [Filter 2] 30-Day Growth Check: 13.89%
+2025-11-06 23:01:46,276 [INFO   ]   [Filter 2] PASSED. Growth of 13.89% >= 10.0% threshold.
+2025-11-06 23:01:46,277 [INFO   ]   [Filter 2.5] Volatility Context Check:
+2025-11-06 23:01:46,277 [INFO   ]     - Current Ramp Volatility (Std Dev): 8.0197
+2025-11-06 23:01:46,277 [INFO   ]     - Percentile Rank in History: 41.38%
+2025-11-06 23:01:46,278 [INFO   ]   [Filter 2.5] FAILED. Volatility is not anomalous for this stock (41.38% < 95.0%).
+2025-11-06 23:01:46,278 [INFO   ] 
+--- Analyzing Valley at 2020-05-15 (index 596) ---
+2025-11-06 23:01:46,278 [INFO   ]   [Filter 2] 30-Day Growth Check: -7.52%
+2025-11-06 23:01:46,278 [INFO   ]   [Filter 2] FAILED. Growth of -7.52% < 10.0% threshold.
+2025-11-06 23:01:46,278 [INFO   ] 
+--- Analyzing Valley at 2020-07-01 (index 628) ---
+2025-11-06 23:01:46,278 [INFO   ]   [Filter 2] 30-Day Growth Check: 1.53%
+2025-11-06 23:01:46,279 [INFO   ]   [Filter 2] FAILED. Growth of 1.53% < 10.0% threshold.
+2025-11-06 23:01:46,279 [INFO   ] 
+--- Analyzing Valley at 2020-09-25 (index 688) ---
+2025-11-06 23:01:46,279 [INFO   ]   [Filter 2] 30-Day Growth Check: -49.59%
+2025-11-06 23:01:46,279 [INFO   ]   [Filter 2] FAILED. Growth of -49.59% < 10.0% threshold.
+2025-11-06 23:01:46,279 [INFO   ] 
+--- Analyzing Valley at 2020-11-27 (index 732) ---
+2025-11-06 23:01:46,279 [INFO   ]   [Filter 2] 30-Day Growth Check: -50.56%
+2025-11-06 23:01:46,280 [INFO   ]   [Filter 2] FAILED. Growth of -50.56% < 10.0% threshold.
+2025-11-06 23:01:46,280 [INFO   ] 
+--- Analyzing Valley at 2021-02-09 (index 781) ---
+2025-11-06 23:01:46,280 [INFO   ]   [Filter 2] 30-Day Growth Check: 93.82%
+2025-11-06 23:01:46,280 [INFO   ]   [Filter 2] PASSED. Growth of 93.82% >= 10.0% threshold.
+2025-11-06 23:01:46,281 [INFO   ]   [Filter 2.5] Volatility Context Check:
+2025-11-06 23:01:46,281 [INFO   ]     - Current Ramp Volatility (Std Dev): 28.2255
+2025-11-06 23:01:46,281 [INFO   ]     - Percentile Rank in History: 78.62%
+2025-11-06 23:01:46,281 [INFO   ]   [Filter 2.5] FAILED. Volatility is not anomalous for this stock (78.62% < 95.0%).
+2025-11-06 23:01:46,281 [INFO   ] 
+--- Analyzing Valley at 2021-09-23 (index 938) ---
+2025-11-06 23:01:46,281 [INFO   ]   [Filter 2] 30-Day Growth Check: 2.03%
+2025-11-06 23:01:46,282 [INFO   ]   [Filter 2] FAILED. Growth of 2.03% < 10.0% threshold.
+2025-11-06 23:01:46,282 [INFO   ] 
+--- Analyzing Valley at 2021-11-16 (index 976) ---
+2025-11-06 23:01:46,282 [INFO   ]   [Filter 2] 30-Day Growth Check: -34.39%
+2025-11-06 23:01:46,282 [INFO   ]   [Filter 2] FAILED. Growth of -34.39% < 10.0% threshold.
+2025-11-06 23:01:46,282 [INFO   ] 
+--- Analyzing Valley at 2022-01-06 (index 1011) ---
+2025-11-06 23:01:46,282 [INFO   ]   [Filter 2] 30-Day Growth Check: -15.67%
+2025-11-06 23:01:46,283 [INFO   ]   [Filter 2] FAILED. Growth of -15.67% < 10.0% threshold.
+2025-11-06 23:01:46,283 [INFO   ] 
+--- Analyzing Valley at 2022-03-21 (index 1061) ---
+2025-11-06 23:01:46,283 [INFO   ]   [Filter 2] 30-Day Growth Check: -3.78%
+2025-11-06 23:01:46,283 [INFO   ]   [Filter 2] FAILED. Growth of -3.78% < 10.0% threshold.
+2025-11-06 23:01:46,283 [INFO   ] 
+--- [Analysis Summary] ---
+2025-11-06 23:01:46,284 [INFO   ] Total Valleys Found: 19
+2025-11-06 23:01:46,284 [INFO   ] Valleys Passing Filter 2 (Intensity Test): 4
+2025-11-06 23:01:46,284 [INFO   ] Valleys Passing Filter 2.5 (Volatility Test): 0
+2025-11-06 23:01:46,284 [INFO   ] Valleys Passing Filter 3 (DNA Test): 0
+2025-11-06 23:01:46,284 [INFO   ] --- [Historical Analyzer Finished] ---

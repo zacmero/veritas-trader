@@ -1,0 +1,5 @@
+2025-11-21 19:26:12,027 [INFO   ] --- Generating SELL (Ramp Down) Archetype for: NVAX ---
+2025-11-21 19:26:12,693 [INFO   ] Finding regime change to locate bubble context...
+2025-11-21 19:26:36,485 [INFO   ] --- SUCCESS: New SELL Archetype Created ---
+2025-11-21 19:26:36,485 [INFO   ]   Peak Date: 2021-02-08
+2025-11-21 19:26:36,485 [INFO   ]   Saved to: /home/zacmero/stock-bubble/BACKTESTER/../SELL_ARCHETYPE_LIBRARY_FINAL

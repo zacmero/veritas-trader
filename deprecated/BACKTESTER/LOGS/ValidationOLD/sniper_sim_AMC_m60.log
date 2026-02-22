@@ -1,0 +1,41 @@
+2025-11-08 12:38:19,893 [INFO   ] --- [Trading Simulator v4.0 Started for AMC] ---
+2025-11-08 12:38:19,894 [INFO   ] Loaded 8 archetypes.
+2025-11-08 12:38:20,610 [INFO   ] Loaded 1259 data points and pre-calculated ATR.
+2025-11-08 12:38:20,611 [INFO   ] Pre-calculating all CAC valleys with m=60...
+2025-11-08 12:38:40,983 [INFO   ] Found 7 potential entry dates.
+2025-11-08 12:38:41,075 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2019-03-14 ---
+2025-11-08 12:38:41,076 [INFO   ]   [Filter 2] 30-Day Growth Check: 0.19%
+2025-11-08 12:38:41,076 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 12:38:41,110 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2019-07-22 ---
+2025-11-08 12:38:41,110 [INFO   ]   [Filter 2] 30-Day Growth Check: -4.84%
+2025-11-08 12:38:41,110 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 12:38:41,140 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2019-11-07 ---
+2025-11-08 12:38:41,141 [INFO   ]   [Filter 2] 30-Day Growth Check: -14.29%
+2025-11-08 12:38:41,141 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 12:38:41,185 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-04-20 ---
+2025-11-08 12:38:41,185 [INFO   ]   [Filter 2] 30-Day Growth Check: -17.40%
+2025-11-08 12:38:41,185 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 12:38:41,228 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-09-24 ---
+2025-11-08 12:38:41,228 [INFO   ]   [Filter 2] 30-Day Growth Check: -13.18%
+2025-11-08 12:38:41,228 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 12:38:41,259 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2021-01-19 ---
+2025-11-08 12:38:41,259 [INFO   ]   [Filter 2] 30-Day Growth Check: -12.82%
+2025-11-08 12:38:41,259 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 12:38:41,309 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2021-07-29 ---
+2025-11-08 12:38:41,309 [INFO   ]   [Filter 2] 30-Day Growth Check: -37.21%
+2025-11-08 12:38:41,310 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 12:38:41,444 [INFO   ] 
+
+============================================================
+2025-11-08 12:38:41,444 [INFO   ] --- [TRADING SIMULATION REPORT] ---
+2025-11-08 12:38:41,444 [INFO   ] ============================================================
+2025-11-08 12:38:41,444 [INFO   ] No trades were executed during the simulation period.
+2025-11-08 12:38:41,444 [INFO   ] ============================================================
+2025-11-08 12:38:41,444 [INFO   ] --- [Trading Simulator Finished] ---

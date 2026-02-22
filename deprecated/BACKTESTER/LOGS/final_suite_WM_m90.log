@@ -1,0 +1,18 @@
+2025-11-09 21:31:48,929 [INFO   ] --- [Trading Simulator v4.1 Started for WM] ---
+2025-11-09 21:31:48,931 [INFO   ] Loaded 15 archetypes.
+2025-11-09 21:31:50,039 [INFO   ] Loaded 1259 data points and pre-calculated ATR.
+2025-11-09 21:31:50,039 [INFO   ] Pre-calculating historical growth distribution for learning system...
+2025-11-09 21:31:50,041 [INFO   ] Pre-calculating all CAC valleys with m=90...
+2025-11-09 21:32:15,738 [INFO   ] Found 1 potential entry dates.
+2025-11-09 21:32:15,930 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2019-10-16 ---
+2025-11-09 21:32:15,931 [INFO   ]   [Filter 2] 30-Day Growth Check: -3.52%
+2025-11-09 21:32:15,931 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-09 21:32:16,420 [INFO   ] 
+
+============================================================
+2025-11-09 21:32:16,420 [INFO   ] --- [TRADING SIMULATION REPORT] ---
+2025-11-09 21:32:16,420 [INFO   ] ============================================================
+2025-11-09 21:32:16,420 [INFO   ] No trades were executed during the simulation period.
+2025-11-09 21:32:16,420 [INFO   ] ============================================================
+2025-11-09 21:32:16,421 [INFO   ] --- [Trading Simulator Finished] ---

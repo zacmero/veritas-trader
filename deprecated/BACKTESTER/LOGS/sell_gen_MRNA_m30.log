@@ -1,0 +1,5 @@
+2025-11-21 19:26:35,704 [INFO   ] --- Generating SELL (Ramp Down) Archetype for: MRNA ---
+2025-11-21 19:26:38,730 [INFO   ] Finding regime change to locate bubble context...
+2025-11-21 19:27:04,640 [INFO   ] --- SUCCESS: New SELL Archetype Created ---
+2025-11-21 19:27:04,640 [INFO   ]   Peak Date: 2021-08-09
+2025-11-21 19:27:04,641 [INFO   ]   Saved to: /home/zacmero/stock-bubble/BACKTESTER/../SELL_ARCHETYPE_LIBRARY_FINAL

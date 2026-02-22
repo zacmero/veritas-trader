@@ -1,0 +1,11 @@
+2025-11-06 20:34:59,071 [INFO   ] --- [Historical Analyzer Started for SPY] ---
+2025-11-06 20:34:59,534 [INFO   ] Loaded 1510 data points for SPY.
+2025-11-06 20:34:59,535 [INFO   ] Computing full CAC curve with m=120...
+2025-11-06 20:35:21,305 [INFO   ] Found 0 significant valleys in the CAC curve.
+2025-11-06 20:35:21,305 [INFO   ] 
+--- [Analysis Summary] ---
+2025-11-06 20:35:21,305 [INFO   ] Total Valleys Found: 0
+2025-11-06 20:35:21,305 [INFO   ] Valleys Passing Filter 2 (Intensity Test): 0
+2025-11-06 20:35:21,305 [INFO   ] Valleys Passing Filter 2.5 (Context Test): 0
+2025-11-06 20:35:21,305 [INFO   ] Valleys Passing Filter 3 (DNA Test): 0
+2025-11-06 20:35:21,306 [INFO   ] --- [Historical Analyzer Finished] ---

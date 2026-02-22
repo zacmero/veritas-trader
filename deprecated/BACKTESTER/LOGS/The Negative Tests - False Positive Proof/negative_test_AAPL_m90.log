@@ -1,0 +1,10 @@
+2025-10-30 22:24:33,115 [INFO   ] --- [Historical Analyzer Started for AAPL] ---
+2025-10-30 22:24:34,035 [INFO   ] Loaded 1510 data points for AAPL.
+2025-10-30 22:24:34,036 [INFO   ] Computing full CAC curve with m=90...
+2025-10-30 22:24:55,437 [INFO   ] Found 0 significant valleys in the CAC curve.
+2025-10-30 22:24:55,437 [INFO   ] 
+--- [Analysis Summary] ---
+2025-10-30 22:24:55,437 [INFO   ] Total Valleys Found: 0
+2025-10-30 22:24:55,437 [INFO   ] Valleys Passing Filter 2 (Qualification Test): 0
+2025-10-30 22:24:55,437 [INFO   ] Valleys Passing Filter 3 (DNA Test): 0
+2025-10-30 22:24:55,437 [INFO   ] --- [Historical Analyzer Finished] ---

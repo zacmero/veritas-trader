@@ -1,0 +1,70 @@
+2025-11-08 05:19:13,265 [INFO   ] --- [Trading Simulator v3.0 Started for GME] ---
+2025-11-08 05:19:13,267 [INFO   ] Loaded 8 archetypes and created 8 micro-archetypes.
+2025-11-08 05:19:14,032 [INFO   ] Loaded 1259 data points and pre-calculated ATR.
+2025-11-08 05:19:14,032 [INFO   ] Pre-calculating all CAC valleys with m=30...
+2025-11-08 05:19:37,389 [INFO   ] Found 11 potential trigger dates.
+2025-11-08 05:19:37,445 [INFO   ] 
+--- [WATCH SIGNAL] New CAC Valley on 2018-08-13. Entering 5-day confirmation phase. ---
+2025-11-08 05:19:37,447 [INFO   ] --- [CONFIRMATION PHASE] on 2018-08-20 ---
+2025-11-08 05:19:37,447 [INFO   ]   [Filter 2] 5-Day Post-Trigger Growth: 2.26%
+2025-11-08 05:19:37,447 [INFO   ]   [Filter 2] FAILED. Not enough post-trigger momentum.
+2025-11-08 05:19:37,459 [INFO   ] 
+--- [WATCH SIGNAL] New CAC Valley on 2018-09-28. Entering 5-day confirmation phase. ---
+2025-11-08 05:19:37,461 [INFO   ] --- [CONFIRMATION PHASE] on 2018-10-05 ---
+2025-11-08 05:19:37,461 [INFO   ]   [Filter 2] 5-Day Post-Trigger Growth: -3.93%
+2025-11-08 05:19:37,462 [INFO   ]   [Filter 2] FAILED. Not enough post-trigger momentum.
+2025-11-08 05:19:37,476 [INFO   ] 
+--- [WATCH SIGNAL] New CAC Valley on 2018-11-20. Entering 5-day confirmation phase. ---
+2025-11-08 05:19:37,479 [INFO   ] --- [CONFIRMATION PHASE] on 2018-11-28 ---
+2025-11-08 05:19:37,479 [INFO   ]   [Filter 2] 5-Day Post-Trigger Growth: 9.48%
+2025-11-08 05:19:37,480 [INFO   ]   [Filter 2] PASSED. Growth >= 5.0%.
+2025-11-08 05:19:37,480 [INFO   ]   [Filter 3] Micro-DNA Test Best Match: 'SSYS_m90_ramp' (Distance: 7.0711)
+2025-11-08 05:19:37,480 [INFO   ]   [Filter 3] FAILED. DNA match too weak.
+2025-11-08 05:19:37,493 [INFO   ] 
+--- [WATCH SIGNAL] New CAC Valley on 2019-01-14. Entering 5-day confirmation phase. ---
+2025-11-08 05:19:37,496 [INFO   ] --- [CONFIRMATION PHASE] on 2019-01-22 ---
+2025-11-08 05:19:37,496 [INFO   ]   [Filter 2] 5-Day Post-Trigger Growth: -1.67%
+2025-11-08 05:19:37,496 [INFO   ]   [Filter 2] FAILED. Not enough post-trigger momentum.
+2025-11-08 05:19:37,509 [INFO   ] 
+--- [WATCH SIGNAL] New CAC Valley on 2019-03-07. Entering 5-day confirmation phase. ---
+2025-11-08 05:19:37,512 [INFO   ] --- [CONFIRMATION PHASE] on 2019-03-14 ---
+2025-11-08 05:19:37,512 [INFO   ]   [Filter 2] 5-Day Post-Trigger Growth: 3.20%
+2025-11-08 05:19:37,512 [INFO   ]   [Filter 2] FAILED. Not enough post-trigger momentum.
+2025-11-08 05:19:37,539 [INFO   ] 
+--- [WATCH SIGNAL] New CAC Valley on 2019-06-13. Entering 5-day confirmation phase. ---
+2025-11-08 05:19:37,542 [INFO   ] --- [CONFIRMATION PHASE] on 2019-06-20 ---
+2025-11-08 05:19:37,542 [INFO   ]   [Filter 2] 5-Day Post-Trigger Growth: -1.78%
+2025-11-08 05:19:37,542 [INFO   ]   [Filter 2] FAILED. Not enough post-trigger momentum.
+2025-11-08 05:19:37,555 [INFO   ] 
+--- [WATCH SIGNAL] New CAC Valley on 2019-08-01. Entering 5-day confirmation phase. ---
+2025-11-08 05:19:37,557 [INFO   ] --- [CONFIRMATION PHASE] on 2019-08-08 ---
+2025-11-08 05:19:37,557 [INFO   ]   [Filter 2] 5-Day Post-Trigger Growth: 2.91%
+2025-11-08 05:19:37,557 [INFO   ]   [Filter 2] FAILED. Not enough post-trigger momentum.
+2025-11-08 05:19:37,621 [INFO   ] 
+--- [WATCH SIGNAL] New CAC Valley on 2020-03-16. Entering 5-day confirmation phase. ---
+2025-11-08 05:19:37,623 [INFO   ] --- [CONFIRMATION PHASE] on 2020-03-23 ---
+2025-11-08 05:19:37,624 [INFO   ]   [Filter 2] 5-Day Post-Trigger Growth: -9.93%
+2025-11-08 05:19:37,624 [INFO   ]   [Filter 2] FAILED. Not enough post-trigger momentum.
+2025-11-08 05:19:37,635 [INFO   ] 
+--- [WATCH SIGNAL] New CAC Valley on 2020-04-30. Entering 5-day confirmation phase. ---
+2025-11-08 05:19:37,637 [INFO   ] --- [CONFIRMATION PHASE] on 2020-05-07 ---
+2025-11-08 05:19:37,637 [INFO   ]   [Filter 2] 5-Day Post-Trigger Growth: -19.50%
+2025-11-08 05:19:37,638 [INFO   ]   [Filter 2] FAILED. Not enough post-trigger momentum.
+2025-11-08 05:19:37,651 [INFO   ] 
+--- [WATCH SIGNAL] New CAC Valley on 2020-06-22. Entering 5-day confirmation phase. ---
+2025-11-08 05:19:37,653 [INFO   ] --- [CONFIRMATION PHASE] on 2020-06-29 ---
+2025-11-08 05:19:37,653 [INFO   ]   [Filter 2] 5-Day Post-Trigger Growth: -9.32%
+2025-11-08 05:19:37,653 [INFO   ]   [Filter 2] FAILED. Not enough post-trigger momentum.
+2025-11-08 05:19:37,683 [INFO   ] 
+--- [WATCH SIGNAL] New CAC Valley on 2020-10-07. Entering 5-day confirmation phase. ---
+2025-11-08 05:19:37,685 [INFO   ] --- [CONFIRMATION PHASE] on 2020-10-14 ---
+2025-11-08 05:19:37,685 [INFO   ]   [Filter 2] 5-Day Post-Trigger Growth: -9.19%
+2025-11-08 05:19:37,686 [INFO   ]   [Filter 2] FAILED. Not enough post-trigger momentum.
+2025-11-08 05:19:48,677 [INFO   ] 
+
+============================================================
+2025-11-08 05:19:48,677 [INFO   ] --- [TRADING SIMULATION REPORT] ---
+2025-11-08 05:19:48,677 [INFO   ] ============================================================
+2025-11-08 05:19:48,677 [INFO   ] No trades were executed during the simulation period.
+2025-11-08 05:19:48,677 [INFO   ] ============================================================
+2025-11-08 05:19:48,677 [INFO   ] --- [Trading Simulator Finished] ---

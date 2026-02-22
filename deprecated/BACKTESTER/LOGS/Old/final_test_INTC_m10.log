@@ -1,0 +1,147 @@
+2025-11-06 20:57:23,177 [INFO   ] --- [Historical Analyzer Started for INTC] ---
+2025-11-06 20:57:24,255 [INFO   ] Loaded 1510 data points for INTC.
+2025-11-06 20:57:24,257 [INFO   ] Computing full CAC curve with m=10...
+2025-11-06 20:57:50,236 [INFO   ] Found 16 significant valleys in the CAC curve.
+2025-11-06 20:57:50,237 [INFO   ] 
+--- Analyzing Valley at 2018-02-09 (index 278) ---
+2025-11-06 20:57:50,239 [INFO   ]   [Filter 2] Valley at 2018-02-09: Slope Check (30d) = 0.2232
+2025-11-06 20:57:50,240 [INFO   ]   [Filter 2] Valley at 2018-02-09: Slope Check (60d) = 0.0957
+2025-11-06 20:57:50,241 [INFO   ]   [Filter 2] Valley at 2018-02-09: Slope Check (90d) = 0.0920
+2025-11-06 20:57:50,241 [INFO   ]   [Filter 2] 30-Day Growth Check: 12.31%
+2025-11-06 20:57:50,242 [INFO   ]   [Filter 2] PASSED. Growth of 12.31% >= 10.0% threshold.
+2025-11-06 20:57:50,244 [INFO   ]   [Filter 2.5] Historical Context Check: Current growth is in the 89.53th percentile of this stock's history.
+2025-11-06 20:57:50,244 [INFO   ]   [Filter 2.5] FAILED. Percentile rank 89.53% < 95.0% threshold.
+2025-11-06 20:57:50,245 [INFO   ] 
+--- Analyzing Valley at 2018-06-20 (index 368) ---
+2025-11-06 20:57:50,246 [INFO   ]   [Filter 2] Valley at 2018-06-20: Slope Check (30d) = -0.0305
+2025-11-06 20:57:50,247 [INFO   ]   [Filter 2] Valley at 2018-06-20: Slope Check (60d) = -0.0770
+2025-11-06 20:57:50,248 [INFO   ]   [Filter 2] Valley at 2018-06-20: Slope Check (90d) = -0.0679
+2025-11-06 20:57:50,249 [INFO   ]   [Filter 2] FAILED. No positive slope found.
+2025-11-06 20:57:50,249 [INFO   ] 
+--- Analyzing Valley at 2018-08-23 (index 413) ---
+2025-11-06 20:57:50,251 [INFO   ]   [Filter 2] Valley at 2018-08-23: Slope Check (30d) = -0.0283
+2025-11-06 20:57:50,252 [INFO   ]   [Filter 2] Valley at 2018-08-23: Slope Check (60d) = -0.0041
+2025-11-06 20:57:50,253 [INFO   ]   [Filter 2] Valley at 2018-08-23: Slope Check (90d) = 0.0079
+2025-11-06 20:57:50,253 [INFO   ]   [Filter 2] 30-Day Growth Check: 2.45%
+2025-11-06 20:57:50,254 [INFO   ]   [Filter 2] FAILED. Growth of 2.45% < 10.0% threshold.
+2025-11-06 20:57:50,254 [INFO   ] 
+--- Analyzing Valley at 2018-11-12 (index 469) ---
+2025-11-06 20:57:50,256 [INFO   ]   [Filter 2] Valley at 2018-11-12: Slope Check (30d) = -0.0576
+2025-11-06 20:57:50,257 [INFO   ]   [Filter 2] Valley at 2018-11-12: Slope Check (60d) = 0.0162
+2025-11-06 20:57:50,258 [INFO   ]   [Filter 2] Valley at 2018-11-12: Slope Check (90d) = 0.0777
+2025-11-06 20:57:50,259 [INFO   ]   [Filter 2] 30-Day Growth Check: -0.99%
+2025-11-06 20:57:50,259 [INFO   ]   [Filter 2] FAILED. Growth of -0.99% < 10.0% threshold.
+2025-11-06 20:57:50,259 [INFO   ] 
+--- Analyzing Valley at 2019-04-10 (index 570) ---
+2025-11-06 20:57:50,260 [INFO   ]   [Filter 2] Valley at 2019-04-10: Slope Check (30d) = -0.4759
+2025-11-06 20:57:50,261 [INFO   ]   [Filter 2] Valley at 2019-04-10: Slope Check (60d) = -0.1486
+2025-11-06 20:57:50,262 [INFO   ]   [Filter 2] Valley at 2019-04-10: Slope Check (90d) = -0.0438
+2025-11-06 20:57:50,263 [INFO   ]   [Filter 2] FAILED. No positive slope found.
+2025-11-06 20:57:50,263 [INFO   ] 
+--- Analyzing Valley at 2019-06-20 (index 619) ---
+2025-11-06 20:57:50,264 [INFO   ]   [Filter 2] Valley at 2019-06-20: Slope Check (30d) = 0.1527
+2025-11-06 20:57:50,265 [INFO   ]   [Filter 2] Valley at 2019-06-20: Slope Check (60d) = 0.0142
+2025-11-06 20:57:50,267 [INFO   ]   [Filter 2] Valley at 2019-06-20: Slope Check (90d) = 0.0451
+2025-11-06 20:57:50,267 [INFO   ]   [Filter 2] 30-Day Growth Check: 4.90%
+2025-11-06 20:57:50,267 [INFO   ]   [Filter 2] FAILED. Growth of 4.90% < 10.0% threshold.
+2025-11-06 20:57:50,268 [INFO   ] 
+--- Analyzing Valley at 2019-09-24 (index 685) ---
+2025-11-06 20:57:50,269 [INFO   ]   [Filter 2] Valley at 2019-09-24: Slope Check (30d) = 0.2099
+2025-11-06 20:57:50,270 [INFO   ]   [Filter 2] Valley at 2019-09-24: Slope Check (60d) = 0.1421
+2025-11-06 20:57:50,271 [INFO   ]   [Filter 2] Valley at 2019-09-24: Slope Check (90d) = 0.1308
+2025-11-06 20:57:50,271 [INFO   ]   [Filter 2] 30-Day Growth Check: 15.64%
+2025-11-06 20:57:50,271 [INFO   ]   [Filter 2] PASSED. Growth of 15.64% >= 10.0% threshold.
+2025-11-06 20:57:50,275 [INFO   ]   [Filter 2.5] Historical Context Check: Current growth is in the 95.75th percentile of this stock's history.
+2025-11-06 20:57:50,276 [INFO   ]   [Filter 2.5] PASSED. Percentile rank 95.75% >= 95.0% threshold.
+2025-11-06 20:57:50,276 [INFO   ]     [Filter 3] DNA Test vs 'DOGE-USD_m30_ramp': Distance = 42.4264
+2025-11-06 20:57:50,277 [INFO   ]     [Filter 3] DNA Test vs 'SSYS_m90_ramp': Distance = 42.4264
+2025-11-06 20:57:50,277 [INFO   ]     [Filter 3] DNA Test vs 'SHIB-USD_m30_ramp': Distance = 42.4264
+2025-11-06 20:57:50,277 [INFO   ]     [Filter 3] DNA Test vs 'CSCO_m90_ramp': Distance = 42.4264
+2025-11-06 20:57:50,277 [INFO   ]     [Filter 3] DNA Test vs 'GME_m90_ramp': Distance = 42.4264
+2025-11-06 20:57:50,278 [INFO   ]     [Filter 3] DNA Test vs 'IYR_m120_ramp': Distance = 42.4264
+2025-11-06 20:57:50,278 [INFO   ]     [Filter 3] DNA Test vs 'VWAGY_m15_ramp': Distance = 42.4264
+2025-11-06 20:57:50,278 [INFO   ]     [Filter 3] DNA Test vs 'AMC_m30_ramp': Distance = 42.4264
+2025-11-06 20:57:50,278 [INFO   ]     [Filter 3] FAILED. No DNA match found below loose threshold.
+2025-11-06 20:57:50,278 [INFO   ] 
+--- Analyzing Valley at 2019-11-07 (index 717) ---
+2025-11-06 20:57:50,279 [INFO   ]   [Filter 2] Valley at 2019-11-07: Slope Check (30d) = -0.0395
+2025-11-06 20:57:50,280 [INFO   ]   [Filter 2] Valley at 2019-11-07: Slope Check (60d) = 0.1096
+2025-11-06 20:57:50,281 [INFO   ]   [Filter 2] Valley at 2019-11-07: Slope Check (90d) = 0.0059
+2025-11-06 20:57:50,281 [INFO   ]   [Filter 2] 30-Day Growth Check: -0.16%
+2025-11-06 20:57:50,281 [INFO   ]   [Filter 2] FAILED. Growth of -0.16% < 10.0% threshold.
+2025-11-06 20:57:50,282 [INFO   ] 
+--- Analyzing Valley at 2020-02-24 (index 789) ---
+2025-11-06 20:57:50,282 [INFO   ]   [Filter 2] Valley at 2020-02-24: Slope Check (30d) = -0.2120
+2025-11-06 20:57:50,283 [INFO   ]   [Filter 2] Valley at 2020-02-24: Slope Check (60d) = 0.1050
+2025-11-06 20:57:50,284 [INFO   ]   [Filter 2] Valley at 2020-02-24: Slope Check (90d) = 0.0953
+2025-11-06 20:57:50,284 [INFO   ]   [Filter 2] 30-Day Growth Check: -12.35%
+2025-11-06 20:57:50,284 [INFO   ]   [Filter 2] FAILED. Growth of -12.35% < 10.0% threshold.
+2025-11-06 20:57:50,285 [INFO   ] 
+--- Analyzing Valley at 2020-03-23 (index 809) ---
+2025-11-06 20:57:50,286 [INFO   ]   [Filter 2] Valley at 2020-03-23: Slope Check (30d) = 0.2530
+2025-11-06 20:57:50,287 [INFO   ]   [Filter 2] Valley at 2020-03-23: Slope Check (60d) = 0.1400
+2025-11-06 20:57:50,288 [INFO   ]   [Filter 2] Valley at 2020-03-23: Slope Check (90d) = 0.0233
+2025-11-06 20:57:50,288 [INFO   ]   [Filter 2] 30-Day Growth Check: 16.96%
+2025-11-06 20:57:50,288 [INFO   ]   [Filter 2] PASSED. Growth of 16.96% >= 10.0% threshold.
+2025-11-06 20:57:50,292 [INFO   ]   [Filter 2.5] Historical Context Check: Current growth is in the 96.83th percentile of this stock's history.
+2025-11-06 20:57:50,292 [INFO   ]   [Filter 2.5] PASSED. Percentile rank 96.83% >= 95.0% threshold.
+2025-11-06 20:57:50,292 [INFO   ]     [Filter 3] DNA Test vs 'DOGE-USD_m30_ramp': Distance = 42.4264
+2025-11-06 20:57:50,292 [INFO   ]     [Filter 3] DNA Test vs 'SSYS_m90_ramp': Distance = 42.4264
+2025-11-06 20:57:50,293 [INFO   ]     [Filter 3] DNA Test vs 'SHIB-USD_m30_ramp': Distance = 42.4264
+2025-11-06 20:57:50,293 [INFO   ]     [Filter 3] DNA Test vs 'CSCO_m90_ramp': Distance = 42.4264
+2025-11-06 20:57:50,293 [INFO   ]     [Filter 3] DNA Test vs 'GME_m90_ramp': Distance = 42.4264
+2025-11-06 20:57:50,293 [INFO   ]     [Filter 3] DNA Test vs 'IYR_m120_ramp': Distance = 42.4264
+2025-11-06 20:57:50,293 [INFO   ]     [Filter 3] DNA Test vs 'VWAGY_m15_ramp': Distance = 42.4264
+2025-11-06 20:57:50,293 [INFO   ]     [Filter 3] DNA Test vs 'AMC_m30_ramp': Distance = 42.4264
+2025-11-06 20:57:50,294 [INFO   ]     [Filter 3] FAILED. No DNA match found below loose threshold.
+2025-11-06 20:57:50,294 [INFO   ] 
+--- Analyzing Valley at 2020-04-21 (index 829) ---
+2025-11-06 20:57:50,295 [INFO   ]   [Filter 2] Valley at 2020-04-21: Slope Check (30d) = 0.1435
+2025-11-06 20:57:50,296 [INFO   ]   [Filter 2] Valley at 2020-04-21: Slope Check (60d) = 0.0022
+2025-11-06 20:57:50,297 [INFO   ]   [Filter 2] Valley at 2020-04-21: Slope Check (90d) = -0.1254
+2025-11-06 20:57:50,298 [INFO   ]   [Filter 2] 30-Day Growth Check: 10.84%
+2025-11-06 20:57:50,298 [INFO   ]   [Filter 2] PASSED. Growth of 10.84% >= 10.0% threshold.
+2025-11-06 20:57:50,301 [INFO   ]   [Filter 2.5] Historical Context Check: Current growth is in the 85.42th percentile of this stock's history.
+2025-11-06 20:57:50,302 [INFO   ]   [Filter 2.5] FAILED. Percentile rank 85.42% < 95.0% threshold.
+2025-11-06 20:57:50,302 [INFO   ] 
+--- Analyzing Valley at 2020-08-12 (index 908) ---
+2025-11-06 20:57:50,303 [INFO   ]   [Filter 2] Valley at 2020-08-12: Slope Check (30d) = 0.0302
+2025-11-06 20:57:50,304 [INFO   ]   [Filter 2] Valley at 2020-08-12: Slope Check (60d) = -0.0057
+2025-11-06 20:57:50,305 [INFO   ]   [Filter 2] Valley at 2020-08-12: Slope Check (90d) = -0.0160
+2025-11-06 20:57:50,305 [INFO   ]   [Filter 2] 30-Day Growth Check: -0.75%
+2025-11-06 20:57:50,305 [INFO   ]   [Filter 2] FAILED. Growth of -0.75% < 10.0% threshold.
+2025-11-06 20:57:50,305 [INFO   ] 
+--- Analyzing Valley at 2020-10-23 (index 959) ---
+2025-11-06 20:57:50,306 [INFO   ]   [Filter 2] Valley at 2020-10-23: Slope Check (30d) = 0.1492
+2025-11-06 20:57:50,307 [INFO   ]   [Filter 2] Valley at 2020-10-23: Slope Check (60d) = 0.1566
+2025-11-06 20:57:50,307 [INFO   ]   [Filter 2] Valley at 2020-10-23: Slope Check (90d) = 0.1995
+2025-11-06 20:57:50,307 [INFO   ]   [Filter 2] 30-Day Growth Check: 8.65%
+2025-11-06 20:57:50,308 [INFO   ]   [Filter 2] FAILED. Growth of 8.65% < 10.0% threshold.
+2025-11-06 20:57:50,308 [INFO   ] 
+--- Analyzing Valley at 2020-11-30 (index 984) ---
+2025-11-06 20:57:50,309 [INFO   ]   [Filter 2] Valley at 2020-11-30: Slope Check (30d) = 0.0238
+2025-11-06 20:57:50,309 [INFO   ]   [Filter 2] Valley at 2020-11-30: Slope Check (60d) = 0.2379
+2025-11-06 20:57:50,310 [INFO   ]   [Filter 2] Valley at 2020-11-30: Slope Check (90d) = 0.2039
+2025-11-06 20:57:50,310 [INFO   ]   [Filter 2] 30-Day Growth Check: 10.11%
+2025-11-06 20:57:50,310 [INFO   ]   [Filter 2] PASSED. Growth of 10.11% >= 10.0% threshold.
+2025-11-06 20:57:50,314 [INFO   ]   [Filter 2.5] Historical Context Check: Current growth is in the 83.59th percentile of this stock's history.
+2025-11-06 20:57:50,314 [INFO   ]   [Filter 2.5] FAILED. Percentile rank 83.59% < 95.0% threshold.
+2025-11-06 20:57:50,315 [INFO   ] 
+--- Analyzing Valley at 2021-04-05 (index 1069) ---
+2025-11-06 20:57:50,316 [INFO   ]   [Filter 2] Valley at 2021-04-05: Slope Check (30d) = -0.4337
+2025-11-06 20:57:50,318 [INFO   ]   [Filter 2] Valley at 2021-04-05: Slope Check (60d) = -0.1371
+2025-11-06 20:57:50,319 [INFO   ]   [Filter 2] Valley at 2021-04-05: Slope Check (90d) = -0.0913
+2025-11-06 20:57:50,319 [INFO   ]   [Filter 2] FAILED. No positive slope found.
+2025-11-06 20:57:50,319 [INFO   ] 
+--- Analyzing Valley at 2021-06-02 (index 1110) ---
+2025-11-06 20:57:50,320 [INFO   ]   [Filter 2] Valley at 2021-06-02: Slope Check (30d) = -0.0394
+2025-11-06 20:57:50,321 [INFO   ]   [Filter 2] Valley at 2021-06-02: Slope Check (60d) = -0.0714
+2025-11-06 20:57:50,322 [INFO   ]   [Filter 2] Valley at 2021-06-02: Slope Check (90d) = -0.0360
+2025-11-06 20:57:50,322 [INFO   ]   [Filter 2] FAILED. No positive slope found.
+2025-11-06 20:57:50,322 [INFO   ] 
+--- [Analysis Summary] ---
+2025-11-06 20:57:50,322 [INFO   ] Total Valleys Found: 16
+2025-11-06 20:57:50,323 [INFO   ] Valleys Passing Filter 2 (Intensity Test): 5
+2025-11-06 20:57:50,323 [INFO   ] Valleys Passing Filter 2.5 (Context Test): 2
+2025-11-06 20:57:50,323 [INFO   ] Valleys Passing Filter 3 (DNA Test): 0
+2025-11-06 20:57:50,323 [INFO   ] --- [Historical Analyzer Finished] ---

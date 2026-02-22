@@ -1,0 +1,5 @@
+2025-11-21 19:26:42,808 [INFO   ] --- Generating SELL (Ramp Down) Archetype for: BB ---
+2025-11-21 19:26:43,541 [INFO   ] Finding regime change to locate bubble context...
+2025-11-21 19:27:08,746 [INFO   ] --- SUCCESS: New SELL Archetype Created ---
+2025-11-21 19:27:08,747 [INFO   ]   Peak Date: 2021-01-27
+2025-11-21 19:27:08,747 [INFO   ]   Saved to: /home/zacmero/stock-bubble/BACKTESTER/../SELL_ARCHETYPE_LIBRARY_FINAL

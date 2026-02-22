@@ -1,0 +1,238 @@
+2025-11-08 04:27:56,082 [INFO   ] --- [Trading Simulator v2.3 Started for AMC] ---
+2025-11-08 04:27:56,088 [INFO   ] Loaded 8 archetypes.
+2025-11-08 04:27:57,462 [INFO   ] Loaded 1259 data points and pre-calculated ATR.
+2025-11-08 04:27:57,463 [INFO   ] Pre-calculating all CAC valleys with m=10...
+2025-11-08 04:28:23,672 [INFO   ] Found 74 potential entry dates.
+2025-11-08 04:28:23,694 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2018-03-23 ---
+2025-11-08 04:28:23,694 [INFO   ]   [Filter 2] 30-Day Growth Check: 4.69%
+2025-11-08 04:28:23,694 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 04:28:23,701 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2018-04-12 ---
+2025-11-08 04:28:23,701 [INFO   ]   [Filter 2] 30-Day Growth Check: 13.32%
+2025-11-08 04:28:23,701 [INFO   ]   [Filter 2] PASSED.
+2025-11-08 04:28:24,422 [INFO   ]   [Filter 3] DNA Test Best Match: 'AMC_m30_ramp' (Distance: 6.3952)
+2025-11-08 04:28:24,423 [INFO   ]   [Filter 3] FAILED. Distance > 4.75.
+2025-11-08 04:28:24,431 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2018-05-04 ---
+2025-11-08 04:28:24,432 [INFO   ]   [Filter 2] 30-Day Growth Check: 17.27%
+2025-11-08 04:28:24,432 [INFO   ]   [Filter 2] PASSED.
+2025-11-08 04:28:24,442 [INFO   ]   [Filter 3] DNA Test Best Match: 'CSCO_m90_ramp' (Distance: 3.0704)
+2025-11-08 04:28:24,443 [INFO   ]   [Filter 3] PASSED (Loose Match).
+2025-11-08 04:28:24,443 [INFO   ] 
+!!! BUY SIGNAL on 2018-05-04 at $134.56. Match: CSCO_m90_ramp (Loose), Dist: 3.07 !!!
+2025-11-08 04:28:24,443 [INFO   ]    Initial ATR Trailing Stop set at: $119.31
+
+2025-11-08 04:28:24,452 [INFO   ] 
+!!! SELL SIGNAL on 2018-05-23 at $125.48. Reason: ATR Trailing Stop. Profit: -6.75% !!!
+
+2025-11-08 04:28:24,493 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2018-09-06 ---
+2025-11-08 04:28:24,493 [INFO   ]   [Filter 2] 30-Day Growth Check: 25.80%
+2025-11-08 04:28:24,493 [INFO   ]   [Filter 2] PASSED.
+2025-11-08 04:28:24,505 [INFO   ]   [Filter 3] DNA Test Best Match: 'CSCO_m90_ramp' (Distance: 2.0597)
+2025-11-08 04:28:24,505 [INFO   ]   [Filter 3] PASSED (Strict Match).
+2025-11-08 04:28:24,505 [INFO   ] 
+!!! BUY SIGNAL on 2018-09-06 at $165.29. Match: CSCO_m90_ramp (Strict), Dist: 2.06 !!!
+2025-11-08 04:28:24,505 [INFO   ]    Initial ATR Trailing Stop set at: $147.99
+
+2025-11-08 04:28:24,528 [INFO   ] 
+!!! SELL SIGNAL on 2018-10-24 at $162.55. Reason: ATR Trailing Stop. Profit: -1.66% !!!
+
+2025-11-08 04:28:24,574 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2019-02-11 ---
+2025-11-08 04:28:24,574 [INFO   ]   [Filter 2] 30-Day Growth Check: 6.04%
+2025-11-08 04:28:24,574 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 04:28:24,586 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2019-03-12 ---
+2025-11-08 04:28:24,586 [INFO   ]   [Filter 2] 30-Day Growth Check: 3.01%
+2025-11-08 04:28:24,586 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 04:28:24,602 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2019-03-29 ---
+2025-11-08 04:28:24,603 [INFO   ]   [Filter 2] 30-Day Growth Check: 9.16%
+2025-11-08 04:28:24,603 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 04:28:24,613 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2019-05-01 ---
+2025-11-08 04:28:24,613 [INFO   ]   [Filter 2] 30-Day Growth Check: -1.67%
+2025-11-08 04:28:24,614 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 04:28:24,629 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2019-06-17 ---
+2025-11-08 04:28:24,629 [INFO   ]   [Filter 2] 30-Day Growth Check: -23.43%
+2025-11-08 04:28:24,629 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 04:28:24,639 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2019-07-18 ---
+2025-11-08 04:28:24,639 [INFO   ]   [Filter 2] 30-Day Growth Check: -11.66%
+2025-11-08 04:28:24,639 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 04:28:24,649 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2019-08-06 ---
+2025-11-08 04:28:24,649 [INFO   ]   [Filter 2] 30-Day Growth Check: 19.41%
+2025-11-08 04:28:24,649 [INFO   ]   [Filter 2] PASSED.
+2025-11-08 04:28:24,659 [INFO   ]   [Filter 3] DNA Test Best Match: 'IYR_m120_ramp' (Distance: 2.3951)
+2025-11-08 04:28:24,660 [INFO   ]   [Filter 3] PASSED (Strict Match).
+2025-11-08 04:28:24,660 [INFO   ] 
+!!! BUY SIGNAL on 2019-08-06 at $108.01. Match: IYR_m120_ramp (Strict), Dist: 2.40 !!!
+2025-11-08 04:28:24,660 [INFO   ]    Initial ATR Trailing Stop set at: $90.92
+
+2025-11-08 04:28:24,918 [INFO   ] 
+!!! SELL SIGNAL on 2019-09-24 at $103.92. Reason: ATR Trailing Stop. Profit: -3.79% !!!
+
+2025-11-08 04:28:24,951 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2019-12-31 ---
+2025-11-08 04:28:24,951 [INFO   ]   [Filter 2] 30-Day Growth Check: -12.44%
+2025-11-08 04:28:24,952 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 04:28:24,963 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-02-05 ---
+2025-11-08 04:28:24,963 [INFO   ]   [Filter 2] 30-Day Growth Check: -4.37%
+2025-11-08 04:28:24,964 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 04:28:24,969 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-02-20 ---
+2025-11-08 04:28:24,970 [INFO   ]   [Filter 2] 30-Day Growth Check: 17.22%
+2025-11-08 04:28:24,970 [INFO   ]   [Filter 2] PASSED.
+2025-11-08 04:28:24,992 [INFO   ]   [Filter 3] DNA Test Best Match: 'VWAGY_m15_ramp' (Distance: 5.9107)
+2025-11-08 04:28:24,992 [INFO   ]   [Filter 3] FAILED. Distance > 4.75.
+2025-11-08 04:28:24,997 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-03-06 ---
+2025-11-08 04:28:24,997 [INFO   ]   [Filter 2] 30-Day Growth Check: -32.38%
+2025-11-08 04:28:24,998 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 04:28:25,003 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-03-23 ---
+2025-11-08 04:28:25,003 [INFO   ]   [Filter 2] 30-Day Growth Check: -53.32%
+2025-11-08 04:28:25,003 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 04:28:25,008 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-04-07 ---
+2025-11-08 04:28:25,009 [INFO   ]   [Filter 2] 30-Day Growth Check: -46.72%
+2025-11-08 04:28:25,009 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 04:28:25,014 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-04-22 ---
+2025-11-08 04:28:25,014 [INFO   ]   [Filter 2] 30-Day Growth Check: -12.64%
+2025-11-08 04:28:25,014 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 04:28:25,023 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-05-20 ---
+2025-11-08 04:28:25,023 [INFO   ]   [Filter 2] 30-Day Growth Check: 41.21%
+2025-11-08 04:28:25,024 [INFO   ]   [Filter 2] PASSED.
+2025-11-08 04:28:25,041 [INFO   ]   [Filter 3] DNA Test Best Match: 'CSCO_m90_ramp' (Distance: 3.0007)
+2025-11-08 04:28:25,041 [INFO   ]   [Filter 3] PASSED (Loose Match).
+2025-11-08 04:28:25,041 [INFO   ] 
+!!! BUY SIGNAL on 2020-05-20 at $46.60. Match: CSCO_m90_ramp (Loose), Dist: 3.00 !!!
+2025-11-08 04:28:25,041 [INFO   ]    Initial ATR Trailing Stop set at: $27.91
+
+2025-11-08 04:28:25,055 [INFO   ] 
+!!! SELL SIGNAL on 2020-06-24 at $47.90. Reason: ATR Trailing Stop. Profit: 2.79% !!!
+
+2025-11-08 04:28:25,086 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-10-07 ---
+2025-11-08 04:28:25,087 [INFO   ]   [Filter 2] 30-Day Growth Check: -27.86%
+2025-11-08 04:28:25,087 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 04:28:25,092 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-10-23 ---
+2025-11-08 04:28:25,093 [INFO   ]   [Filter 2] 30-Day Growth Check: -46.39%
+2025-11-08 04:28:25,093 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 04:28:25,100 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-11-06 ---
+2025-11-08 04:28:25,100 [INFO   ]   [Filter 2] 30-Day Growth Check: -49.29%
+2025-11-08 04:28:25,101 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 04:28:25,109 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-12-03 ---
+2025-11-08 04:28:25,109 [INFO   ]   [Filter 2] 30-Day Growth Check: 16.35%
+2025-11-08 04:28:25,109 [INFO   ]   [Filter 2] PASSED.
+2025-11-08 04:28:25,131 [INFO   ]   [Filter 3] DNA Test Best Match: 'AMC_m30_ramp' (Distance: 2.8272)
+2025-11-08 04:28:25,131 [INFO   ]   [Filter 3] PASSED (Loose Match).
+2025-11-08 04:28:25,131 [INFO   ] 
+!!! BUY SIGNAL on 2020-12-03 at $36.30. Match: AMC_m30_ramp (Loose), Dist: 2.83 !!!
+2025-11-08 04:28:25,131 [INFO   ]    Initial ATR Trailing Stop set at: $22.91
+
+2025-11-08 04:28:25,138 [INFO   ] 
+!!! SELL SIGNAL on 2020-12-23 at $25.60. Reason: ATR Trailing Stop. Profit: -29.48% !!!
+
+2025-11-08 04:28:25,164 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2021-03-24 ---
+2025-11-08 04:28:25,164 [INFO   ]   [Filter 2] 30-Day Growth Check: 55.52%
+2025-11-08 04:28:25,164 [INFO   ]   [Filter 2] PASSED.
+2025-11-08 04:28:25,184 [INFO   ]   [Filter 3] DNA Test Best Match: 'AMC_m30_ramp' (Distance: 1.9162)
+2025-11-08 04:28:25,184 [INFO   ]   [Filter 3] PASSED (Strict Match).
+2025-11-08 04:28:25,184 [INFO   ] 
+!!! BUY SIGNAL on 2021-03-24 at $90.20. Match: AMC_m30_ramp (Strict), Dist: 1.92 !!!
+2025-11-08 04:28:25,184 [INFO   ]    Initial ATR Trailing Stop set at: $40.49
+
+2025-11-08 04:28:25,197 [INFO   ] 
+!!! SELL SIGNAL on 2021-05-06 at $90.00. Reason: ATR Trailing Stop. Profit: -0.22% !!!
+
+2025-11-08 04:28:25,224 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2021-08-04 ---
+2025-11-08 04:28:25,224 [INFO   ]   [Filter 2] 30-Day Growth Check: -48.82%
+2025-11-08 04:28:25,224 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-08 04:28:25,235 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2021-08-31 ---
+2025-11-08 04:28:25,235 [INFO   ]   [Filter 2] 30-Day Growth Check: 15.57%
+2025-11-08 04:28:25,235 [INFO   ]   [Filter 2] PASSED.
+2025-11-08 04:28:25,255 [INFO   ]   [Filter 3] DNA Test Best Match: 'IYR_m120_ramp' (Distance: 6.1013)
+2025-11-08 04:28:25,256 [INFO   ]   [Filter 3] FAILED. Distance > 4.75.
+2025-11-08 04:28:25,264 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2021-09-23 ---
+2025-11-08 04:28:25,265 [INFO   ]   [Filter 2] 30-Day Growth Check: 20.90%
+2025-11-08 04:28:25,265 [INFO   ]   [Filter 2] PASSED.
+2025-11-08 04:28:25,284 [INFO   ]   [Filter 3] DNA Test Best Match: 'DOGE-USD_m30_ramp' (Distance: 2.8276)
+2025-11-08 04:28:25,284 [INFO   ]   [Filter 3] PASSED (Loose Match).
+2025-11-08 04:28:25,284 [INFO   ] 
+!!! BUY SIGNAL on 2021-09-23 at $399.80. Match: DOGE-USD_m30_ramp (Loose), Dist: 2.83 !!!
+2025-11-08 04:28:25,284 [INFO   ]    Initial ATR Trailing Stop set at: $298.40
+
+2025-11-08 04:28:25,295 [INFO   ] 
+!!! SELL SIGNAL on 2021-10-27 at $347.60. Reason: ATR Trailing Stop. Profit: -13.06% !!!
+
+2025-11-08 04:28:25,343 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2022-03-22 ---
+2025-11-08 04:28:25,344 [INFO   ]   [Filter 2] 30-Day Growth Check: 11.14%
+2025-11-08 04:28:25,344 [INFO   ]   [Filter 2] PASSED.
+2025-11-08 04:28:25,356 [INFO   ]   [Filter 3] DNA Test Best Match: 'VWAGY_m15_ramp' (Distance: 7.5220)
+2025-11-08 04:28:25,356 [INFO   ]   [Filter 3] FAILED. Distance > 4.75.
+2025-11-08 04:28:25,362 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2022-04-05 ---
+2025-11-08 04:28:25,362 [INFO   ]   [Filter 2] 30-Day Growth Check: 34.84%
+2025-11-08 04:28:25,362 [INFO   ]   [Filter 2] PASSED.
+2025-11-08 04:28:25,373 [INFO   ]   [Filter 3] DNA Test Best Match: 'AMC_m30_ramp' (Distance: 4.0236)
+2025-11-08 04:28:25,373 [INFO   ]   [Filter 3] PASSED (Loose Match).
+2025-11-08 04:28:25,374 [INFO   ] 
+!!! BUY SIGNAL on 2022-04-05 at $212.10. Match: AMC_m30_ramp (Loose), Dist: 4.02 !!!
+2025-11-08 04:28:25,374 [INFO   ]    Initial ATR Trailing Stop set at: $113.49
+
+2025-11-08 04:28:25,388 [INFO   ] 
+!!! SELL SIGNAL on 2022-05-09 at $125.20. Reason: ATR Trailing Stop. Profit: -40.97% !!!
+
+2025-11-08 04:28:25,422 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2022-08-18 ---
+2025-11-08 04:28:25,422 [INFO   ]   [Filter 2] 30-Day Growth Check: 31.58%
+2025-11-08 04:28:25,422 [INFO   ]   [Filter 2] PASSED.
+2025-11-08 04:28:25,432 [INFO   ]   [Filter 3] DNA Test Best Match: 'AMC_m30_ramp' (Distance: 3.0786)
+2025-11-08 04:28:25,432 [INFO   ]   [Filter 3] PASSED (Loose Match).
+2025-11-08 04:28:25,433 [INFO   ] 
+!!! BUY SIGNAL on 2022-08-18 at $192.90. Match: AMC_m30_ramp (Loose), Dist: 3.08 !!!
+2025-11-08 04:28:25,433 [INFO   ]    Initial ATR Trailing Stop set at: $106.89
+
+2025-11-08 04:28:25,434 [INFO   ] 
+!!! SELL SIGNAL on 2022-08-22 at $104.60. Reason: ATR Trailing Stop. Profit: -45.78% !!!
+
+2025-11-08 04:28:25,473 [INFO   ] 
+
+============================================================
+2025-11-08 04:28:25,473 [INFO   ] --- [TRADING SIMULATION REPORT] ---
+2025-11-08 04:28:25,473 [INFO   ] ============================================================
+2025-11-08 04:28:25,474 [INFO   ] 
+--- [Trade Log] ---
+2025-11-08 04:28:25,480 [INFO   ] 
+| Entry Date   | Entry Price   | Exit Date   | Exit Price   | Exit Reason       | Profit %   |
+|:-------------|:--------------|:------------|:-------------|:------------------|:-----------|
+| 2018-05-04   | $134.56       | 2018-05-23  | $125.48      | ATR Trailing Stop | -6.75%     |
+| 2018-09-06   | $165.29       | 2018-10-24  | $162.55      | ATR Trailing Stop | -1.66%     |
+| 2019-08-06   | $108.01       | 2019-09-24  | $103.92      | ATR Trailing Stop | -3.79%     |
+| 2020-05-20   | $46.60        | 2020-06-24  | $47.90       | ATR Trailing Stop | 2.79%      |
+| 2020-12-03   | $36.30        | 2020-12-23  | $25.60       | ATR Trailing Stop | -29.48%    |
+| 2021-03-24   | $90.20        | 2021-05-06  | $90.00       | ATR Trailing Stop | -0.22%     |
+| 2021-09-23   | $399.80       | 2021-10-27  | $347.60      | ATR Trailing Stop | -13.06%    |
+| 2022-04-05   | $212.10       | 2022-05-09  | $125.20      | ATR Trailing Stop | -40.97%    |
+| 2022-08-18   | $192.90       | 2022-08-22  | $104.60      | ATR Trailing Stop | -45.78%    |
+2025-11-08 04:28:25,480 [INFO   ] 
+Total Trades: 9 | Win Rate: 11.11%
+2025-11-08 04:28:25,480 [INFO   ] Average Profit/Loss per Trade: -15.43%
+2025-11-08 04:28:25,481 [INFO   ] ============================================================
+2025-11-08 04:28:25,481 [INFO   ] --- [Trading Simulator Finished] ---

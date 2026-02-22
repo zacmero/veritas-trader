@@ -1,0 +1,10 @@
+2025-10-29 22:08:55,458 [INFO   ] --- [Historical Analyzer Started for SSYS] ---
+2025-10-29 22:08:56,175 [INFO   ] Loaded 1258 data points for SSYS.
+2025-10-29 22:08:56,177 [INFO   ] Computing full CAC curve with m=120...
+2025-10-29 22:09:17,719 [INFO   ] Found 0 significant valleys in the CAC curve.
+2025-10-29 22:09:17,719 [INFO   ] 
+--- [Analysis Summary] ---
+2025-10-29 22:09:17,719 [INFO   ] Total Valleys Found: 0
+2025-10-29 22:09:17,719 [INFO   ] Valleys Passing Filter 2 (Slope Test): 0
+2025-10-29 22:09:17,720 [INFO   ] Valleys Passing Filter 3 (DNA Test): 0
+2025-10-29 22:09:17,720 [INFO   ] --- [Historical Analyzer Finished] ---

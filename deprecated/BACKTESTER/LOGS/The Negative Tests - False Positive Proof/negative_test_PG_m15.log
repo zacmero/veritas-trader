@@ -1,0 +1,34 @@
+2025-10-30 22:16:55,872 [INFO   ] --- [Historical Analyzer Started for PG] ---
+2025-10-30 22:16:56,812 [INFO   ] Loaded 1510 data points for PG.
+2025-10-30 22:16:56,813 [INFO   ] Computing full CAC curve with m=15...
+2025-10-30 22:17:18,100 [INFO   ] Found 2 significant valleys in the CAC curve.
+2025-10-30 22:17:18,100 [INFO   ] 
+--- Analyzing Valley at 2018-08-15 (index 407) ---
+2025-10-30 22:17:18,102 [INFO   ]   [Filter 2] Valley at 2018-08-15: Slope Check (30d) = 0.0237
+2025-10-30 22:17:18,103 [INFO   ]   [Filter 2] Valley at 2018-08-15: Slope Check (60d) = 0.0885
+2025-10-30 22:17:18,104 [INFO   ]   [Filter 2] Valley at 2018-08-15: Slope Check (90d) = 0.1413
+2025-10-30 22:17:18,104 [INFO   ]   [Filter 2] 30-Day Growth Check: 1.17%
+2025-10-30 22:17:18,104 [INFO   ]   [Filter 2] FAILED. Growth of 1.17% < 10.0% threshold.
+2025-10-30 22:17:18,104 [INFO   ] 
+--- Analyzing Valley at 2019-01-09 (index 507) ---
+2025-10-30 22:17:18,105 [INFO   ]   [Filter 2] Valley at 2019-01-09: Slope Check (30d) = 0.3197
+2025-10-30 22:17:18,106 [INFO   ]   [Filter 2] Valley at 2019-01-09: Slope Check (60d) = 0.1855
+2025-10-30 22:17:18,107 [INFO   ]   [Filter 2] Valley at 2019-01-09: Slope Check (90d) = 0.1550
+2025-10-30 22:17:18,107 [INFO   ]   [Filter 2] 30-Day Growth Check: 10.58%
+2025-10-30 22:17:18,107 [INFO   ]   [Filter 2] PASSED. Growth of 10.58% >= 10.0% threshold.
+2025-10-30 22:17:18,728 [INFO   ]     [Filter 3] DNA Test vs 'DOGE-USD_m30_ramp': Distance = 3.8839
+2025-10-30 22:17:18,730 [INFO   ]     [Filter 3] DNA Test vs 'SSYS_m90_ramp': Distance = 7.6244
+2025-10-30 22:17:18,731 [INFO   ]     [Filter 3] DNA Test vs 'SHIB-USD_m30_ramp': Distance = 3.1269
+2025-10-30 22:17:18,733 [INFO   ]     [Filter 3] DNA Test vs 'CSCO_m90_ramp': Distance = 2.4012
+2025-10-30 22:17:18,735 [INFO   ]     [Filter 3] DNA Test vs 'GME_m90_ramp': Distance = 4.4751
+2025-10-30 22:17:18,737 [INFO   ]     [Filter 3] DNA Test vs 'IYR_m120_ramp': Distance = 1.8202
+2025-10-30 22:17:18,739 [INFO   ]     [Filter 3] DNA Test vs 'VWAGY_m15_ramp': Distance = 6.4668
+2025-10-30 22:17:18,740 [INFO   ]     [Filter 3] DNA Test vs 'AMC_m30_ramp': Distance = 2.5361
+2025-10-30 22:17:18,740 [INFO   ]     [Filter 3] PASSED. Best Match: 'IYR_m120_ramp' (Distance: 1.8202) <= Strict Threshold (2.75)
+2025-10-30 22:17:18,740 [INFO   ]     [Filter 3] PASSED. Best Match: 'IYR_m120_ramp' (Distance: 1.8202)
+2025-10-30 22:17:18,741 [INFO   ] 
+--- [Analysis Summary] ---
+2025-10-30 22:17:18,741 [INFO   ] Total Valleys Found: 2
+2025-10-30 22:17:18,741 [INFO   ] Valleys Passing Filter 2 (Qualification Test): 1
+2025-10-30 22:17:18,741 [INFO   ] Valleys Passing Filter 3 (DNA Test): 1
+2025-10-30 22:17:18,741 [INFO   ] --- [Historical Analyzer Finished] ---

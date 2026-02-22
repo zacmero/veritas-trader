@@ -1,0 +1,11 @@
+2025-11-06 20:49:23,808 [INFO   ] --- [Historical Analyzer Started for DUK] ---
+2025-11-06 20:49:24,749 [INFO   ] Loaded 1510 data points for DUK.
+2025-11-06 20:49:24,751 [INFO   ] Computing full CAC curve with m=30...
+2025-11-06 20:49:59,520 [INFO   ] Found 0 significant valleys in the CAC curve.
+2025-11-06 20:49:59,520 [INFO   ] 
+--- [Analysis Summary] ---
+2025-11-06 20:49:59,520 [INFO   ] Total Valleys Found: 0
+2025-11-06 20:49:59,521 [INFO   ] Valleys Passing Filter 2 (Intensity Test): 0
+2025-11-06 20:49:59,521 [INFO   ] Valleys Passing Filter 2.5 (Context Test): 0
+2025-11-06 20:49:59,521 [INFO   ] Valleys Passing Filter 3 (DNA Test): 0
+2025-11-06 20:49:59,521 [INFO   ] --- [Historical Analyzer Finished] ---

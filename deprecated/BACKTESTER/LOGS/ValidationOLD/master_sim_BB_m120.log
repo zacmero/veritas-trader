@@ -1,0 +1,13 @@
+2025-11-08 04:38:38,531 [INFO   ] --- [Trading Simulator v2.3 Started for BB] ---
+2025-11-08 04:38:38,533 [INFO   ] Loaded 8 archetypes.
+2025-11-08 04:38:39,002 [INFO   ] Loaded 1259 data points and pre-calculated ATR.
+2025-11-08 04:38:39,002 [INFO   ] Pre-calculating all CAC valleys with m=120...
+2025-11-08 04:39:04,755 [INFO   ] Found 0 potential entry dates.
+2025-11-08 04:39:05,291 [INFO   ] 
+
+============================================================
+2025-11-08 04:39:05,291 [INFO   ] --- [TRADING SIMULATION REPORT] ---
+2025-11-08 04:39:05,291 [INFO   ] ============================================================
+2025-11-08 04:39:05,291 [INFO   ] No trades were executed during the simulation period.
+2025-11-08 04:39:05,292 [INFO   ] ============================================================
+2025-11-08 04:39:05,292 [INFO   ] --- [Trading Simulator Finished] ---

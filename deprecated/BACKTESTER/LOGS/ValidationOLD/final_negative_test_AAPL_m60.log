@@ -1,0 +1,57 @@
+2025-11-07 00:28:15,331 [INFO   ] --- [Historical Analyzer Started for AAPL] ---
+2025-11-07 00:28:16,176 [INFO   ] Loaded 1510 data points for AAPL.
+2025-11-07 00:28:16,178 [INFO   ] Computing full CAC curve with m=60...
+2025-11-07 00:28:49,248 [INFO   ] Found 4 candidate valleys in the CAC curve.
+2025-11-07 00:28:49,248 [INFO   ] 
+--- Analyzing Valley at 2018-05-23 ---
+2025-11-07 00:28:49,248 [INFO   ]   [Filter 2] 30-Day Growth Check: -1.57%
+2025-11-07 00:28:49,248 [INFO   ]   [Filter 2] FAILED. Growth of -1.57% < 10.0% threshold.
+2025-11-07 00:28:49,248 [INFO   ] 
+--- Analyzing Valley at 2018-08-29 ---
+2025-11-07 00:28:49,249 [INFO   ]   [Filter 2] 30-Day Growth Check: -2.97%
+2025-11-07 00:28:49,249 [INFO   ]   [Filter 2] FAILED. Growth of -2.97% < 10.0% threshold.
+2025-11-07 00:28:49,249 [INFO   ] 
+--- Analyzing Valley at 2020-06-23 ---
+2025-11-07 00:28:49,249 [INFO   ]   [Filter 2] 30-Day Growth Check: 19.68%
+2025-11-07 00:28:49,249 [INFO   ]   [Filter 2] PASSED. Growth of 19.68% >= 10.0% threshold.
+2025-11-07 00:28:49,934 [INFO   ]     [Filter 3] DNA Test vs 'DOGE-USD_m30_ramp': Distance = 6.1726
+2025-11-07 00:28:49,936 [INFO   ]     [Filter 3] DNA Test vs 'SSYS_m90_ramp': Distance = 7.6883
+2025-11-07 00:28:49,937 [INFO   ]     [Filter 3] DNA Test vs 'SHIB-USD_m30_ramp': Distance = 5.7198
+2025-11-07 00:28:49,939 [INFO   ]     [Filter 3] DNA Test vs 'CSCO_m90_ramp': Distance = 5.1118
+2025-11-07 00:28:49,941 [INFO   ]     [Filter 3] DNA Test vs 'GME_m90_ramp': Distance = 4.4956
+2025-11-07 00:28:49,944 [INFO   ]     [Filter 3] DNA Test vs 'IYR_m120_ramp': Distance = 3.8130
+2025-11-07 00:28:49,945 [INFO   ]     [Filter 3] DNA Test vs 'VWAGY_m15_ramp': Distance = 5.1662
+2025-11-07 00:28:49,947 [INFO   ]     [Filter 3] DNA Test vs 'AMC_m30_ramp': Distance = 5.0422
+2025-11-07 00:28:49,947 [INFO   ]     [Filter 3] PASSED. Best Match: 'IYR_m120_ramp' (Loose Match) (Distance: 3.8130)
+2025-11-07 00:28:49,948 [INFO   ] 
+--- Analyzing Valley at 2021-06-11 ---
+2025-11-07 00:28:49,948 [INFO   ]   [Filter 2] 30-Day Growth Check: 16.65%
+2025-11-07 00:28:49,948 [INFO   ]   [Filter 2] PASSED. Growth of 16.65% >= 10.0% threshold.
+2025-11-07 00:28:49,949 [INFO   ]     [Filter 3] DNA Test vs 'DOGE-USD_m30_ramp': Distance = 3.6801
+2025-11-07 00:28:49,951 [INFO   ]     [Filter 3] DNA Test vs 'SSYS_m90_ramp': Distance = 7.5207
+2025-11-07 00:28:49,952 [INFO   ]     [Filter 3] DNA Test vs 'SHIB-USD_m30_ramp': Distance = 2.7502
+2025-11-07 00:28:49,953 [INFO   ]     [Filter 3] DNA Test vs 'CSCO_m90_ramp': Distance = 2.1760
+2025-11-07 00:28:49,954 [INFO   ]     [Filter 3] DNA Test vs 'GME_m90_ramp': Distance = 4.6464
+2025-11-07 00:28:49,956 [INFO   ]     [Filter 3] DNA Test vs 'IYR_m120_ramp': Distance = 2.1554
+2025-11-07 00:28:49,957 [INFO   ]     [Filter 3] DNA Test vs 'VWAGY_m15_ramp': Distance = 6.1867
+2025-11-07 00:28:49,959 [INFO   ]     [Filter 3] DNA Test vs 'AMC_m30_ramp': Distance = 2.9514
+2025-11-07 00:28:49,959 [INFO   ]     [Filter 3] PASSED. Best Match: 'IYR_m120_ramp' (Strict Match) (Distance: 2.1554)
+2025-11-07 00:28:49,959 [INFO   ] 
+
+============================================================
+2025-11-07 00:28:49,959 [INFO   ] --- [FINAL ANALYSIS REPORT] ---
+2025-11-07 00:28:49,959 [INFO   ] ============================================================
+2025-11-07 00:28:49,959 [INFO   ] Total Valleys Found: 4
+2025-11-07 00:28:49,960 [INFO   ] Valleys Passing Filter 2 (Growth > 10.0%): 2
+2025-11-07 00:28:49,960 [INFO   ] Total Alerts Generated (Passing Filter 3): 2
+2025-11-07 00:28:49,960 [INFO   ]   - Strict Matches: 1
+2025-11-07 00:28:49,960 [INFO   ]   - Loose Matches: 1
+2025-11-07 00:28:49,960 [INFO   ] 
+--- [ALERT DETAILS FOR NEWS SYSTEM] ---
+2025-11-07 00:28:49,965 [INFO   ] 
+| date       |   m_value |   growth_pct | best_match    |   distance | match_type   |
+|:-----------|----------:|-------------:|:--------------|-----------:|:-------------|
+| 2020-06-23 |        60 |      19.6792 | IYR_m120_ramp |    3.81299 | Loose        |
+| 2021-06-11 |        60 |      16.6549 | IYR_m120_ramp |    2.15538 | Strict       |
+2025-11-07 00:28:49,965 [INFO   ] ============================================================
+2025-11-07 00:28:49,965 [INFO   ] --- [Historical Analyzer Finished] ---

@@ -1,0 +1,41 @@
+2025-11-09 19:30:02,541 [INFO   ] --- [Trading Simulator v4.1 Started for NVAX] ---
+2025-11-09 19:30:02,548 [INFO   ] Loaded 14 archetypes.
+2025-11-09 19:30:03,401 [INFO   ] Loaded 1259 data points and pre-calculated ATR.
+2025-11-09 19:30:03,402 [INFO   ] Pre-calculating historical growth distribution for learning system...
+2025-11-09 19:30:03,403 [INFO   ] Pre-calculating all CAC valleys with m=90...
+2025-11-09 19:30:24,303 [INFO   ] Found 3 potential entry dates.
+2025-11-09 19:30:24,450 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2019-10-16 ---
+2025-11-09 19:30:24,450 [INFO   ]   [Filter 2] 30-Day Growth Check: -10.57%
+2025-11-09 19:30:24,451 [INFO   ]   [Filter 2] FAILED. Growth < 10.0%.
+2025-11-09 19:30:24,513 [INFO   ] 
+--- [F1 TRIGGER] Pre-calculated CAC Valley detected on 2020-05-27 ---
+2025-11-09 19:30:24,514 [INFO   ]   [Filter 2] 30-Day Growth Check: 159.38%
+2025-11-09 19:30:24,514 [INFO   ]   [Filter 2] PASSED.
+2025-11-09 19:30:25,268 [INFO   ]   [Filter 3] DNA Test Best Match: 'SOL_20210823_m10' (Distance: 2.3694)
+2025-11-09 19:30:25,269 [INFO   ]   [Filter 3] PASSED (Strict Match).
+2025-11-09 19:30:25,269 [INFO   ] 
+!!! BUY SIGNAL on 2020-05-27 at $45.47. Match: SOL_20210823_m10 (Strict), Dist: 2.37 !!!
+2025-11-09 19:30:25,269 [INFO   ]    Initial ATR Trailing Stop set at: $23.11
+
+2025-11-09 19:30:30,958 [INFO   ] 
+!!! SELL SIGNAL on 2020-08-12 at $124.42. Reason: ATR Trailing Stop. Profit: 173.63% !!!
+
+2025-11-09 19:30:30,958 [INFO   ] --- [LEARNING CHECK] Trade was >50.0% profitable. Ramp growth was 159.38% (97.40th percentile). ---
+2025-11-09 19:30:30,958 [INFO   ] --- [LEARNING] FAILED. Growth percentile < 98.0%. Not saving archetype. ---
+2025-11-09 19:30:25,043 [INFO   ] 
+
+============================================================
+2025-11-09 19:30:25,043 [INFO   ] --- [TRADING SIMULATION REPORT] ---
+2025-11-09 19:30:25,043 [INFO   ] ============================================================
+2025-11-09 19:30:25,044 [INFO   ] 
+--- [Trade Log] ---
+2025-11-09 19:30:25,049 [INFO   ] 
+| Entry Date   | Entry Price   | Exit Date   | Exit Price   | Exit Reason       | Profit %   |
+|:-------------|:--------------|:------------|:-------------|:------------------|:-----------|
+| 2020-05-27   | $45.47        | 2020-08-12  | $124.42      | ATR Trailing Stop | 173.63%    |
+2025-11-09 19:30:25,049 [INFO   ] 
+Total Trades: 1 | Win Rate: 100.00%
+2025-11-09 19:30:25,049 [INFO   ] Average Profit/Loss per Trade: 173.63%
+2025-11-09 19:30:25,049 [INFO   ] ============================================================
+2025-11-09 19:30:25,049 [INFO   ] --- [Trading Simulator Finished] ---
