@@ -15,7 +15,7 @@ from alpaca.trading.client import TradingClient
 from tabulate import tabulate
 from colorama import init, Fore, Style
 
-from utils import load_env_file
+from .utils import load_env_file
 
 init(autoreset=True)
 

@@ -12,8 +12,8 @@ and begin shorting the underlying stock to Delta-Hedge the position.
 import time
 from datetime import datetime, timedelta
 from colorama import init, Fore, Style
-from alpaca_executor import AlpacaExecutor
-from utils import load_env_file
+from .alpaca_executor import AlpacaExecutor
+from .utils import load_env_file
 from alpaca.trading.requests import GetOptionContractsRequest
 from alpaca.trading.enums import ContractType
 
@@ -73,9 +73,8 @@ def main():
     smallest_date_diff = float('inf')
 
     for contract in contracts.option_contracts:
-        # Alpaca returns expiration_date as string 'YYYY-MM-DD'
-        exp_date = datetime.strptime(contract.expiration_date, "%Y-%m-%d")
-        date_diff = abs((exp_date - target_date).days)
+        # Alpaca returns expiration_date as datetime.date
+        date_diff = abs((contract.expiration_date - target_date.date()).days)
         
         strike = float(contract.strike_price)
         price_diff = abs(strike - current_price)

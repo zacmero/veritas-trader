@@ -10,10 +10,10 @@ import time
 import re
 from datetime import datetime
 from colorama import init, Fore, Style
-from alpaca_executor import AlpacaExecutor
-from utils import load_env_file
-import prime_math
-import risk_manager
+from .alpaca_executor import AlpacaExecutor
+from .utils import load_env_file
+from . import prime_math
+from . import risk_manager
 
 init(autoreset=True)
 
