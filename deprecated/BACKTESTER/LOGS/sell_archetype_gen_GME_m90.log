@@ -1,6 +1,0 @@
-2025-11-17 22:42:02,709 [INFO   ] --- Generating SELL Archetype for: GME (m=90) ---
-2025-11-17 22:42:25,263 [INFO   ] --- SUCCESS: New SELL Archetype Created ---
-2025-11-17 22:42:25,264 [INFO   ]   Source: GME
-2025-11-17 22:42:25,264 [INFO   ]   Peak Date: 2021-01-27
-2025-11-17 22:42:25,264 [INFO   ]   Chart saved to: /home/zacmero/stock-bubble/BACKTESTER/../SELL_ARCHETYPE_LIBRARY/sell_GME_m90_top.png
-2025-11-17 22:42:25,264 [INFO   ]   Data saved to: /home/zacmero/stock-bubble/BACKTESTER/../SELL_ARCHETYPE_LIBRARY/sell_GME_m90_top.npy

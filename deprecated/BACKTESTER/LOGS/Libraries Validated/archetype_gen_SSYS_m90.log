@@ -1,6 +1,0 @@
-2025-10-29 23:04:38,000 [INFO   ] --- Generating Archetype for: SSYS (m=90) ---
-2025-10-29 23:05:09,819 [INFO   ] --- SUCCESS: New Archetype Created ---
-2025-10-29 23:05:09,819 [INFO   ]   Source: SSYS
-2025-10-29 23:05:09,819 [INFO   ]   Start Date: 2013-10-31
-2025-10-29 23:05:09,819 [INFO   ]   Chart saved to: ARCHETYPE_LIBRARY/SSYS_m90_ramp.png
-2025-10-29 23:05:09,819 [INFO   ]   Data saved to: ARCHETYPE_LIBRARY/SSYS_m90_ramp.npy

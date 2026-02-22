@@ -1,6 +1,0 @@
-2025-11-17 22:44:04,519 [INFO   ] --- Generating SELL Archetype for: BB (m=60) ---
-2025-11-17 22:44:31,381 [INFO   ] --- SUCCESS: New SELL Archetype Created ---
-2025-11-17 22:44:31,381 [INFO   ]   Source: BB
-2025-11-17 22:44:31,381 [INFO   ]   Peak Date: 2021-01-27
-2025-11-17 22:44:31,381 [INFO   ]   Chart saved to: /home/zacmero/stock-bubble/BACKTESTER/../SELL_ARCHETYPE_LIBRARY/sell_BB_m60_top.png
-2025-11-17 22:44:31,381 [INFO   ]   Data saved to: /home/zacmero/stock-bubble/BACKTESTER/../SELL_ARCHETYPE_LIBRARY/sell_BB_m60_top.npy

@@ -1,6 +1,0 @@
-2025-10-29 19:53:56,787 [INFO   ] --- Generating Archetype for: DOGE-USD (m=30) ---
-2025-10-29 19:54:20,348 [INFO   ] --- SUCCESS: New Archetype Created ---
-2025-10-29 19:54:20,348 [INFO   ]   Source: DOGE-USD
-2025-10-29 19:54:20,348 [INFO   ]   Start Date: 2022-03-15
-2025-10-29 19:54:20,349 [INFO   ]   Chart saved to: /home/zacmero/stock-bubble/BACKTESTER/../ARCHETYPE_LIBRARY/DOGE-USD_m30_ramp.png
-2025-10-29 19:54:20,349 [INFO   ]   Data saved to: /home/zacmero/stock-bubble/BACKTESTER/../ARCHETYPE_LIBRARY/DOGE-USD_m30_ramp.npy

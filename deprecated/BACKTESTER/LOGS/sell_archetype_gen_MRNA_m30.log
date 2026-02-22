@@ -1,6 +1,0 @@
-2025-11-17 22:43:54,731 [INFO   ] --- Generating SELL Archetype for: MRNA (m=30) ---
-2025-11-17 22:44:34,004 [INFO   ] --- SUCCESS: New SELL Archetype Created ---
-2025-11-17 22:44:34,004 [INFO   ]   Source: MRNA
-2025-11-17 22:44:34,004 [INFO   ]   Peak Date: 2021-08-09
-2025-11-17 22:44:34,004 [INFO   ]   Chart saved to: /home/zacmero/stock-bubble/BACKTESTER/../SELL_ARCHETYPE_LIBRARY/sell_MRNA_m30_top.png
-2025-11-17 22:44:34,004 [INFO   ]   Data saved to: /home/zacmero/stock-bubble/BACKTESTER/../SELL_ARCHETYPE_LIBRARY/sell_MRNA_m30_top.npy

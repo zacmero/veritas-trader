@@ -1,6 +1,0 @@
-2025-10-30 02:11:44,213 [INFO   ] --- Running White Box Diagnostic for PTON (m=15) on 2020-09-18 ---
-2025-10-30 02:12:08,641 [INFO   ] Historical Threshold (90.0%ile) calculated: -0.9358
-2025-10-30 02:12:08,641 [INFO   ] Recent CAC (last 15 days) values: [-1. -1. -1. -1. -1. -1. -1. -1. -1. -1. -1. -1. -1. -1. -1.]
-2025-10-30 02:12:08,641 [INFO   ] Peaks found in recent window (local indices): []
-2025-10-30 02:12:08,642 [WARNING] Trigger FAILED: No peaks found in the recent window.
-2025-10-30 02:12:08,918 [INFO   ] Diagnostic plot saved to: /home/zacmero/stock-bubble/BACKTESTER/LOGS/debug_plot_PTON_m15_on_2020-09-18.png

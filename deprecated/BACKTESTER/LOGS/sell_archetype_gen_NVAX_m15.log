@@ -1,6 +1,0 @@
-2025-11-17 22:43:32,299 [INFO   ] --- Generating SELL Archetype for: NVAX (m=15) ---
-2025-11-17 22:43:57,427 [INFO   ] --- SUCCESS: New SELL Archetype Created ---
-2025-11-17 22:43:57,427 [INFO   ]   Source: NVAX
-2025-11-17 22:43:57,427 [INFO   ]   Peak Date: 2021-02-08
-2025-11-17 22:43:57,427 [INFO   ]   Chart saved to: /home/zacmero/stock-bubble/BACKTESTER/../SELL_ARCHETYPE_LIBRARY/sell_NVAX_m15_top.png
-2025-11-17 22:43:57,427 [INFO   ]   Data saved to: /home/zacmero/stock-bubble/BACKTESTER/../SELL_ARCHETYPE_LIBRARY/sell_NVAX_m15_top.npy

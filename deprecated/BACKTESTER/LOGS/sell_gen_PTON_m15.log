@@ -1,5 +1,0 @@
-2025-11-21 19:26:19,713 [INFO   ] --- Generating SELL (Ramp Down) Archetype for: PTON ---
-2025-11-21 19:26:32,202 [INFO   ] Finding regime change to locate bubble context...
-2025-11-21 19:26:45,201 [INFO   ] --- SUCCESS: New SELL Archetype Created ---
-2025-11-21 19:26:45,202 [INFO   ]   Peak Date: 2021-01-13
-2025-11-21 19:26:45,202 [INFO   ]   Saved to: /home/zacmero/stock-bubble/BACKTESTER/../SELL_ARCHETYPE_LIBRARY_FINAL
