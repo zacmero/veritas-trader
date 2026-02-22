@@ -1,28 +1,28 @@
 # Core Data & Analysis:
 pandas
 numpy
-yfinance
-stumpy
-scikit-learn
+# yfinance           # Deprecated: We use Alpaca for live data now
+# stumpy             # Deprecated: Matrix Profile not used in Black-Scholes
+# scikit-learn       # Deprecated: No ML required for this math engine
 scipy
-matplotlib
-pytz #To handle Eastern Time accurately.
+# matplotlib         # Deprecated: No charting needed for the daemon
+pytz                 # Required: To handle Eastern Time accurately
 
 # News System Dependencies:
-finnhub-python
-gnews
-# pysentimiento (deprecated)
+# finnhub-python     # Deprecated: No sentiment analysis needed
+# gnews              # Deprecated: No sentiment analysis needed
+# pysentimiento      # Deprecated
 python-dateutil
-seaborn
-tqdm
+# seaborn            # Deprecated: No charting needed
+# tqdm               # Deprecated: No long historical loops needing progress bars
 colorama
-tabulate
+tabulate             # Required: For formatting the investment report
 
 # IBKR Connection:
-# ib_insync(not using IBKR right now)
+# ib_insync          # Not using IBKR right now
 
 # Webull Connection:
-# webull
+# webull             # Not using Webull right now
 
-#Alpaca Connection:
+# Alpaca Connection:
 alpaca-py

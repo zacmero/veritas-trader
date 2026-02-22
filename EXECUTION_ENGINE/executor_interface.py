@@ -35,6 +35,11 @@ class OrderExecutor(ABC):
         pass
 
     @abstractmethod
+    def place_market_buy(self, ticker, quantity):
+        """Executes an immediate market buy for the specified quantity."""
+        pass
+
+    @abstractmethod
     def cancel_all_orders(self, ticker):
         """Cancels all open orders (Limit/Stop) for a specific ticker."""
         pass

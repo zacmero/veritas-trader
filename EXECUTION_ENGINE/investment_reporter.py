@@ -1,22 +1,61 @@
+"""
+Veritas Trader - Investment Reporter (The Accountant)
+-----------------------------------------------------
+Reconstructs Trade History using FIFO matching, supporting both
+Long and Short positions, and handles Options Multipliers (x100).
+Aggregates daily hedging trades to keep the report clean.
+Outputs a formatted report using tabulate and colorama.
+"""
+
 import os
-import pandas as pd
 import re
-from datetime import datetime, timedelta
+import pandas as pd
+from datetime import datetime
 from alpaca.trading.client import TradingClient
-from alpaca.trading.enums import OrderSide
-from .utils import load_env_file
+from tabulate import tabulate
 from colorama import init, Fore, Style
+
+from utils import load_env_file
 
 init(autoreset=True)
 
 BASE_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPORT_FILE = os.path.join(BASE_PATH, "EXECUTION_ENGINE", "investment_report.txt")
-PORTFOLIO_FILE = os.path.join(BASE_PATH, "EXECUTION_ENGINE", "portfolio.csv")
 HISTORY_FILE = os.path.join(BASE_PATH, "EXECUTION_ENGINE", "trade_history.csv")
+
+def parse_occ_symbol(occ_symbol: str) -> dict:
+    """Parses a standard OCC option symbol into its components."""
+    match = re.match(r'^([A-Z]{1,6})(\d{6})([CP])(\d{8})$', occ_symbol)
+    if not match:
+        return None
+        
+    ticker = match.group(1)
+    date_str = match.group(2)
+    opt_type_str = match.group(3)
+    strike_str = match.group(4)
+    
+    expiry_date = datetime.strptime(date_str, "%y%m%d")
+    opt_type = "Call" if opt_type_str == 'C' else "Put"
+    strike_price = float(strike_str) / 1000.0
+    
+    return {
+        "underlying": ticker,
+        "expiry": expiry_date,
+        "type": opt_type,
+        "strike": strike_price
+    }
+
+def format_symbol(symbol: str) -> str:
+    """Converts OCC symbol to human readable format, or returns stock ticker."""
+    occ_data = parse_occ_symbol(symbol)
+    if occ_data:
+        date_fmt = occ_data["expiry"].strftime("%m/%d")
+        return f"{occ_data['underlying']} ${occ_data['strike']:g} {occ_data['type']} ({date_fmt})"
+    return symbol
 
 def main():
     load_env_file()
-    print(f"{Fore.CYAN}--- [INVESTMENT REPORT GENERATOR (Grand Auditor)] ---")
+    print(f"{Fore.CYAN}--- [INVESTMENT REPORT GENERATOR (Grand Auditor)] ---{Style.RESET_ALL}")
     
     api_key = os.getenv("ALPACA_API_KEY")
     secret_key = os.getenv("ALPACA_SECRET_KEY")
@@ -25,10 +64,9 @@ def main():
         client = TradingClient(api_key, secret_key, paper=True)
         account = client.get_account()
         
-        # --- 1. REBUILD/RECONCILE TRADE HISTORY FROM ALPACA --- 
         print(f"{Fore.YELLOW}Reconciling trade history from Alpaca...{Style.RESET_ALL}")
         
-        # Fetch ALL FILLS
+        # 1. Fetch Fills
         all_activities = []
         page_token = None
         while True:
@@ -39,6 +77,7 @@ def main():
             }
             if page_token: params['page_token'] = page_token
             
+            # Use raw request as SDK might lack some parameters in the helper methods
             activities = client.get("/account/activities", params)
             if not activities: break
                 
@@ -58,95 +97,92 @@ def main():
             side = act.get('side')
             qty = float(act.get('qty'))
             price = float(act.get('price'))
-            time = act.get('transaction_time', '').split('.')[0].replace('T', ' ')
+            time_str = act.get('transaction_time', '').split('.')[0].replace('T', ' ')
             
-            if symbol not in inventory: inventory[symbol] = []
+            is_option = parse_occ_symbol(symbol) is not None
+            multiplier = 100.0 if is_option else 1.0
             
-            if side == 'buy':
-                inventory[symbol].append({'qty': qty, 'price': price})
-            elif side == 'sell':
-                shares_to_sell = qty
-                cost_basis = 0.0
-                matched_qty = 0.0
+            if symbol not in inventory:
+                inventory[symbol] = []
                 
-                while shares_to_sell > 0.0001 and inventory[symbol]:
-                    buy_batch = inventory[symbol][0]
-                    if buy_batch['qty'] <= shares_to_sell:
-                        cost_basis += buy_batch['qty'] * buy_batch['price']
-                        matched_qty += buy_batch['qty']
-                        shares_to_sell -= buy_batch['qty']
-                        inventory[symbol].pop(0)
-                    else:
-                        cost_basis += shares_to_sell * buy_batch['price']
-                        matched_qty += shares_to_sell
-                        buy_batch['qty'] -= shares_to_sell
-                        shares_to_sell = 0
+            shares_to_match = qty
+            cost_basis = 0.0
+            matched_qty = 0.0
+            
+            while shares_to_match > 0.0001 and inventory[symbol] and inventory[symbol][0]['side'] != side:
+                opp_batch = inventory[symbol][0]
+                match_amount = min(shares_to_match, opp_batch['qty'])
                 
-                if matched_qty > 0:
-                    avg_entry = cost_basis / matched_qty
-                    pl_dollars = (price - avg_entry) * matched_qty
-                    pl_percent = ((price - avg_entry) / avg_entry) * 100
-                    ledger.append({
-                        'Ticker': symbol,
-                        'ExitDate': time,
-                        'EntryPrice': round(avg_entry, 2),
-                        'ExitPrice': round(price, 2),
-                        'Qty': matched_qty,
-                        'PL_Dollars': round(pl_dollars, 2),
-                        'PL_Percent': round(pl_percent, 2),
-                        'ExitReason': "Alpaca Fill",
-                        'M_List': "N/A"
-                    })
+                cost_basis += match_amount * opp_batch['price']
+                matched_qty += match_amount
                 
-                if shares_to_sell > 0.0001:
-                    ledger.append({
-                        'Ticker': symbol,
-                        'ExitDate': time,
-                        'EntryPrice': "N/A",
-                        'ExitPrice': round(price, 2),
-                        'Qty': shares_to_sell,
-                        'PL_Dollars': round(shares_to_sell * price, 2), # Gross Proceeds
-                        'PL_Percent': "N/A",
-                        'ExitReason': "Alpaca Fill (Unmatched)",
-                        'M_List': "N/A"
-                    })
+                opp_batch['qty'] -= match_amount
+                shares_to_match -= match_amount
+                
+                if opp_batch['qty'] <= 0.0001:
+                    inventory[symbol].pop(0)
+                    
+            if matched_qty > 0:
+                avg_entry = cost_basis / matched_qty
+                
+                if side == 'sell': # Closing a LONG
+                    pl_dollars = (price - avg_entry) * matched_qty * multiplier
+                    pl_percent = ((price - avg_entry) / avg_entry) * 100 if avg_entry > 0 else 0
+                    trade_type = "Long"
+                else: # Closing a SHORT (side == 'buy')
+                    pl_dollars = (avg_entry - price) * matched_qty * multiplier
+                    pl_percent = ((avg_entry - price) / avg_entry) * 100 if avg_entry > 0 else 0
+                    trade_type = "Short"
+                    
+                ledger.append({
+                    'Ticker': symbol,
+                    'ReadableSymbol': format_symbol(symbol),
+                    'Type': trade_type,
+                    'ExitDate': time_str,
+                    'EntryPrice': avg_entry,
+                    'ExitPrice': price,
+                    'Qty': matched_qty,
+                    'PL_Dollars': pl_dollars,
+                    'PL_Percent': pl_percent,
+                    'IsOption': is_option
+                })
+                
+            if shares_to_match > 0.0001:
+                inventory[symbol].append({'side': side, 'qty': shares_to_match, 'price': price})
 
         df_ledger = pd.DataFrame(ledger)
         
-        # 3. AGGREGATION LOGIC
+        # 3. AGGREGATION LOGIC (Aggregate by Ticker, Date, and Type)
         if not df_ledger.empty:
             df_ledger['ExitDateObj'] = pd.to_datetime(df_ledger['ExitDate'])
             df_ledger['Day'] = df_ledger['ExitDateObj'].dt.floor('D') 
-            df_ledger['IsUnmatched'] = df_ledger['EntryPrice'] == "N/A"
             
-            def aggregate_trades(x):
-                total_qty = x['Qty'].sum()
-                avg_exit = (x['ExitPrice'] * x['Qty']).sum() / total_qty
+            agg_list = []
+            for name, group in df_ledger.groupby(['Ticker', 'Day', 'Type']):
+                total_qty = group['Qty'].sum()
+                # Weighted averages
+                avg_entry = (group['EntryPrice'] * group['Qty']).sum() / total_qty
+                avg_exit = (group['ExitPrice'] * group['Qty']).sum() / total_qty
+                total_pl = group['PL_Dollars'].sum()
                 
-                is_unmatched = x.name[2]
-                
-                if is_unmatched:
-                    avg_entry = "N/A"
-                    total_pl = x['PL_Dollars'].sum()
-                    pl_pct = "N/A"
+                if name[2] == 'Long':
+                    pl_pct = ((avg_exit - avg_entry) / avg_entry) * 100 if avg_entry > 0 else 0
                 else:
-                    avg_entry = (x['EntryPrice'] * x['Qty']).sum() / total_qty
-                    total_pl = x['PL_Dollars'].sum()
-                    pl_pct = ((avg_exit - avg_entry) / avg_entry) * 100
-                
-                return pd.Series({
-                    'EntryPrice': round(avg_entry, 2) if avg_entry != "N/A" else "N/A",
-                    'ExitPrice': round(avg_exit, 2),
+                    pl_pct = ((avg_entry - avg_exit) / avg_entry) * 100 if avg_entry > 0 else 0
+                    
+                agg_list.append({
+                    'Ticker': name[0],
+                    'ReadableSymbol': format_symbol(name[0]),
+                    'Type': name[2],
+                    'EntryPrice': avg_entry,
+                    'ExitPrice': avg_exit,
                     'Qty': total_qty,
-                    'PL_Dollars': round(total_pl, 2),
-                    'PL_Percent': round(pl_pct, 2) if pl_pct != "N/A" else "N/A",
-                    'ExitDate': x['ExitDate'].max(),
-                    'ExitReason': x['ExitReason'].iloc[0],
-                    'Ticker': x.name[0] # Retrieve from grouping key
+                    'PL_Dollars': total_pl,
+                    'PL_Percent': pl_pct,
+                    'ExitDate': group['ExitDate'].max()
                 })
-
-            df_agg = df_ledger.groupby(['Ticker', 'Day', 'IsUnmatched']).apply(aggregate_trades).reset_index(drop=True)
-            
+                
+            df_agg = pd.DataFrame(agg_list)
             df_agg.sort_values(by='ExitDate', ascending=False, inplace=True)
             df_agg.to_csv(HISTORY_FILE, index=False)
             print(f"Ledger aggregated: {len(df_agg)} trades (condensed from {len(df_ledger)} fills).")
@@ -156,13 +192,6 @@ def main():
 
         # --- REPORTING ---
         positions = client.get_all_positions()
-        portfolio_map = {}
-        if os.path.exists(PORTFOLIO_FILE):
-            try:
-                pf_df = pd.read_csv(PORTFOLIO_FILE)
-                for _, row in pf_df.iterrows():
-                    portfolio_map[row['Ticker']] = row.get('M_List', 'N/A')
-            except: pass
 
         start_equity = float(account.last_equity)
         current_equity = float(account.equity)
@@ -174,79 +203,94 @@ def main():
         total_trades = 0
         
         if not full_ledger.empty:
-            valid_trades = full_ledger[full_ledger['PL_Percent'] != 'N/A']
-            if not valid_trades.empty:
-                lifetime_pl = valid_trades['PL_Dollars'].sum()
-                wins = len(valid_trades[valid_trades['PL_Dollars'] > 0])
-                total_trades = len(valid_trades)
-                win_rate = (wins / total_trades) * 100.0
+            lifetime_pl = full_ledger['PL_Dollars'].sum()
+            wins = len(full_ledger[full_ledger['PL_Dollars'] > 0])
+            total_trades = len(full_ledger)
+            win_rate = (wins / total_trades) * 100.0 if total_trades > 0 else 0.0
 
-        report = f"""
-============================================================
-              ALGORITHMIC TRADING REPORT
-============================================================
-Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
-Account ID:     {account.account_number}
-Status:         {account.status}
-Buying Power:   ${float(account.buying_power):,.2f}
-Equity:         ${current_equity:,.2f}
-------------------------------------------------------------
-DAY P/L:        ${day_pl:,.2f} ({day_pl_pct:+.2f}%)
-LIFETIME P/L:   ${lifetime_pl:,.2f} (Realized - Verified)
-WIN RATE:       {win_rate:.1f}% ({total_trades} Verified Trades)
-============================================================
+        # Header
+        report = []
+        report.append("============================================================")
+        report.append("              VERITAS TRADER: ALGORITHMIC REPORT            ")
+        report.append("============================================================")
+        report.append(f"Date:           {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        report.append(f"Account ID:     {account.account_number}")
+        report.append(f"Status:         {account.status}")
+        report.append(f"Buying Power:   ${float(account.buying_power):,.2f}")
+        report.append(f"Equity:         ${current_equity:,.2f}")
+        report.append("------------------------------------------------------------")
+        
+        c_day = Fore.GREEN if day_pl >= 0 else Fore.RED
+        report.append(f"DAY P/L:        {c_day}${day_pl:,.2f} ({day_pl_pct:+.2f}%){Style.RESET_ALL}")
+        
+        c_life = Fore.GREEN if lifetime_pl >= 0 else Fore.RED
+        report.append(f"LIFETIME P/L:   {c_life}${lifetime_pl:,.2f}{Style.RESET_ALL} (Realized)")
+        report.append(f"WIN RATE:       {win_rate:.1f}% ({total_trades} Verified Trades)")
+        report.append("============================================================\n")
 
---- [OPEN POSITIONS (Active)] ---
-{'Symbol':<6} | {'M':<8} | {'Qty':<8} | {'Entry':<8} | {'Current':<8} | {'P/L %'}
-{'--'*40}
-"""
-        if not positions: report += "No open positions.\n"
+        # Open Positions
+        report.append("--- [OPEN POSITIONS (Active)] ---")
+        pos_table = []
+        if not positions:
+            report.append("No open positions.\n")
         else:
             for p in positions:
+                sym_fmt = format_symbol(p.symbol)
+                qty = float(p.qty)
+                pos_type = "Long" if qty > 0 else "Short"
+                entry_p = float(p.avg_entry_price)
+                curr_p = float(p.current_price)
                 pl_pct = float(p.unrealized_plpc) * 100
-                c = Fore.GREEN if pl_pct > 0 else Fore.RED
-                m_val = str(portfolio_map.get(p.symbol, "?"))
-                report += f"{p.symbol:<6} | {m_val:<8} | {float(p.qty):<8} | ${float(p.avg_entry_price):<7.2f} | ${float(p.current_price):<7.2f} | {c}{pl_pct:+.2f}%{Style.RESET_ALL}\n"
+                
+                # Alpaca provides unrealized_pl which already includes multipliers for options
+                pl_dollars = float(p.unrealized_pl)
+                
+                c = Fore.GREEN if pl_pct >= 0 else Fore.RED
+                pl_str = f"{c}{pl_pct:+.2f}%{Style.RESET_ALL}"
+                
+                pos_table.append([
+                    sym_fmt, pos_type, abs(qty), f"${entry_p:.2f}", f"${curr_p:.2f}", 
+                    f"{c}${pl_dollars:.2f}{Style.RESET_ALL}", pl_str
+                ])
+                
+            report.append(tabulate(pos_table, headers=["Symbol", "Type", "Qty", "Entry", "Current", "P/L $", "P/L %"], tablefmt="simple"))
+            report.append("\n")
 
-        report += "\n--- [CLOSED TRADES (FIFO - Daily Aggregated)] ---\n"
-        report += f"{'Symbol':<6} | {'Entry':<8} | {'Exit':<8} | {'Qty':<8} | {'P/L $':<10} | {'P/L %':<8} | {'Time'}\n"
-        report += f"{'--'*42}\n"
-        
+        # Closed Trades
+        report.append("--- [CLOSED TRADES (FIFO - Daily Aggregated)] ---")
+        trd_table = []
         if not full_ledger.empty:
-            full_ledger_sorted = full_ledger.sort_values(by='Ticker')
-            for _, row in full_ledger_sorted.iterrows():
-                pl_d = row['PL_Dollars']
-                pl_pct_val = row['PL_Percent']
-                exit_time = str(row['ExitDate'])
+            for _, row in full_ledger.iterrows():
+                pl_d = float(row['PL_Dollars'])
+                pl_p = float(row['PL_Percent'])
                 
-                is_gross = (pl_pct_val == 'N/A')
+                c = Fore.GREEN if pl_d >= 0 else Fore.RED
+                pl_d_str = f"{c}${pl_d:,.2f}{Style.RESET_ALL}"
+                pl_p_str = f"{c}{pl_p:+.2f}%{Style.RESET_ALL}"
                 
-                try:
-                    pl_dol_f = float(pl_d)
-                    if is_gross:
-                        c = Fore.BLUE 
-                        pl_str = f"${pl_dol_f:.2f} (Val)"
-                        pct_str = "N/A"
-                    else:
-                        c = Fore.GREEN if pl_dol_f > 0 else Fore.RED
-                        pl_str = f"${pl_dol_f:.2f}"
-                        pct_str = f"{float(pl_pct_val):+.2f}%"
-                except:
-                    c = Fore.WHITE
-                    pl_str = str(pl_d)
-                    pct_str = str(pl_pct_val)
-
-                report += f"{row['Ticker']:<6} | {str(row['EntryPrice']):<8} | ${row['ExitPrice']:<8} | {float(row['Qty']):<8.2f} | {c}{pl_str:<10}{Style.RESET_ALL} | {c}{pct_str:<8}{Style.RESET_ALL} | {exit_time}\n"
+                # Truncate time to just date and hour/min for cleaner look
+                trd_time = row['ExitDate'][:16] 
+                
+                trd_table.append([
+                    row['ReadableSymbol'], row['Type'], f"${row['EntryPrice']:.2f}", f"${row['ExitPrice']:.2f}", 
+                    f"{row['Qty']:.2f}", pl_d_str, pl_p_str, trd_time
+                ])
+                
+            report.append(tabulate(trd_table, headers=["Symbol", "Type", "Entry", "Exit", "Qty", "P/L $", "P/L %", "Time"], tablefmt="simple"))
+            report.append("\n")
         else:
-            report += "No closed trades.\n"
+            report.append("No closed trades.\n")
 
-        print(report)
+        final_output = "\n".join(report)
+        print(final_output)
         
-        clean = re.compile(r'\x1B(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~])').sub('', report)
-        with open(REPORT_FILE, "w") as f: f.write(clean)
+        # Save clean version without ANSI colors to file
+        clean = re.compile(r'\x1B(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~])').sub('', final_output)
+        with open(REPORT_FILE, "w") as f:
+            f.write(clean)
 
     except Exception as e:
-        print(f"Error: {e}")
+        print(f"{Fore.RED}Report Error: {e}{Style.RESET_ALL}")
 
 if __name__ == "__main__":
     main()

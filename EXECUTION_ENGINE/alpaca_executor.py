@@ -2,8 +2,8 @@ from .executor_interface import OrderExecutor
 from alpaca.trading.client import TradingClient
 from alpaca.trading.requests import MarketOrderRequest, LimitOrderRequest, StopOrderRequest, GetOrdersRequest
 from alpaca.trading.enums import OrderSide, TimeInForce, QueryOrderStatus
-from alpaca.data.historical import StockHistoricalDataClient
-from alpaca.data.requests import StockLatestQuoteRequest, StockLatestTradeRequest
+from alpaca.data.historical import StockHistoricalDataClient, OptionHistoricalDataClient
+from alpaca.data.requests import StockLatestQuoteRequest, StockLatestTradeRequest, OptionLatestQuoteRequest
 import os
 import math
 from datetime import datetime, time as dtime
@@ -29,6 +29,7 @@ class AlpacaExecutor(OrderExecutor):
         try:
             self.trading_client = TradingClient(self.api_key, self.secret_key, paper=self.paper)
             self.data_client = StockHistoricalDataClient(self.api_key, self.secret_key)
+            self.option_data_client = OptionHistoricalDataClient(self.api_key, self.secret_key)
             
             account = self.trading_client.get_account()
             print(f"Connected. Status: {account.status}")
@@ -46,6 +47,16 @@ class AlpacaExecutor(OrderExecutor):
 
     def get_current_price(self, ticker):
         try:
+            # 1. Handle Options (OCC Symbols are > 10 chars)
+            if len(ticker) > 10:
+                req = OptionLatestQuoteRequest(symbol_or_symbols=ticker)
+                res = self.option_data_client.get_option_latest_quote(req)
+                price = float(res[ticker].ask_price)
+                if price == 0:
+                    price = float(res[ticker].bid_price)
+                return price
+
+            # 2. Handle Stocks
             # Paper account requires feed='iex'
             req = StockLatestQuoteRequest(symbol_or_symbols=ticker, feed='iex')
             res = self.data_client.get_stock_latest_quote(req)
@@ -149,6 +160,30 @@ class AlpacaExecutor(OrderExecutor):
             
             print(f"Buy Failed: {e}")
             return None
+
+    def place_market_buy(self, ticker, quantity):
+        """
+        Places a simple Market Buy using QUANTITY.
+        Returns (True, price) on success, (False, 0.0) on failure.
+        """
+        print(f"EXECUTING MARKET BUY: {quantity} shares of {ticker}")
+        
+        try:
+            req = MarketOrderRequest(
+                symbol=ticker,
+                qty=quantity,
+                side=OrderSide.BUY,
+                time_in_force=TimeInForce.DAY
+            )
+            order = self.trading_client.submit_order(req)
+            print(f"Market Buy Order Sent. ID: {order.id}")
+            
+            # Fetch price for reporting (approximate)
+            price = self.get_current_price(ticker) or 0.0
+            return True, price
+        except Exception as e:
+            print(f"Market Buy Failed: {e}")
+            return False, 0.0
 
     # --- SMART EXIT LOGIC (Extended Hours) ---
 
