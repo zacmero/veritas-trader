@@ -1,0 +1,24 @@
+2026-01-06 00:53:43,931 [INFO   ] --- [Quick Strike Scanner v5.1 Started for VOYG] ---
+2026-01-06 00:53:44,630 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-06 00:54:10,440 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-31 at $26.14 !!!
+2026-01-06 00:54:10,440 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 6.43%) | Profit: 3.21% !!!
+2026-01-06 00:54:10,473 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-05 at $28.48 !!!
+2026-01-06 00:54:10,474 [INFO   ] 
+============================================================
+2026-01-06 00:54:10,474 [INFO   ] Total Trades: 1 | Win Rate: 100.00% | Avg P/L: 3.21%
+2026-01-06 00:54:10,474 [INFO   ] [36mSimulated Account ($10k start): $10,321.35 (Total Return: 3.21%)
+2026-01-06 00:54:10,479 [INFO   ] 
+| entry_date          | exit_date           | match_name          | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:--------------------|:---------------------------------|-------------:|
+| 2025-12-31 00:00:00 | 2026-01-02 00:00:00 | C_NVAX_20200427_m15 | Retracement Stop (Max Up: 6.43%) |      3.21347 |
+2026-01-06 00:54:10,479 [INFO   ] 
+============================================================
+2026-01-06 00:54:10,479 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-06 00:54:10,479 [INFO   ] ============================================================
+2026-01-06 00:54:10,479 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-06 00:54:10,479 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-06 00:54:10,479 [INFO   ] Entry Date: 2026-01-05
+2026-01-06 00:54:10,479 [INFO   ] Entry Price: $28.48
+2026-01-06 00:54:10,480 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-06 00:54:10,480 [INFO   ] Renaming log file to indicate active trade...

@@ -1,0 +1,28 @@
+# Core Data & Analysis:
+pandas
+numpy
+yfinance
+stumpy
+scikit-learn
+scipy
+matplotlib
+pytz #To handle Eastern Time accurately.
+
+# News System Dependencies:
+finnhub-python
+gnews
+# pysentimiento (deprecated)
+python-dateutil
+seaborn
+tqdm
+colorama
+tabulate
+
+# IBKR Connection:
+# ib_insync(not using IBKR right now)
+
+# Webull Connection:
+# webull
+
+#Alpaca Connection:
+alpaca-py

@@ -1,0 +1,24 @@
+2026-01-05 21:08:51,630 [INFO   ] --- [Quick Strike Scanner v5.1 Started for SDRL] ---
+2026-01-05 21:08:52,921 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 21:09:26,853 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-31 at $34.60 !!!
+2026-01-05 21:09:26,853 [INFO   ] [32m!!! SELL: Break Even Stop | Profit: 0.00% !!!
+2026-01-05 21:09:26,972 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-05 at $34.04 !!!
+2026-01-05 21:09:26,972 [INFO   ] 
+============================================================
+2026-01-05 21:09:26,972 [INFO   ] Total Trades: 1 | Win Rate: 0.00% | Avg P/L: 0.00%
+2026-01-05 21:09:26,972 [INFO   ] [36mSimulated Account ($10k start): $10,000.00 (Total Return: 0.00%)
+2026-01-05 21:09:26,978 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason     |   profit_pct |
+|:--------------------|:--------------------|:----------------|:----------------|-------------:|
+| 2025-12-31 00:00:00 | 2026-01-02 00:00:00 | L_IYR_m120_ramp | Break Even Stop |            0 |
+2026-01-05 21:09:26,978 [INFO   ] 
+============================================================
+2026-01-05 21:09:26,978 [INFO   ] [31m[1m--- [STRATEGY VERDICT: BLACK SHEEP] ---
+2026-01-05 21:09:26,978 [INFO   ] ============================================================
+2026-01-05 21:09:26,978 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 21:09:26,978 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 21:09:26,978 [INFO   ] Entry Date: 2026-01-05
+2026-01-05 21:09:26,978 [INFO   ] Entry Price: $34.04
+2026-01-05 21:09:26,978 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 21:09:26,978 [INFO   ] Renaming log file to indicate active trade...

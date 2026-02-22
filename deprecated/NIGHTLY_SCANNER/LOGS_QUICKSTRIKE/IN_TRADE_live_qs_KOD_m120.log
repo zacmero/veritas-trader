@@ -1,0 +1,24 @@
+2026-01-05 14:08:54,968 [INFO   ] --- [Quick Strike Scanner v5.1 Started for KOD] ---
+2026-01-05 14:08:55,501 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 14:09:30,184 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-30 at $27.95 !!!
+2026-01-05 14:09:30,185 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 3.90%) | Profit: 1.95% !!!
+2026-01-05 14:09:30,234 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-02 at $26.02 !!!
+2026-01-05 14:09:30,235 [INFO   ] 
+============================================================
+2026-01-05 14:09:30,235 [INFO   ] Total Trades: 1 | Win Rate: 100.00% | Avg P/L: 1.95%
+2026-01-05 14:09:30,235 [INFO   ] [36mSimulated Account ($10k start): $10,194.99 (Total Return: 1.95%)
+2026-01-05 14:09:30,241 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:----------------|:---------------------------------|-------------:|
+| 2025-12-30 00:00:00 | 2025-12-31 00:00:00 | L_CSCO_m90_ramp | Retracement Stop (Max Up: 3.90%) |      1.94991 |
+2026-01-05 14:09:30,241 [INFO   ] 
+============================================================
+2026-01-05 14:09:30,242 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 14:09:30,242 [INFO   ] ============================================================
+2026-01-05 14:09:30,242 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 14:09:30,242 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 14:09:30,242 [INFO   ] Entry Date: 2026-01-02
+2026-01-05 14:09:30,242 [INFO   ] Entry Price: $26.02
+2026-01-05 14:09:30,242 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 14:09:30,242 [INFO   ] Renaming log file to indicate active trade...

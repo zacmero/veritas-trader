@@ -1,0 +1,24 @@
+2026-01-05 19:21:42,886 [INFO   ] --- [Quick Strike Scanner v5.1 Started for PRLD] ---
+2026-01-05 19:21:43,817 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 19:22:17,528 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-31 at $2.90 !!!
+2026-01-05 19:22:17,528 [INFO   ] [31m!!! SELL: Stop Loss (-5.0%) | Profit: -5.00% !!!
+2026-01-05 19:22:17,572 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-05 at $2.43 !!!
+2026-01-05 19:22:17,572 [INFO   ] 
+============================================================
+2026-01-05 19:22:17,572 [INFO   ] Total Trades: 1 | Win Rate: 0.00% | Avg P/L: -5.00%
+2026-01-05 19:22:17,572 [INFO   ] [36mSimulated Account ($10k start): $9,500.00 (Total Return: -5.00%)
+2026-01-05 19:22:17,578 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason       |   profit_pct |
+|:--------------------|:--------------------|:----------------|:------------------|-------------:|
+| 2025-12-31 00:00:00 | 2026-01-02 00:00:00 | L_IYR_m120_ramp | Stop Loss (-5.0%) |           -5 |
+2026-01-05 19:22:17,579 [INFO   ] 
+============================================================
+2026-01-05 19:22:17,579 [INFO   ] [31m[1m--- [STRATEGY VERDICT: BLACK SHEEP] ---
+2026-01-05 19:22:17,579 [INFO   ] ============================================================
+2026-01-05 19:22:17,579 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 19:22:17,579 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 19:22:17,579 [INFO   ] Entry Date: 2026-01-05
+2026-01-05 19:22:17,579 [INFO   ] Entry Price: $2.43
+2026-01-05 19:22:17,579 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 19:22:17,579 [INFO   ] Renaming log file to indicate active trade...

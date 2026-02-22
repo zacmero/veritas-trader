@@ -1,0 +1,24 @@
+2026-01-05 02:28:36,949 [INFO   ] --- [Quick Strike Scanner v5.1 Started for AEO] ---
+2026-01-05 02:28:38,316 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 02:29:10,236 [INFO   ] [32m!!! BUY SIGNAL on 2021-04-16 at $30.28 !!!
+2026-01-05 02:29:10,236 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 3.74%) | Profit: 1.87% !!!
+2026-01-05 02:29:10,398 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-30 at $26.69 !!!
+2026-01-05 02:29:10,398 [INFO   ] 
+============================================================
+2026-01-05 02:29:10,398 [INFO   ] Total Trades: 1 | Win Rate: 100.00% | Avg P/L: 1.87%
+2026-01-05 02:29:10,398 [INFO   ] [36mSimulated Account ($10k start): $10,187.06 (Total Return: 1.87%)
+2026-01-05 02:29:10,410 [INFO   ] 
+| entry_date          | exit_date           | match_name         | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:-------------------|:---------------------------------|-------------:|
+| 2021-04-16 00:00:00 | 2021-04-19 00:00:00 | C_ETH_20201209_m10 | Retracement Stop (Max Up: 3.74%) |      1.87064 |
+2026-01-05 02:29:10,410 [INFO   ] 
+============================================================
+2026-01-05 02:29:10,410 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 02:29:10,410 [INFO   ] ============================================================
+2026-01-05 02:29:10,410 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 02:29:10,410 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 02:29:10,410 [INFO   ] Entry Date: 2025-12-30
+2026-01-05 02:29:10,410 [INFO   ] Entry Price: $26.69
+2026-01-05 02:29:10,410 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 02:29:10,410 [INFO   ] Renaming log file to indicate active trade...

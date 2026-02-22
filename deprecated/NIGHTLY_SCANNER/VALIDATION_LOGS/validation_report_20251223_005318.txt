@@ -1,0 +1,501 @@
+--- [TRUE PROFIT VALIDATOR v2.0] ---
+Saving results to: /home/zacmero/stock-bubble/NIGHTLY_SCANNER/VALIDATION_LOGS/validation_report_20251223_005318.txt
+
+Ticker   | Entry Date   | Entry $  | Status                              | Profit %
+-------------------------------------------------------------------------------------
+AARD     | 2025-12-12   | 14.43    | Retracement (Max Up 9.15%)          | 4.57%
+AARD     | 2025-12-12   | 14.43    | Retracement (Max Up 9.15%)          | 4.57%
+AA       | 2025-12-12   | 46.43    | Retracement (Max Up 3.02%)          | 1.51%
+ABL      | 2025-12-12   | 8.39     | Retracement (Max Up 2.50%)          | 1.25%
+ABL      | 2025-12-12   | 8.39     | Retracement (Max Up 2.50%)          | 1.25%
+ACAD     | 2025-12-10   | 26.81    | Break Even                          | 0.00%
+ACRS     | 2025-12-12   | 3.25     | Retracement (Max Up 4.15%)          | 2.08%
+ACRS     | 2025-12-12   | 3.25     | Retracement (Max Up 4.15%)          | 2.08%
+AFRI     | 2025-12-12   | 11.00    | Break Even                          | 0.00%
+AGM      | 2025-12-10   | 184.14   | Time Stop                           | -3.84%
+ALGT     | 2025-12-12   | 85.86    | Retracement (Max Up 2.76%)          | 1.38%
+ALTO     | 2025-12-12   | 2.50     | Retracement (Max Up 4.00%)          | 2.00%
+AMP      | 2025-12-11   | 498.61   | Time Stop                           | -0.54%
+ANNX     | 2025-12-12   | 4.97     | Retracement (Max Up 2.01%)          | 1.01%
+ANNX     | 2025-12-12   | 4.97     | Retracement (Max Up 2.01%)          | 1.01%
+ANNX     | 2025-12-12   | 4.97     | Retracement (Max Up 2.01%)          | 1.01%
+APGE     | 2025-12-12   | 77.08    | Retracement (Max Up 5.07%)          | 2.54%
+APGE     | 2025-12-12   | 77.08    | Retracement (Max Up 5.07%)          | 2.54%
+APGE     | 2025-12-12   | 77.08    | Retracement (Max Up 5.07%)          | 2.54%
+APGE     | 2025-12-12   | 77.08    | Retracement (Max Up 5.07%)          | 2.54%
+AP       | 2025-12-12   | 3.63     | Retracement (Max Up 3.03%)          | 1.52%
+AP       | 2025-12-12   | 3.63     | Retracement (Max Up 3.03%)          | 1.52%
+ARQT     | 2025-12-10   | 29.77    | Stop Loss                           | -5.00%
+ASB      | 2025-12-12   | 27.10    | STILL_OPEN                          | -1.51%
+ASB      | 2025-12-12   | 27.10    | STILL_OPEN                          | -1.51%
+ASYS     | 2025-12-12   | 10.98    | Retracement (Max Up 6.92%)          | 3.46%
+ASYS     | 2025-12-12   | 10.98    | Retracement (Max Up 6.92%)          | 3.46%
+ATGL     | 2025-12-12   | 23.70    | Retracement (Max Up 10.00%)         | 5.00%
+ATGL     | 2025-12-12   | 23.70    | Retracement (Max Up 10.00%)         | 5.00%
+ATGL     | 2025-12-12   | 23.70    | Retracement (Max Up 10.00%)         | 5.00%
+ATGL     | 2025-12-12   | 23.70    | Retracement (Max Up 10.00%)         | 5.00%
+ATGL     | 2025-12-12   | 23.70    | Retracement (Max Up 10.00%)         | 5.00%
+ATLC     | 2025-12-12   | 65.96    | Break Even                          | 0.00%
+ATLO     | 2025-12-12   | 23.88    | Retracement (Max Up 2.01%)          | 1.01%
+ATLO     | 2025-12-12   | 23.88    | Retracement (Max Up 2.01%)          | 1.01%
+ATLO     | 2025-12-12   | 23.88    | Retracement (Max Up 2.01%)          | 1.01%
+ATRC     | 2025-12-12   | 42.38    | Stop Loss                           | -5.00%
+ATRC     | 2025-12-12   | 42.38    | Stop Loss                           | -5.00%
+AUB      | 2025-12-12   | 36.65    | Break Even                          | 0.00%
+AUB      | 2025-12-12   | 36.65    | Break Even                          | 0.00%
+AUGO     | 2025-12-12   | 46.59    | Retracement (Max Up 2.28%)          | 1.14%
+AUGO     | 2025-12-12   | 46.59    | Retracement (Max Up 2.28%)          | 1.14%
+AUPH     | 2025-12-12   | 15.85    | Break Even                          | 0.00%
+AVBP     | 2025-12-12   | 24.42    | Retracement (Max Up 4.42%)          | 2.21%
+AVBP     | 2025-12-12   | 24.42    | Retracement (Max Up 4.42%)          | 2.21%
+AVBP     | 2025-12-12   | 24.42    | Retracement (Max Up 4.42%)          | 2.21%
+AVBP     | 2025-12-12   | 24.42    | Retracement (Max Up 4.42%)          | 2.21%
+AVR      | 2025-12-12   | 4.98     | Break Even                          | 0.00%
+AVR      | 2025-12-12   | 4.98     | Break Even                          | 0.00%
+AZTA     | 2025-12-12   | 35.30    | Break Even                          | 0.00%
+AZTA     | 2025-12-12   | 35.30    | Break Even                          | 0.00%
+BANC     | 2025-12-10   | 19.91    | Time Stop                           | -1.00%
+BANR     | 2025-12-10   | 66.82    | Break Even                          | 0.00%
+BBT      | 2025-12-12   | 27.03    | Retracement (Max Up 2.26%)          | 1.13%
+BCAX     | 2025-12-12   | 18.48    | Retracement (Max Up 3.73%)          | 1.87%
+BCAX     | 2025-12-12   | 18.48    | Retracement (Max Up 3.73%)          | 1.87%
+BCAX     | 2025-12-12   | 18.48    | Retracement (Max Up 3.73%)          | 1.87%
+BCAX     | 2025-12-12   | 18.48    | Retracement (Max Up 3.73%)          | 1.87%
+BCG      | 2025-12-12   | 2.14     | Retracement (Max Up 4.49%)          | 2.24%
+BCG      | 2025-12-12   | 2.14     | Retracement (Max Up 4.49%)          | 2.24%
+BCG      | 2025-12-12   | 2.14     | Retracement (Max Up 4.49%)          | 2.24%
+BCG      | 2025-12-12   | 2.14     | Retracement (Max Up 4.49%)          | 2.24%
+BFH      | 2025-12-12   | 74.59    | Retracement (Max Up 2.78%)          | 1.39%
+BFLY     | 2025-12-12   | 3.01     | Retracement (Max Up 7.64%)          | 3.82%
+BGSF     | 2025-12-12   | 4.47     | Retracement (Max Up 5.82%)          | 2.91%
+BHB      | 2025-12-12   | 32.90    | Retracement (Max Up 2.31%)          | 1.16%
+BHE      | 2025-12-11   | 49.16    | Stop Loss                           | -5.00%
+BIOA     | 2025-12-12   | 12.88    | Stop Loss                           | -5.00%
+BIOA     | 2025-12-12   | 12.88    | Stop Loss                           | -5.00%
+BIOA     | 2025-12-12   | 12.88    | Stop Loss                           | -5.00%
+BIOA     | 2025-12-12   | 12.88    | Stop Loss                           | -5.00%
+BJRI     | 2025-12-12   | 40.00    | Break Even                          | 0.00%
+BJRI     | 2025-12-12   | 40.00    | Break Even                          | 0.00%
+BJRI     | 2025-12-12   | 40.00    | Break Even                          | 0.00%
+BKH      | 2025-12-12   | 72.63    | Stop Loss                           | -5.00%
+BNR      | 2025-12-12   | 15.75    | Retracement (Max Up 7.94%)          | 3.97%
+BNR      | 2025-12-12   | 15.75    | Retracement (Max Up 7.94%)          | 3.97%
+BWEN     | 2025-12-12   | 3.26     | Retracement (Max Up 7.98%)          | 3.99%
+CADE     | 2025-12-12   | 43.78    | STILL_OPEN                          | 0.94%
+CADE     | 2025-12-12   | 43.78    | STILL_OPEN                          | 0.94%
+CADE     | 2025-12-12   | 43.78    | STILL_OPEN                          | 0.94%
+CALC     | 2025-12-12   | 4.33     | Retracement (Max Up 7.85%)          | 3.93%
+CALC     | 2025-12-12   | 4.33     | Retracement (Max Up 7.85%)          | 3.93%
+CALC     | 2025-12-12   | 4.33     | Retracement (Max Up 7.85%)          | 3.93%
+CALC     | 2025-12-12   | 4.33     | Retracement (Max Up 7.85%)          | 3.93%
+CART     | 2025-12-12   | 44.96    | Break Even                          | 0.00%
+CART     | 2025-12-12   | 44.96    | Break Even                          | 0.00%
+CART     | 2025-12-12   | 44.96    | Break Even                          | 0.00%
+CART     | 2025-12-12   | 44.96    | Break Even                          | 0.00%
+CBAN     | 2025-12-12   | 18.35    | Retracement (Max Up 2.45%)          | 1.23%
+CBL      | 2025-12-12   | 37.08    | Retracement (Max Up 2.48%)          | 1.24%
+CBL      | 2025-12-12   | 37.08    | Retracement (Max Up 2.48%)          | 1.24%
+CBL      | 2025-12-12   | 37.08    | Retracement (Max Up 2.48%)          | 1.24%
+CBNA     | 2025-12-12   | 36.63    | Retracement (Max Up 2.96%)          | 1.48%
+CBNA     | 2025-12-12   | 36.63    | Retracement (Max Up 2.96%)          | 1.48%
+CBNA     | 2025-12-12   | 36.63    | Retracement (Max Up 2.96%)          | 1.48%
+CBNA     | 2025-12-12   | 36.63    | Retracement (Max Up 2.96%)          | 1.48%
+CDRO     | 2025-12-12   | 7.72     | Break Even                          | 0.00%
+CERS     | 2025-12-12   | 2.18     | Stop Loss                           | -5.00%
+CFLT     | 2025-12-10   | 30.00    | Time Stop                           | -0.13%
+CGEM     | 2025-12-12   | 11.92    | Stop Loss                           | -5.00%
+CGEM     | 2025-12-12   | 11.92    | Stop Loss                           | -5.00%
+CGTL     | 2025-12-12   | 1.12     | Retracement (Max Up 33.04%)         | 16.52%
+CGTL     | 2025-12-12   | 1.12     | Retracement (Max Up 33.04%)         | 16.52%
+CGTL     | 2025-12-12   | 1.12     | Retracement (Max Up 33.04%)         | 16.52%
+CGTL     | 2025-12-12   | 1.12     | Retracement (Max Up 33.04%)         | 16.52%
+CGTL     | 2025-12-12   | 1.12     | Retracement (Max Up 33.04%)         | 16.52%
+CHYM     | 2025-12-12   | 26.19    | Break Even                          | 0.00%
+CHYM     | 2025-12-12   | 26.19    | Break Even                          | 0.00%
+CHYM     | 2025-12-12   | 26.19    | Break Even                          | 0.00%
+CLLS     | 2025-12-12   | 4.68     | Retracement (Max Up 4.70%)          | 2.35%
+CLLS     | 2025-12-12   | 4.68     | Retracement (Max Up 4.70%)          | 2.35%
+CMA      | 2025-12-12   | 89.46    | STILL_OPEN                          | -0.76%
+CMA      | 2025-12-12   | 89.46    | STILL_OPEN                          | -0.76%
+CMA      | 2025-12-12   | 89.46    | STILL_OPEN                          | -0.76%
+CMA      | 2025-12-12   | 89.46    | STILL_OPEN                          | -0.76%
+CNOB     | 2025-12-12   | 27.65    | Break Even                          | 0.00%
+CNOB     | 2025-12-12   | 27.65    | Break Even                          | 0.00%
+CNTB     | 2025-12-12   | 2.50     | Stop Loss                           | -5.00%
+CNTB     | 2025-12-12   | 2.50     | Stop Loss                           | -5.00%
+CNTB     | 2025-12-12   | 2.50     | Stop Loss                           | -5.00%
+COMP     | 2025-12-12   | 10.74    | Stop Loss                           | -5.00%
+CPF      | 2025-12-12   | 32.33    | Break Even                          | 0.00%
+CPF      | 2025-12-12   | 32.33    | Break Even                          | 0.00%
+CPF      | 2025-12-12   | 32.33    | Break Even                          | 0.00%
+CPRI     | 2025-12-12   | 26.03    | STILL_OPEN                          | -2.96%
+CPRI     | 2025-12-12   | 26.03    | STILL_OPEN                          | -2.96%
+CSTM     | 2025-12-12   | 18.35    | Break Even                          | 0.00%
+CTRI     | 2025-12-12   | 26.58    | Stop Loss                           | -5.00%
+CTRI     | 2025-12-12   | 26.58    | Stop Loss                           | -5.00%
+CTRI     | 2025-12-12   | 26.58    | Stop Loss                           | -5.00%
+CVU      | 2025-12-12   | 3.00     | Retracement (Max Up 17.67%)         | 8.83%
+CYPH     | 2025-12-12   | 1.44     | Stop Loss                           | -5.00%
+CYPH     | 2025-12-12   | 1.44     | Stop Loss                           | -5.00%
+DBD      | 2025-12-12   | 67.68    | Retracement (Max Up 2.29%)          | 1.15%
+DBD      | 2025-12-12   | 67.68    | Retracement (Max Up 2.29%)          | 1.15%
+DIN      | 2025-12-12   | 34.05    | Break Even                          | 0.00%
+DKNG     | 2025-12-12   | 35.52    | Stop Loss                           | -5.00%
+DKNG     | 2025-12-12   | 35.52    | Stop Loss                           | -5.00%
+DKNG     | 2025-12-12   | 35.52    | Stop Loss                           | -5.00%
+DOLE     | 2025-12-12   | 15.45    | Break Even                          | 0.00%
+DOLE     | 2025-12-12   | 15.45    | Break Even                          | 0.00%
+DOLE     | 2025-12-12   | 15.45    | Break Even                          | 0.00%
+DOOO     | 2025-12-12   | 77.51    | Stop Loss                           | -5.00%
+DSGN     | 2025-12-12   | 9.43     | Retracement (Max Up 2.12%)          | 1.06%
+DSGN     | 2025-12-12   | 9.43     | Retracement (Max Up 2.12%)          | 1.06%
+ECPG     | 2025-12-12   | 53.71    | Retracement (Max Up 2.25%)          | 1.13%
+ELMD     | 2025-12-12   | 29.85    | Retracement (Max Up 2.14%)          | 1.07%
+ELMD     | 2025-12-12   | 29.85    | Retracement (Max Up 2.14%)          | 1.07%
+ELWS     | 2025-12-12   | 5.65     | Stop Loss                           | -5.00%
+ELWS     | 2025-12-12   | 5.65     | Stop Loss                           | -5.00%
+ELWS     | 2025-12-12   | 5.65     | Stop Loss                           | -5.00%
+ELWS     | 2025-12-12   | 5.65     | Stop Loss                           | -5.00%
+ERAS     | 2025-12-12   | 3.60     | Retracement (Max Up 5.56%)          | 2.78%
+EWTX     | 2025-12-12   | 23.62    | Retracement (Max Up 2.92%)          | 1.46%
+EXPE     | 2025-12-12   | 274.21   | Retracement (Max Up 4.84%)          | 2.42%
+EXPE     | 2025-12-12   | 274.21   | Retracement (Max Up 4.84%)          | 2.42%
+EYPT     | 2025-12-12   | 15.99    | Retracement (Max Up 3.13%)          | 1.56%
+EYPT     | 2025-12-12   | 15.99    | Retracement (Max Up 3.13%)          | 1.56%
+FBGL     | 2025-12-12   | 0.80     | Retracement (Max Up 12.50%)         | 6.25%
+FBGL     | 2025-12-12   | 0.80     | Retracement (Max Up 12.50%)         | 6.25%
+FBGL     | 2025-12-12   | 0.80     | Retracement (Max Up 12.50%)         | 6.25%
+FBRX     | 2025-12-12   | 21.37    | Retracement (Max Up 7.72%)          | 3.86%
+FBRX     | 2025-12-12   | 21.37    | Retracement (Max Up 7.72%)          | 3.86%
+FBRX     | 2025-12-12   | 21.37    | Retracement (Max Up 7.72%)          | 3.86%
+FICO     | 2025-12-12   | 1844.98  | Stop Loss                           | -5.00%
+FICO     | 2025-12-12   | 1844.98  | Stop Loss                           | -5.00%
+FIGS     | 2025-12-12   | 11.97    | Break Even                          | 0.00%
+FIGS     | 2025-12-12   | 11.97    | Break Even                          | 0.00%
+FITB     | 2025-12-12   | 48.15    | STILL_OPEN                          | 0.15%
+FITB     | 2025-12-12   | 48.15    | STILL_OPEN                          | 0.15%
+FITB     | 2025-12-12   | 48.15    | STILL_OPEN                          | 0.15%
+FLOC     | 2025-12-12   | 18.62    | Break Even                          | 0.00%
+FLOC     | 2025-12-12   | 18.62    | Break Even                          | 0.00%
+FLOC     | 2025-12-12   | 18.62    | Break Even                          | 0.00%
+FMAO     | 2025-12-12   | 27.56    | Retracement (Max Up 3.01%)          | 1.51%
+FMAO     | 2025-12-12   | 27.56    | Retracement (Max Up 3.01%)          | 1.51%
+FMNB     | 2025-12-12   | 14.43    | STILL_OPEN                          | -3.95%
+FORTY    | 2025-12-11   | 174.69   | Retracement (Max Up 5.42%)          | 2.71%
+FORTY    | 2025-12-11   | 174.69   | Retracement (Max Up 5.42%)          | 2.71%
+FOSL     | 2025-12-12   | 3.90     | Retracement (Max Up 4.36%)          | 2.18%
+FRST     | 2025-12-12   | 13.38    | Retracement (Max Up 3.74%)          | 1.87%
+FRST     | 2025-12-12   | 13.38    | Retracement (Max Up 3.74%)          | 1.87%
+FTRE     | 2025-12-12   | 15.72    | Retracement (Max Up 4.45%)          | 2.23%
+FTRE     | 2025-12-12   | 15.72    | Retracement (Max Up 4.45%)          | 2.23%
+FTRE     | 2025-12-12   | 15.72    | Retracement (Max Up 4.45%)          | 2.23%
+FTRE     | 2025-12-12   | 15.72    | Retracement (Max Up 4.45%)          | 2.23%
+FTRK     | 2025-12-12   | 0.93     | Retracement (Max Up 11.83%)         | 5.91%
+FTRK     | 2025-12-12   | 0.93     | Retracement (Max Up 11.83%)         | 5.91%
+FTRK     | 2025-12-12   | 0.93     | Retracement (Max Up 11.83%)         | 5.91%
+GANX     | 2025-12-12   | 4.14     | Retracement (Max Up 3.38%)          | 1.69%
+GANX     | 2025-12-12   | 4.14     | Retracement (Max Up 3.38%)          | 1.69%
+GBX      | 2025-12-12   | 47.12    | STILL_OPEN                          | -1.32%
+GBX      | 2025-12-12   | 47.12    | STILL_OPEN                          | -1.32%
+GBX      | 2025-12-12   | 47.12    | STILL_OPEN                          | -1.32%
+GLBE     | 2025-12-11   | 40.11    | Retracement (Max Up 3.10%)          | 1.55%
+GLDD     | 2025-12-12   | 13.78    | Break Even                          | 0.00%
+GLDD     | 2025-12-12   | 13.78    | Break Even                          | 0.00%
+GLUE     | 2025-12-12   | 16.31    | Retracement (Max Up 5.27%)          | 2.64%
+GUTS     | 2025-12-12   | 2.24     | Retracement (Max Up 4.02%)          | 2.01%
+GUTS     | 2025-12-12   | 2.24     | Retracement (Max Up 4.02%)          | 2.01%
+GUTS     | 2025-12-12   | 2.24     | Retracement (Max Up 4.02%)          | 2.01%
+G        | 2025-12-12   | 47.78    | Break Even                          | 0.00%
+G        | 2025-12-12   | 47.78    | Break Even                          | 0.00%
+HBAN     | 2025-12-12   | 17.82    | STILL_OPEN                          | 0.56%
+HBAN     | 2025-12-12   | 17.82    | STILL_OPEN                          | 0.56%
+HBAN     | 2025-12-12   | 17.82    | STILL_OPEN                          | 0.56%
+HBB      | 2025-12-12   | 16.47    | Retracement (Max Up 3.22%)          | 1.61%
+HBB      | 2025-12-12   | 16.47    | Retracement (Max Up 3.22%)          | 1.61%
+HBB      | 2025-12-12   | 16.47    | Retracement (Max Up 3.22%)          | 1.61%
+HBNB     | 2025-12-12   | 7.01     | Retracement (Max Up 2.25%)          | 1.13%
+HBNB     | 2025-12-12   | 7.01     | Retracement (Max Up 2.25%)          | 1.13%
+HBNB     | 2025-12-12   | 7.01     | Retracement (Max Up 2.25%)          | 1.13%
+HBNC     | 2025-12-12   | 18.47    | STILL_OPEN                          | -3.52%
+HG       | 2025-12-12   | 28.14    | Break Even                          | 0.00%
+HG       | 2025-12-12   | 28.14    | Break Even                          | 0.00%
+HG       | 2025-12-12   | 28.14    | Break Even                          | 0.00%
+HLF      | 2025-12-12   | 14.74    | Retracement (Max Up 2.92%)          | 1.46%
+HLF      | 2025-12-12   | 14.74    | Retracement (Max Up 2.92%)          | 1.46%
+HNVR     | 2025-12-12   | 23.99    | STILL_OPEN                          | -2.46%
+HNVR     | 2025-12-12   | 23.99    | STILL_OPEN                          | -2.46%
+HOFT     | 2025-12-12   | 10.75    | Retracement (Max Up 2.42%)          | 1.21%
+HOUS     | 2025-12-12   | 14.59    | Stop Loss                           | -5.00%
+HPAI     | 2025-12-12   | 4.10     | Retracement (Max Up 6.83%)          | 3.41%
+HPAI     | 2025-12-12   | 4.10     | Retracement (Max Up 6.83%)          | 3.41%
+HPAI     | 2025-12-12   | 4.10     | Retracement (Max Up 6.83%)          | 3.41%
+HPAI     | 2025-12-12   | 4.10     | Retracement (Max Up 6.83%)          | 3.41%
+HPAI     | 2025-12-12   | 4.10     | Retracement (Max Up 6.83%)          | 3.41%
+HP       | 2025-12-12   | 29.41    | Stop Loss                           | -5.00%
+HVT      | 2025-12-12   | 24.68    | Retracement (Max Up 2.39%)          | 1.20%
+HWBK     | 2025-12-12   | 33.88    | Retracement (Max Up 4.01%)          | 2.01%
+IAUX     | 2025-12-12   | 1.43     | Retracement (Max Up 6.29%)          | 3.15%
+IAUX     | 2025-12-12   | 1.43     | Retracement (Max Up 6.29%)          | 3.15%
+IAUX     | 2025-12-12   | 1.43     | Retracement (Max Up 6.29%)          | 3.15%
+IAUX     | 2025-12-12   | 1.43     | Retracement (Max Up 6.29%)          | 3.15%
+IBCP     | 2025-12-12   | 34.86    | Retracement (Max Up 2.32%)          | 1.16%
+IBIO     | 2025-12-12   | 1.94     | Retracement (Max Up 9.28%)          | 4.64%
+IMNM     | 2025-12-12   | 19.57    | Retracement (Max Up 29.28%)         | 14.64%
+IMNM     | 2025-12-12   | 19.57    | Retracement (Max Up 29.28%)         | 14.64%
+IMNM     | 2025-12-12   | 19.57    | Retracement (Max Up 29.28%)         | 14.64%
+INV      | 2025-12-12   | 5.61     | Stop Loss                           | -5.00%
+INV      | 2025-12-12   | 5.61     | Stop Loss                           | -5.00%
+IRMD     | 2025-12-10   | 97.20    | Time Stop                           | -0.01%
+ISSC     | 2025-12-12   | 11.16    | Break Even                          | 0.00%
+IVVD     | 2025-12-12   | 2.32     | Retracement (Max Up 3.88%)          | 1.94%
+IVVD     | 2025-12-12   | 2.32     | Retracement (Max Up 3.88%)          | 1.94%
+JAZZ     | 2025-12-12   | 167.50   | Break Even                          | 0.00%
+JCAP     | 2025-12-12   | 21.87    | Retracement (Max Up 4.02%)          | 2.01%
+JCAP     | 2025-12-12   | 21.87    | Retracement (Max Up 4.02%)          | 2.01%
+JKHY     | 2025-12-12   | 187.50   | STILL_OPEN                          | -1.16%
+JKHY     | 2025-12-12   | 187.50   | STILL_OPEN                          | -1.16%
+JKHY     | 2025-12-12   | 187.50   | STILL_OPEN                          | -1.16%
+JMSB     | 2025-12-11   | 20.68    | Retracement (Max Up 2.47%)          | 1.23%
+JOE      | 2025-12-12   | 62.82    | STILL_OPEN                          | -3.31%
+KALU     | 2025-12-12   | 108.79   | Retracement (Max Up 3.36%)          | 1.68%
+KALU     | 2025-12-12   | 108.79   | Retracement (Max Up 3.36%)          | 1.68%
+KALU     | 2025-12-12   | 108.79   | Retracement (Max Up 3.36%)          | 1.68%
+KKR      | 2025-12-12   | 136.60   | STILL_OPEN                          | -3.79%
+KKR      | 2025-12-12   | 136.60   | STILL_OPEN                          | -3.79%
+KKR      | 2025-12-12   | 136.60   | STILL_OPEN                          | -3.79%
+KMRK     | 2025-12-12   | 1.27     | Retracement (Max Up 3.15%)          | 1.57%
+KMRK     | 2025-12-12   | 1.27     | Retracement (Max Up 3.15%)          | 1.57%
+KMT      | 2025-12-12   | 29.33    | STILL_OPEN                          | -0.38%
+KMT      | 2025-12-12   | 29.33    | STILL_OPEN                          | -0.38%
+KNF      | 2025-12-12   | 77.29    | Stop Loss                           | -5.00%
+KNF      | 2025-12-12   | 77.29    | Stop Loss                           | -5.00%
+KNF      | 2025-12-12   | 77.29    | Stop Loss                           | -5.00%
+KNX      | 2025-12-12   | 53.22    | Break Even                          | 0.00%
+KOD      | 2025-12-12   | 23.81    | Retracement (Max Up 4.87%)          | 2.44%
+KSS      | 2025-12-12   | 23.27    | Stop Loss                           | -5.00%
+KYTX     | 2025-12-12   | 8.78     | Retracement (Max Up 55.69%)         | 27.85%
+KYTX     | 2025-12-12   | 8.78     | Retracement (Max Up 55.69%)         | 27.85%
+KYTX     | 2025-12-12   | 8.78     | Retracement (Max Up 55.69%)         | 27.85%
+KZIA     | 2025-12-12   | 10.43    | Retracement (Max Up 5.47%)          | 2.73%
+KZIA     | 2025-12-12   | 10.43    | Retracement (Max Up 5.47%)          | 2.73%
+LAD      | 2025-12-11   | 356.66   | Stop Loss                           | -5.00%
+LAR      | 2025-12-12   | 5.30     | Stop Loss                           | -5.00%
+LAW      | 2025-12-12   | 8.67     | Stop Loss                           | -5.00%
+LAW      | 2025-12-12   | 8.67     | Stop Loss                           | -5.00%
+LGCY     | 2025-12-12   | 10.30    | Retracement (Max Up 2.25%)          | 1.13%
+LGCY     | 2025-12-12   | 10.30    | Retracement (Max Up 2.25%)          | 1.13%
+LGCY     | 2025-12-12   | 10.30    | Retracement (Max Up 2.25%)          | 1.13%
+LGCY     | 2025-12-12   | 10.30    | Retracement (Max Up 2.25%)          | 1.13%
+LGCY     | 2025-12-12   | 10.30    | Retracement (Max Up 2.25%)          | 1.13%
+LION     | 2025-12-12   | 8.19     | Break Even                          | 0.00%
+LION     | 2025-12-12   | 8.19     | Break Even                          | 0.00%
+LIVN     | 2025-12-12   | 62.75    | Break Even                          | 0.00%
+LIVN     | 2025-12-12   | 62.75    | Break Even                          | 0.00%
+LIVN     | 2025-12-12   | 62.75    | Break Even                          | 0.00%
+LNKB     | 2025-12-12   | 8.25     | Retracement (Max Up 4.16%)          | 2.08%
+LNKB     | 2025-12-12   | 8.25     | Retracement (Max Up 4.16%)          | 2.08%
+LNKB     | 2025-12-12   | 8.25     | Retracement (Max Up 4.16%)          | 2.08%
+LTRX     | 2025-12-12   | 6.28     | Stop Loss                           | -5.00%
+LTRX     | 2025-12-12   | 6.28     | Stop Loss                           | -5.00%
+LYEL     | 2025-12-12   | 34.46    | Stop Loss                           | -5.00%
+LYEL     | 2025-12-12   | 34.46    | Stop Loss                           | -5.00%
+LZB      | 2025-12-12   | 39.82    | STILL_OPEN                          | -4.37%
+MAR      | 2025-12-12   | 298.72   | Retracement (Max Up 3.85%)          | 1.93%
+MATW     | 2025-12-12   | 26.53    | Retracement (Max Up 2.04%)          | 1.02%
+MATW     | 2025-12-12   | 26.53    | Retracement (Max Up 2.04%)          | 1.02%
+MATW     | 2025-12-12   | 26.53    | Retracement (Max Up 2.04%)          | 1.02%
+MAT      | 2025-12-11   | 20.99    | Stop Loss                           | -5.00%
+MAZE     | 2025-12-12   | 38.86    | Retracement (Max Up 5.69%)          | 2.84%
+MAZE     | 2025-12-12   | 38.86    | Retracement (Max Up 5.69%)          | 2.84%
+MAZE     | 2025-12-12   | 38.86    | Retracement (Max Up 5.69%)          | 2.84%
+MCBS     | 2025-12-12   | 28.70    | Stop Loss                           | -5.00%
+MCHB     | 2025-12-10   | 15.21    | Stop Loss                           | -5.00%
+MCY      | 2025-12-12   | 93.51    | Retracement (Max Up 2.74%)          | 1.37%
+MGN      | 2025-12-12   | 1.98     | Retracement (Max Up 6.11%)          | 3.06%
+MH       | 2025-12-12   | 17.15    | Break Even                          | 0.00%
+MH       | 2025-12-12   | 17.15    | Break Even                          | 0.00%
+MIST     | 2025-12-12   | 2.41     | Retracement (Max Up 21.16%)         | 10.58%
+MNST     | 2025-12-10   | 73.86    | Retracement (Max Up 2.25%)          | 1.12%
+MODG     | 2025-12-12   | 11.40    | Retracement (Max Up 2.28%)          | 1.14%
+MRBK     | 2025-12-12   | 17.23    | Retracement (Max Up 2.62%)          | 1.31%
+MRBK     | 2025-12-12   | 17.23    | Retracement (Max Up 2.62%)          | 1.31%
+MRX      | 2025-12-12   | 38.78    | Break Even                          | 0.00%
+MRX      | 2025-12-12   | 38.78    | Break Even                          | 0.00%
+MRX      | 2025-12-12   | 38.78    | Break Even                          | 0.00%
+MRX      | 2025-12-12   | 38.78    | Break Even                          | 0.00%
+MRX      | 2025-12-12   | 38.78    | Break Even                          | 0.00%
+MSBI     | 2025-12-12   | 21.20    | Retracement (Max Up 3.73%)          | 1.86%
+MSGE     | 2025-12-12   | 54.72    | Stop Loss                           | -5.00%
+MSGE     | 2025-12-12   | 54.72    | Stop Loss                           | -5.00%
+MSGE     | 2025-12-12   | 54.72    | Stop Loss                           | -5.00%
+MSGE     | 2025-12-12   | 54.72    | Stop Loss                           | -5.00%
+MTA      | 2025-12-12   | 7.94     | Retracement (Max Up 3.02%)          | 1.51%
+MTA      | 2025-12-12   | 7.94     | Retracement (Max Up 3.02%)          | 1.51%
+MTA      | 2025-12-12   | 7.94     | Retracement (Max Up 3.02%)          | 1.51%
+MTA      | 2025-12-12   | 7.94     | Retracement (Max Up 3.02%)          | 1.51%
+MTW      | 2025-12-12   | 12.91    | Retracement (Max Up 3.49%)          | 1.74%
+MTW      | 2025-12-12   | 12.91    | Retracement (Max Up 3.49%)          | 1.74%
+NAUT     | 2025-12-15   | 1.90     | Retracement (Max Up 2.11%)          | 1.05%
+NAUT     | 2025-12-15   | 1.90     | Retracement (Max Up 2.11%)          | 1.05%
+NAUT     | 2025-12-15   | 1.90     | Retracement (Max Up 2.11%)          | 1.05%
+NBY      | 2025-12-15   | 2.97     | Retracement (Max Up 8.08%)          | 4.04%
+NEWP     | 2025-12-15   | 3.59     | Retracement (Max Up 2.79%)          | 1.39%
+NEWP     | 2025-12-15   | 3.59     | Retracement (Max Up 2.79%)          | 1.39%
+NEWP     | 2025-12-15   | 3.59     | Retracement (Max Up 2.79%)          | 1.39%
+NEXA     | 2025-12-15   | 7.97     | Stop Loss                           | -5.00%
+NEXA     | 2025-12-15   | 7.97     | Stop Loss                           | -5.00%
+NEXA     | 2025-12-15   | 7.97     | Stop Loss                           | -5.00%
+NKSH     | 2025-12-15   | 33.92    | Retracement (Max Up 2.86%)          | 1.43%
+NKSH     | 2025-12-15   | 33.92    | Retracement (Max Up 2.86%)          | 1.43%
+NN       | 2025-12-15   | 16.25    | Retracement (Max Up 3.82%)          | 1.91%
+NRDY     | 2025-12-15   | 1.35     | Stop Loss                           | -5.00%
+NTB      | 2025-12-15   | 51.20    | Break Even                          | 0.00%
+NTB      | 2025-12-15   | 51.20    | Break Even                          | 0.00%
+NTRS     | 2025-12-11   | 140.09   | Time Stop                           | 0.12%
+NWFL     | 2025-12-15   | 29.93    | STILL_OPEN                          | -3.37%
+OABI     | 2025-12-15   | 2.05     | Retracement (Max Up 2.20%)          | 1.10%
+OABI     | 2025-12-15   | 2.05     | Retracement (Max Up 2.20%)          | 1.10%
+ODFL     | 2025-12-15   | 156.60   | Break Even                          | 0.00%
+ODV      | 2025-12-15   | 3.83     | Break Even                          | 0.00%
+OI       | 2025-12-15   | 15.65    | Stop Loss                           | -5.00%
+OI       | 2025-12-15   | 15.65    | Stop Loss                           | -5.00%
+OMCL     | 2025-12-15   | 43.27    | Retracement (Max Up 3.95%)          | 1.98%
+ONON     | 2025-12-15   | 47.79    | Retracement (Max Up 3.66%)          | 1.83%
+ORMP     | 2025-12-15   | 3.08     | Retracement (Max Up 2.27%)          | 1.14%
+OVID     | 2025-12-15   | 1.56     | Retracement (Max Up 3.85%)          | 1.92%
+OVID     | 2025-12-15   | 1.56     | Retracement (Max Up 3.85%)          | 1.92%
+OVID     | 2025-12-15   | 1.56     | Retracement (Max Up 3.85%)          | 1.92%
+OVID     | 2025-12-15   | 1.56     | Retracement (Max Up 3.85%)          | 1.92%
+OVID     | 2025-12-15   | 1.56     | Retracement (Max Up 3.85%)          | 1.92%
+OWLT     | 2025-12-15   | 12.91    | Retracement (Max Up 3.95%)          | 1.98%
+PAL      | 2025-12-15   | 10.10    | Retracement (Max Up 2.87%)          | 1.44%
+PAL      | 2025-12-15   | 10.10    | Retracement (Max Up 2.87%)          | 1.44%
+PAL      | 2025-12-15   | 10.10    | Retracement (Max Up 2.87%)          | 1.44%
+PAL      | 2025-12-15   | 10.10    | Retracement (Max Up 2.87%)          | 1.44%
+PAL      | 2025-12-15   | 10.10    | Retracement (Max Up 2.87%)          | 1.44%
+PANL     | 2025-12-15   | 7.39     | Stop Loss                           | -5.00%
+PANL     | 2025-12-15   | 7.39     | Stop Loss                           | -5.00%
+PBFS     | 2025-12-15   | 14.44    | Break Even                          | 0.00%
+PDEX     | 2025-12-15   | 43.80    | Retracement (Max Up 3.04%)          | 1.52%
+PEPG     | 2025-12-15   | 5.47     | Retracement (Max Up 3.99%)          | 1.99%
+PEPG     | 2025-12-15   | 5.47     | Retracement (Max Up 3.99%)          | 1.99%
+PEPG     | 2025-12-15   | 5.47     | Retracement (Max Up 3.99%)          | 1.99%
+PEPG     | 2025-12-15   | 5.47     | Retracement (Max Up 3.99%)          | 1.99%
+PGR      | 2025-12-15   | 236.36   | Stop Loss                           | -5.00%
+PKOH     | 2025-12-15   | 22.90    | Break Even                          | 0.00%
+PKOH     | 2025-12-15   | 22.90    | Break Even                          | 0.00%
+PLBL     | 2025-12-12   | 10.60    | Retracement (Max Up 10.30%)         | 5.15%
+PLBL     | 2025-12-12   | 10.60    | Retracement (Max Up 10.30%)         | 5.15%
+PLG      | 2025-12-15   | 2.68     | Retracement (Max Up 8.58%)          | 4.29%
+PLG      | 2025-12-15   | 2.68     | Retracement (Max Up 8.58%)          | 4.29%
+PLRZ     | 2025-12-15   | 11.82    | Stop Loss                           | -5.00%
+PLRZ     | 2025-12-15   | 11.82    | Stop Loss                           | -5.00%
+PNTG     | 2025-12-15   | 29.73    | Retracement (Max Up 2.46%)          | 1.23%
+PNTG     | 2025-12-15   | 29.73    | Retracement (Max Up 2.46%)          | 1.23%
+PNTG     | 2025-12-15   | 29.73    | Retracement (Max Up 2.46%)          | 1.23%
+PRAX     | 2025-12-15   | 276.40   | Retracement (Max Up 2.03%)          | 1.01%
+PRU      | 2025-12-15   | 117.60   | STILL_OPEN                          | -2.35%
+PVLA     | 2025-12-15   | 88.98    | Retracement (Max Up 10.98%)         | 5.49%
+PVLA     | 2025-12-15   | 88.98    | Retracement (Max Up 10.98%)         | 5.49%
+PW       | 2025-12-15   | 0.87     | Retracement (Max Up 16.09%)         | 8.05%
+REAL     | 2025-12-15   | 14.04    | Retracement (Max Up 6.77%)          | 3.38%
+REAL     | 2025-12-15   | 14.04    | Retracement (Max Up 6.77%)          | 3.38%
+RERE     | 2025-12-15   | 5.25     | Retracement (Max Up 8.00%)          | 4.00%
+RIVN     | 2025-12-15   | 18.70    | Stop Loss                           | -5.00%
+RIVN     | 2025-12-15   | 18.70    | Stop Loss                           | -5.00%
+RIVN     | 2025-12-15   | 18.70    | Stop Loss                           | -5.00%
+RIVN     | 2025-12-15   | 18.70    | Stop Loss                           | -5.00%
+RLMD     | 2025-12-15   | 4.36     | Retracement (Max Up 9.86%)          | 4.93%
+RSI      | 2025-12-15   | 18.95    | Retracement (Max Up 4.27%)          | 2.14%
+RVLV     | 2025-12-15   | 27.85    | Break Even                          | 0.00%
+RVLV     | 2025-12-15   | 27.85    | Break Even                          | 0.00%
+RVLV     | 2025-12-15   | 27.85    | Break Even                          | 0.00%
+RVMD     | 2025-12-15   | 79.00    | Stop Loss                           | -5.00%
+SABS     | 2025-12-15   | 4.00     | STILL_OPEN                          | -4.00%
+SABS     | 2025-12-15   | 4.00     | STILL_OPEN                          | -4.00%
+SABS     | 2025-12-15   | 4.00     | STILL_OPEN                          | -4.00%
+SBC      | 2025-12-15   | 4.09     | Retracement (Max Up 2.20%)          | 1.10%
+SBC      | 2025-12-15   | 4.09     | Retracement (Max Up 2.20%)          | 1.10%
+SBFG     | 2025-12-11   | 23.56    | Break Even                          | 0.00%
+SBSW     | 2025-12-15   | 13.57    | Retracement (Max Up 2.80%)          | 1.40%
+SBSW     | 2025-12-15   | 13.57    | Retracement (Max Up 2.80%)          | 1.40%
+SCKT     | 2025-12-15   | 1.17     | Retracement (Max Up 2.56%)          | 1.28%
+SDHC     | 2025-12-15   | 20.76    | Stop Loss                           | -5.00%
+SDHC     | 2025-12-15   | 20.76    | Stop Loss                           | -5.00%
+SDHC     | 2025-12-15   | 20.76    | Stop Loss                           | -5.00%
+SDHC     | 2025-12-15   | 20.76    | Stop Loss                           | -5.00%
+SDHC     | 2025-12-15   | 20.76    | Stop Loss                           | -5.00%
+SFHG     | 2025-12-15   | 0.68     | Retracement (Max Up 10.29%)         | 5.15%
+SFHG     | 2025-12-15   | 0.68     | Retracement (Max Up 10.29%)         | 5.15%
+SFST     | 2025-12-15   | 55.50    | STILL_OPEN                          | -4.16%
+SFST     | 2025-12-15   | 55.50    | STILL_OPEN                          | -4.16%
+SI       | 2025-12-15   | 14.45    | Retracement (Max Up 15.43%)         | 7.72%
+SI       | 2025-12-15   | 14.45    | Retracement (Max Up 15.43%)         | 7.72%
+SLGL     | 2025-12-15   | 42.77    | Retracement (Max Up 2.97%)          | 1.48%
+SLGL     | 2025-12-15   | 42.77    | Retracement (Max Up 2.97%)          | 1.48%
+SMRT     | 2025-12-15   | 2.05     | Retracement (Max Up 4.88%)          | 2.44%
+SMRT     | 2025-12-15   | 2.05     | Retracement (Max Up 4.88%)          | 2.44%
+SMRT     | 2025-12-15   | 2.05     | Retracement (Max Up 4.88%)          | 2.44%
+SNDX     | 2025-12-16   | 21.08    | Stop Loss                           | -5.00%
+SNFCA    | 2025-12-16   | 9.27     | Break Even                          | 0.00%
+SNFCA    | 2025-12-16   | 9.27     | Break Even                          | 0.00%
+SNFCA    | 2025-12-16   | 9.27     | Break Even                          | 0.00%
+SN       | 2025-12-16   | 114.73   | Retracement (Max Up 3.18%)          | 1.59%
+SPRU     | 2025-12-16   | 5.16     | Stop Loss                           | -5.00%
+SPRU     | 2025-12-16   | 5.16     | Stop Loss                           | -5.00%
+SPRU     | 2025-12-16   | 5.16     | Stop Loss                           | -5.00%
+SPRU     | 2025-12-16   | 5.16     | Stop Loss                           | -5.00%
+SPRY     | 2025-12-16   | 10.50    | Break Even                          | 0.00%
+SRCE     | 2025-12-16   | 66.24    | STILL_OPEN                          | -2.22%
+SRCE     | 2025-12-16   | 66.24    | STILL_OPEN                          | -2.22%
+STRS     | 2025-12-16   | 23.79    | Retracement (Max Up 10.55%)         | 5.28%
+STRW     | 2025-12-16   | 13.57    | Stop Loss                           | -5.00%
+STRW     | 2025-12-16   | 13.57    | Stop Loss                           | -5.00%
+STRW     | 2025-12-16   | 13.57    | Stop Loss                           | -5.00%
+STRZ     | 2025-12-16   | 11.96    | Retracement (Max Up 4.35%)          | 2.17%
+STRZ     | 2025-12-16   | 11.96    | Retracement (Max Up 4.35%)          | 2.17%
+STRZ     | 2025-12-16   | 11.96    | Retracement (Max Up 4.35%)          | 2.17%
+SYRE     | 2025-12-16   | 33.03    | Retracement (Max Up 3.89%)          | 1.95%
+TENX     | 2025-12-16   | 11.19    | Retracement (Max Up 10.99%)         | 5.50%
+TENX     | 2025-12-16   | 11.19    | Retracement (Max Up 10.99%)         | 5.50%
+TJX      | 2025-12-15   | 156.71   | STILL_OPEN                          | -0.08%
+TNGX     | 2025-12-16   | 8.96     | Retracement (Max Up 2.90%)          | 1.45%
+TROO     | 2025-12-16   | 1.93     | Retracement (Max Up 3.11%)          | 1.55%
+TRX      | 2025-12-16   | 0.88     | Retracement (Max Up 2.27%)          | 1.14%
+TRX      | 2025-12-16   | 0.88     | Retracement (Max Up 2.27%)          | 1.14%
+TSHA     | 2025-12-16   | 5.82     | Stop Loss                           | -5.00%
+TTAM     | 2025-12-16   | 16.84    | Retracement (Max Up 2.02%)          | 1.01%
+TTAM     | 2025-12-16   | 16.84    | Retracement (Max Up 2.02%)          | 1.01%
+TTAM     | 2025-12-16   | 16.84    | Retracement (Max Up 2.02%)          | 1.01%
+TXMD     | 2025-12-16   | 1.62     | Retracement (Max Up 5.56%)          | 2.78%
+TXMD     | 2025-12-16   | 1.62     | Retracement (Max Up 5.56%)          | 2.78%
+TXMD     | 2025-12-16   | 1.62     | Retracement (Max Up 5.56%)          | 2.78%
+TYRA     | 2025-12-16   | 22.97    | Retracement (Max Up 3.35%)          | 1.68%
+TYRA     | 2025-12-16   | 22.97    | Retracement (Max Up 3.35%)          | 1.68%
+TYRA     | 2025-12-16   | 22.97    | Retracement (Max Up 3.35%)          | 1.68%
+UHT      | 2025-12-12   | 42.29    | Break Even                          | 0.00%
+ULCC     | 2025-12-16   | 5.11     | Retracement (Max Up 8.92%)          | 4.46%
+ULCC     | 2025-12-16   | 5.11     | Retracement (Max Up 8.92%)          | 4.46%
+UMBF     | 2025-12-11   | 119.88   | Time Stop                           | 0.03%
+UNF      | 2025-12-16   | 174.20   | Retracement (Max Up 2.63%)          | 1.31%
+UNF      | 2025-12-16   | 174.20   | Retracement (Max Up 2.63%)          | 1.31%
+UNF      | 2025-12-16   | 174.20   | Retracement (Max Up 2.63%)          | 1.31%
+USAU     | 2025-12-16   | 17.17    | Retracement (Max Up 4.83%)          | 2.42%
+USAU     | 2025-12-16   | 17.17    | Retracement (Max Up 4.83%)          | 2.42%
+VFF      | 2025-12-16   | 4.14     | Retracement (Max Up 14.73%)         | 7.37%
+VFF      | 2025-12-16   | 4.14     | Retracement (Max Up 14.73%)         | 7.37%
+VIK      | 2025-12-16   | 70.19    | Retracement (Max Up 4.93%)          | 2.46%
+VIK      | 2025-12-16   | 70.19    | Retracement (Max Up 4.93%)          | 2.46%
+VIK      | 2025-12-16   | 70.19    | Retracement (Max Up 4.93%)          | 2.46%
+VIK      | 2025-12-16   | 70.19    | Retracement (Max Up 4.93%)          | 2.46%
+VINP     | 2025-12-16   | 13.20    | STILL_OPEN                          | -0.76%
+VNDA     | 2025-12-16   | 6.65     | Retracement (Max Up 5.86%)          | 2.93%
+VNDA     | 2025-12-16   | 6.65     | Retracement (Max Up 5.86%)          | 2.93%
+VNDA     | 2025-12-16   | 6.65     | Retracement (Max Up 5.86%)          | 2.93%
+
+========================================
+TOTAL TRADES ANALYZED: 489
+REAL WIN RATE: 59.10%
+AVERAGE P/L: 0.74%
+TOTAL P/L SUM: 359.54%
+========================================

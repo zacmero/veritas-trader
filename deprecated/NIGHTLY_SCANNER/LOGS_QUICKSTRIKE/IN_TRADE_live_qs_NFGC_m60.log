@@ -1,0 +1,27 @@
+2026-01-05 16:43:36,498 [INFO   ] --- [Quick Strike Scanner v5.1 Started for NFGC] ---
+2026-01-05 16:43:38,045 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 16:44:11,499 [INFO   ] [32m!!! BUY SIGNAL on 2023-03-29 at $5.06 !!!
+2026-01-05 16:44:11,499 [INFO   ] [32m!!! SELL: Break Even Stop | Profit: 0.00% !!!
+2026-01-05 16:44:11,631 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-31 at $2.97 !!!
+2026-01-05 16:44:11,631 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 4.88%) | Profit: 2.44% !!!
+2026-01-05 16:44:11,765 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-05 at $3.12 !!!
+2026-01-05 16:44:11,765 [INFO   ] 
+============================================================
+2026-01-05 16:44:11,765 [INFO   ] Total Trades: 2 | Win Rate: 50.00% | Avg P/L: 1.22%
+2026-01-05 16:44:11,765 [INFO   ] [36mSimulated Account ($10k start): $10,244.11 (Total Return: 2.44%)
+2026-01-05 16:44:11,777 [INFO   ] 
+| entry_date          | exit_date           | match_name          | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:--------------------|:---------------------------------|-------------:|
+| 2023-03-29 00:00:00 | 2023-03-30 00:00:00 | C_PTON_20200529_m15 | Break Even Stop                  |      0       |
+| 2025-12-31 00:00:00 | 2026-01-02 00:00:00 | L_AMC_m30_ramp      | Retracement Stop (Max Up: 4.88%) |      2.44108 |
+2026-01-05 16:44:11,777 [INFO   ] 
+============================================================
+2026-01-05 16:44:11,777 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 16:44:11,777 [INFO   ] ============================================================
+2026-01-05 16:44:11,777 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 16:44:11,777 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 16:44:11,777 [INFO   ] Entry Date: 2026-01-05
+2026-01-05 16:44:11,778 [INFO   ] Entry Price: $3.12
+2026-01-05 16:44:11,778 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 16:44:11,778 [INFO   ] Renaming log file to indicate active trade...

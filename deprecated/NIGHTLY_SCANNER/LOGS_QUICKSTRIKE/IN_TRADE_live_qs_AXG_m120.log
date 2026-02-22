@@ -1,0 +1,17 @@
+2026-01-05 04:17:27,796 [INFO   ] --- [Quick Strike Scanner v5.1 Started for AXG] ---
+2026-01-05 04:17:29,211 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 04:18:03,345 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-02 at $4.08 !!!
+2026-01-05 04:18:03,345 [INFO   ] 
+============================================================
+2026-01-05 04:18:03,345 [INFO   ] No trades were executed during the simulation period.
+2026-01-05 04:18:03,345 [INFO   ] 
+============================================================
+2026-01-05 04:18:03,345 [INFO   ] [34m--- [STRATEGY VERDICT: PASSIVE] ---
+2026-01-05 04:18:03,345 [INFO   ] ============================================================
+2026-01-05 04:18:03,345 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 04:18:03,345 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 04:18:03,346 [INFO   ] Entry Date: 2026-01-02
+2026-01-05 04:18:03,346 [INFO   ] Entry Price: $4.08
+2026-01-05 04:18:03,346 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 04:18:03,346 [INFO   ] Renaming log file to indicate active trade...

@@ -1,0 +1,24 @@
+2026-01-05 06:20:07,700 [INFO   ] --- [Quick Strike Scanner v5.1 Started for CGBD] ---
+2026-01-05 06:20:08,434 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 06:20:41,700 [INFO   ] [32m!!! BUY SIGNAL on 2025-01-03 at $16.17 !!!
+2026-01-05 06:20:41,700 [INFO   ] [31m!!! SELL: Time Stop (7 days) | Profit: -0.82% !!!
+2026-01-05 06:20:41,786 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-02 at $12.55 !!!
+2026-01-05 06:20:41,787 [INFO   ] 
+============================================================
+2026-01-05 06:20:41,787 [INFO   ] Total Trades: 1 | Win Rate: 0.00% | Avg P/L: -0.82%
+2026-01-05 06:20:41,787 [INFO   ] [36mSimulated Account ($10k start): $9,917.63 (Total Return: -0.82%)
+2026-01-05 06:20:41,793 [INFO   ] 
+| entry_date          | exit_date           | match_name          | exit_reason        |   profit_pct |
+|:--------------------|:--------------------|:--------------------|:-------------------|-------------:|
+| 2025-01-03 00:00:00 | 2025-01-15 00:00:00 | C_PTON_20200529_m15 | Time Stop (7 days) |    -0.823715 |
+2026-01-05 06:20:41,793 [INFO   ] 
+============================================================
+2026-01-05 06:20:41,793 [INFO   ] [31m[1m--- [STRATEGY VERDICT: BLACK SHEEP] ---
+2026-01-05 06:20:41,793 [INFO   ] ============================================================
+2026-01-05 06:20:41,793 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 06:20:41,793 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 06:20:41,793 [INFO   ] Entry Date: 2026-01-02
+2026-01-05 06:20:41,793 [INFO   ] Entry Price: $12.55
+2026-01-05 06:20:41,793 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 06:20:41,793 [INFO   ] Renaming log file to indicate active trade...

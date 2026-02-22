@@ -1,0 +1,24 @@
+2026-01-05 08:51:52,158 [INFO   ] --- [Quick Strike Scanner v5.1 Started for DVAX] ---
+2026-01-05 08:51:53,130 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 08:52:27,016 [INFO   ] [32m!!! BUY SIGNAL on 2022-06-13 at $10.39 !!!
+2026-01-05 08:52:27,016 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 3.56%) | Profit: 1.78% !!!
+2026-01-05 08:52:27,145 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-31 at $15.38 !!!
+2026-01-05 08:52:27,145 [INFO   ] 
+============================================================
+2026-01-05 08:52:27,145 [INFO   ] Total Trades: 1 | Win Rate: 100.00% | Avg P/L: 1.78%
+2026-01-05 08:52:27,145 [INFO   ] [36mSimulated Account ($10k start): $10,178.06 (Total Return: 1.78%)
+2026-01-05 08:52:27,157 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:----------------|:---------------------------------|-------------:|
+| 2022-06-13 00:00:00 | 2022-06-14 00:00:00 | L_IYR_m120_ramp | Retracement Stop (Max Up: 3.56%) |      1.78056 |
+2026-01-05 08:52:27,157 [INFO   ] 
+============================================================
+2026-01-05 08:52:27,157 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 08:52:27,157 [INFO   ] ============================================================
+2026-01-05 08:52:27,157 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 08:52:27,157 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 08:52:27,157 [INFO   ] Entry Date: 2025-12-31
+2026-01-05 08:52:27,157 [INFO   ] Entry Price: $15.38
+2026-01-05 08:52:27,157 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 08:52:27,157 [INFO   ] Renaming log file to indicate active trade...

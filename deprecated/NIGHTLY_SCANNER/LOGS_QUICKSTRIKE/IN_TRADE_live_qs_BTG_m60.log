@@ -1,0 +1,24 @@
+2026-01-05 05:27:49,641 [INFO   ] --- [Quick Strike Scanner v5.1 Started for BTG] ---
+2026-01-05 05:27:50,867 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 05:28:22,992 [INFO   ] [32m!!! BUY SIGNAL on 2022-04-14 at $4.26 !!!
+2026-01-05 05:28:22,992 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 2.01%) | Profit: 1.01% !!!
+2026-01-05 05:28:23,138 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-30 at $4.56 !!!
+2026-01-05 05:28:23,139 [INFO   ] 
+============================================================
+2026-01-05 05:28:23,139 [INFO   ] Total Trades: 1 | Win Rate: 100.00% | Avg P/L: 1.01%
+2026-01-05 05:28:23,139 [INFO   ] [36mSimulated Account ($10k start): $10,100.60 (Total Return: 1.01%)
+2026-01-05 05:28:23,151 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:----------------|:---------------------------------|-------------:|
+| 2022-04-14 00:00:00 | 2022-04-18 00:00:00 | L_IYR_m120_ramp | Retracement Stop (Max Up: 2.01%) |      1.00603 |
+2026-01-05 05:28:23,151 [INFO   ] 
+============================================================
+2026-01-05 05:28:23,151 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 05:28:23,151 [INFO   ] ============================================================
+2026-01-05 05:28:23,151 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 05:28:23,151 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 05:28:23,151 [INFO   ] Entry Date: 2025-12-30
+2026-01-05 05:28:23,151 [INFO   ] Entry Price: $4.56
+2026-01-05 05:28:23,151 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 05:28:23,151 [INFO   ] Renaming log file to indicate active trade...

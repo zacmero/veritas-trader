@@ -1,0 +1,24 @@
+2026-01-05 09:44:27,943 [INFO   ] --- [Quick Strike Scanner v5.1 Started for EVLV] ---
+2026-01-05 09:44:28,454 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 09:45:01,909 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-30 at $7.06 !!!
+2026-01-05 09:45:01,909 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 3.05%) | Profit: 1.52% !!!
+2026-01-05 09:45:01,959 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-02 at $6.70 !!!
+2026-01-05 09:45:01,959 [INFO   ] 
+============================================================
+2026-01-05 09:45:01,959 [INFO   ] Total Trades: 1 | Win Rate: 100.00% | Avg P/L: 1.52%
+2026-01-05 09:45:01,959 [INFO   ] [36mSimulated Account ($10k start): $10,152.27 (Total Return: 1.52%)
+2026-01-05 09:45:01,970 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:----------------|:---------------------------------|-------------:|
+| 2025-12-30 00:00:00 | 2025-12-31 00:00:00 | L_CSCO_m90_ramp | Retracement Stop (Max Up: 3.05%) |      1.52266 |
+2026-01-05 09:45:01,970 [INFO   ] 
+============================================================
+2026-01-05 09:45:01,970 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 09:45:01,970 [INFO   ] ============================================================
+2026-01-05 09:45:01,970 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 09:45:01,970 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 09:45:01,970 [INFO   ] Entry Date: 2026-01-02
+2026-01-05 09:45:01,970 [INFO   ] Entry Price: $6.70
+2026-01-05 09:45:01,970 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 09:45:01,970 [INFO   ] Renaming log file to indicate active trade...

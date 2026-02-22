@@ -1,0 +1,24 @@
+2026-01-05 07:18:58,354 [INFO   ] --- [Quick Strike Scanner v5.1 Started for CRDF] ---
+2026-01-05 07:18:59,543 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 07:19:32,697 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-30 at $2.87 !!!
+2026-01-05 07:19:32,697 [INFO   ] [32m!!! SELL: Break Even Stop | Profit: 0.00% !!!
+2026-01-05 07:19:32,778 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-02 at $2.66 !!!
+2026-01-05 07:19:32,778 [INFO   ] 
+============================================================
+2026-01-05 07:19:32,778 [INFO   ] Total Trades: 1 | Win Rate: 0.00% | Avg P/L: 0.00%
+2026-01-05 07:19:32,778 [INFO   ] [36mSimulated Account ($10k start): $10,000.00 (Total Return: 0.00%)
+2026-01-05 07:19:32,791 [INFO   ] 
+| entry_date          | exit_date           | match_name         | exit_reason     |   profit_pct |
+|:--------------------|:--------------------|:-------------------|:----------------|-------------:|
+| 2025-12-30 00:00:00 | 2025-12-31 00:00:00 | C_ETH_20201209_m10 | Break Even Stop |            0 |
+2026-01-05 07:19:32,791 [INFO   ] 
+============================================================
+2026-01-05 07:19:32,791 [INFO   ] [31m[1m--- [STRATEGY VERDICT: BLACK SHEEP] ---
+2026-01-05 07:19:32,791 [INFO   ] ============================================================
+2026-01-05 07:19:32,791 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 07:19:32,791 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 07:19:32,791 [INFO   ] Entry Date: 2026-01-02
+2026-01-05 07:19:32,791 [INFO   ] Entry Price: $2.66
+2026-01-05 07:19:32,791 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 07:19:32,791 [INFO   ] Renaming log file to indicate active trade...

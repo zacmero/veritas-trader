@@ -1,0 +1,27 @@
+2026-01-05 16:34:35,846 [INFO   ] --- [Quick Strike Scanner v5.1 Started for NCLH] ---
+2026-01-05 16:34:37,191 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 16:35:11,691 [INFO   ] [32m!!! BUY SIGNAL on 2022-08-11 at $13.76 !!!
+2026-01-05 16:35:11,691 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 3.92%) | Profit: 1.96% !!!
+2026-01-05 16:35:11,724 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-31 at $22.32 !!!
+2026-01-05 16:35:11,724 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 2.91%) | Profit: 1.46% !!!
+2026-01-05 16:35:11,744 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-05 at $22.51 !!!
+2026-01-05 16:35:11,745 [INFO   ] 
+============================================================
+2026-01-05 16:35:11,745 [INFO   ] Total Trades: 2 | Win Rate: 100.00% | Avg P/L: 1.71%
+2026-01-05 16:35:11,745 [INFO   ] [36mSimulated Account ($10k start): $10,344.69 (Total Return: 3.45%)
+2026-01-05 16:35:11,750 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:----------------|:---------------------------------|-------------:|
+| 2022-08-11 00:00:00 | 2022-08-12 00:00:00 | L_IYR_m120_ramp | Retracement Stop (Max Up: 3.92%) |      1.96221 |
+| 2025-12-31 00:00:00 | 2026-01-02 00:00:00 | L_IYR_m120_ramp | Retracement Stop (Max Up: 2.91%) |      1.45609 |
+2026-01-05 16:35:11,751 [INFO   ] 
+============================================================
+2026-01-05 16:35:11,751 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 16:35:11,751 [INFO   ] ============================================================
+2026-01-05 16:35:11,751 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 16:35:11,751 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 16:35:11,751 [INFO   ] Entry Date: 2026-01-05
+2026-01-05 16:35:11,751 [INFO   ] Entry Price: $22.51
+2026-01-05 16:35:11,751 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 16:35:11,751 [INFO   ] Renaming log file to indicate active trade...

@@ -1,0 +1,24 @@
+2026-01-05 18:16:47,425 [INFO   ] --- [Quick Strike Scanner v5.1 Started for PACS] ---
+2026-01-05 18:16:47,895 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 18:17:21,726 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-31 at $38.39 !!!
+2026-01-05 18:17:21,727 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 4.30%) | Profit: 2.15% !!!
+2026-01-05 18:17:21,811 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-05 at $39.08 !!!
+2026-01-05 18:17:21,811 [INFO   ] 
+============================================================
+2026-01-05 18:17:21,811 [INFO   ] Total Trades: 1 | Win Rate: 100.00% | Avg P/L: 2.15%
+2026-01-05 18:17:21,811 [INFO   ] [36mSimulated Account ($10k start): $10,214.90 (Total Return: 2.15%)
+2026-01-05 18:17:21,817 [INFO   ] 
+| entry_date          | exit_date           | match_name          | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:--------------------|:---------------------------------|-------------:|
+| 2025-12-31 00:00:00 | 2026-01-02 00:00:00 | C_PTON_20200529_m15 | Retracement Stop (Max Up: 4.30%) |        2.149 |
+2026-01-05 18:17:21,817 [INFO   ] 
+============================================================
+2026-01-05 18:17:21,817 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 18:17:21,817 [INFO   ] ============================================================
+2026-01-05 18:17:21,817 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 18:17:21,817 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 18:17:21,817 [INFO   ] Entry Date: 2026-01-05
+2026-01-05 18:17:21,817 [INFO   ] Entry Price: $39.08
+2026-01-05 18:17:21,817 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 18:17:21,818 [INFO   ] Renaming log file to indicate active trade...

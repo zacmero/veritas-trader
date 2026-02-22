@@ -1,0 +1,27 @@
+2026-01-05 22:44:22,049 [INFO   ] --- [Quick Strike Scanner v5.1 Started for TBBB] ---
+2026-01-05 22:44:23,105 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 22:44:55,851 [INFO   ] [32m!!! BUY SIGNAL on 2024-09-16 at $31.28 !!!
+2026-01-05 22:44:55,852 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 4.86%) | Profit: 2.43% !!!
+2026-01-05 22:44:55,932 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-31 at $33.39 !!!
+2026-01-05 22:44:55,932 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 5.63%) | Profit: 2.82% !!!
+2026-01-05 22:44:56,010 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-05 at $35.16 !!!
+2026-01-05 22:44:56,010 [INFO   ] 
+============================================================
+2026-01-05 22:44:56,010 [INFO   ] Total Trades: 2 | Win Rate: 100.00% | Avg P/L: 2.62%
+2026-01-05 22:44:56,011 [INFO   ] [36mSimulated Account ($10k start): $10,531.33 (Total Return: 5.31%)
+2026-01-05 22:44:56,016 [INFO   ] 
+| entry_date          | exit_date           | match_name         | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:-------------------|:---------------------------------|-------------:|
+| 2024-09-16 00:00:00 | 2024-09-19 00:00:00 | C_SOL_20210823_m10 | Retracement Stop (Max Up: 4.86%) |      2.42967 |
+| 2025-12-31 00:00:00 | 2026-01-02 00:00:00 | L_AMC_m30_ramp     | Retracement Stop (Max Up: 5.63%) |      2.81522 |
+2026-01-05 22:44:56,016 [INFO   ] 
+============================================================
+2026-01-05 22:44:56,016 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 22:44:56,016 [INFO   ] ============================================================
+2026-01-05 22:44:56,017 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 22:44:56,017 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 22:44:56,017 [INFO   ] Entry Date: 2026-01-05
+2026-01-05 22:44:56,017 [INFO   ] Entry Price: $35.16
+2026-01-05 22:44:56,017 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 22:44:56,017 [INFO   ] Renaming log file to indicate active trade...

@@ -1,0 +1,27 @@
+2026-01-05 05:43:40,944 [INFO   ] --- [Quick Strike Scanner v5.1 Started for CADE] ---
+2026-01-05 05:43:42,396 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 05:44:15,767 [INFO   ] [32m!!! BUY SIGNAL on 2020-11-23 at $21.19 !!!
+2026-01-05 05:44:15,767 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 5.57%) | Profit: 2.79% !!!
+2026-01-05 05:44:15,844 [INFO   ] [32m!!! BUY SIGNAL on 2021-01-15 at $24.39 !!!
+2026-01-05 05:44:15,844 [INFO   ] [31m!!! SELL: Stop Loss (-5.0%) | Profit: -5.00% !!!
+2026-01-05 05:44:15,934 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-30 at $43.14 !!!
+2026-01-05 05:44:15,935 [INFO   ] 
+============================================================
+2026-01-05 05:44:15,935 [INFO   ] Total Trades: 2 | Win Rate: 50.00% | Avg P/L: -1.11%
+2026-01-05 05:44:15,935 [INFO   ] [36mSimulated Account ($10k start): $9,764.69 (Total Return: -2.35%)
+2026-01-05 05:44:15,941 [INFO   ] 
+| entry_date          | exit_date           | match_name         | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:-------------------|:---------------------------------|-------------:|
+| 2020-11-23 00:00:00 | 2020-11-24 00:00:00 | C_SOL_20210204_m60 | Retracement Stop (Max Up: 5.57%) |       2.7862 |
+| 2021-01-15 00:00:00 | 2021-01-27 00:00:00 | C_ETH_20201209_m10 | Stop Loss (-5.0%)                |      -5      |
+2026-01-05 05:44:15,941 [INFO   ] 
+============================================================
+2026-01-05 05:44:15,941 [INFO   ] [31m[1m--- [STRATEGY VERDICT: BLACK SHEEP] ---
+2026-01-05 05:44:15,941 [INFO   ] ============================================================
+2026-01-05 05:44:15,941 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 05:44:15,941 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 05:44:15,941 [INFO   ] Entry Date: 2025-12-30
+2026-01-05 05:44:15,941 [INFO   ] Entry Price: $43.14
+2026-01-05 05:44:15,941 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 05:44:15,941 [INFO   ] Renaming log file to indicate active trade...

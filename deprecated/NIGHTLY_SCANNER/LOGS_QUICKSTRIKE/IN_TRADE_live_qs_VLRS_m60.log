@@ -1,0 +1,24 @@
+2026-01-06 00:45:25,682 [INFO   ] --- [Quick Strike Scanner v5.1 Started for VLRS] ---
+2026-01-06 00:45:26,660 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-06 00:46:00,518 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-31 at $8.88 !!!
+2026-01-06 00:46:00,519 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 4.39%) | Profit: 2.20% !!!
+2026-01-06 00:46:00,639 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-05 at $9.35 !!!
+2026-01-06 00:46:00,639 [INFO   ] 
+============================================================
+2026-01-06 00:46:00,639 [INFO   ] Total Trades: 1 | Win Rate: 100.00% | Avg P/L: 2.20%
+2026-01-06 00:46:00,640 [INFO   ] [36mSimulated Account ($10k start): $10,219.59 (Total Return: 2.20%)
+2026-01-06 00:46:00,646 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:----------------|:---------------------------------|-------------:|
+| 2025-12-31 00:00:00 | 2026-01-02 00:00:00 | L_CSCO_m90_ramp | Retracement Stop (Max Up: 4.39%) |      2.19595 |
+2026-01-06 00:46:00,646 [INFO   ] 
+============================================================
+2026-01-06 00:46:00,646 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-06 00:46:00,646 [INFO   ] ============================================================
+2026-01-06 00:46:00,646 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-06 00:46:00,646 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-06 00:46:00,646 [INFO   ] Entry Date: 2026-01-05
+2026-01-06 00:46:00,646 [INFO   ] Entry Price: $9.35
+2026-01-06 00:46:00,646 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-06 00:46:00,646 [INFO   ] Renaming log file to indicate active trade...

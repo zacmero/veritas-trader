@@ -1,0 +1,24 @@
+2026-01-05 03:55:09,086 [INFO   ] --- [Quick Strike Scanner v5.1 Started for ASTI] ---
+2026-01-05 03:55:10,290 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 03:55:43,848 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-30 at $4.50 !!!
+2026-01-05 03:55:43,848 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 2.73%) | Profit: 1.37% !!!
+2026-01-05 03:55:43,900 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-02 at $4.06 !!!
+2026-01-05 03:55:43,901 [INFO   ] 
+============================================================
+2026-01-05 03:55:43,901 [INFO   ] Total Trades: 1 | Win Rate: 100.00% | Avg P/L: 1.37%
+2026-01-05 03:55:43,901 [INFO   ] [36mSimulated Account ($10k start): $10,136.67 (Total Return: 1.37%)
+2026-01-05 03:55:43,906 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:----------------|:---------------------------------|-------------:|
+| 2025-12-30 00:00:00 | 2025-12-31 00:00:00 | L_IYR_m120_ramp | Retracement Stop (Max Up: 2.73%) |      1.36667 |
+2026-01-05 03:55:43,906 [INFO   ] 
+============================================================
+2026-01-05 03:55:43,906 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 03:55:43,907 [INFO   ] ============================================================
+2026-01-05 03:55:43,907 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 03:55:43,907 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 03:55:43,907 [INFO   ] Entry Date: 2026-01-02
+2026-01-05 03:55:43,907 [INFO   ] Entry Price: $4.06
+2026-01-05 03:55:43,907 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 03:55:43,907 [INFO   ] Renaming log file to indicate active trade...

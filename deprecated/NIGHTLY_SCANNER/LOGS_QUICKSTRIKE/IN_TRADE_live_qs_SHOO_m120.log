@@ -1,0 +1,24 @@
+2026-01-05 21:26:50,667 [INFO   ] --- [Quick Strike Scanner v5.1 Started for SHOO] ---
+2026-01-05 21:26:51,206 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 21:27:23,037 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-31 at $41.64 !!!
+2026-01-05 21:27:23,038 [INFO   ] [32m!!! SELL: Break Even Stop | Profit: 0.00% !!!
+2026-01-05 21:27:23,089 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-05 at $43.66 !!!
+2026-01-05 21:27:23,089 [INFO   ] 
+============================================================
+2026-01-05 21:27:23,089 [INFO   ] Total Trades: 1 | Win Rate: 0.00% | Avg P/L: 0.00%
+2026-01-05 21:27:23,089 [INFO   ] [36mSimulated Account ($10k start): $10,000.00 (Total Return: 0.00%)
+2026-01-05 21:27:23,101 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason     |   profit_pct |
+|:--------------------|:--------------------|:----------------|:----------------|-------------:|
+| 2025-12-31 00:00:00 | 2026-01-02 00:00:00 | L_CSCO_m90_ramp | Break Even Stop |            0 |
+2026-01-05 21:27:23,101 [INFO   ] 
+============================================================
+2026-01-05 21:27:23,101 [INFO   ] [31m[1m--- [STRATEGY VERDICT: BLACK SHEEP] ---
+2026-01-05 21:27:23,101 [INFO   ] ============================================================
+2026-01-05 21:27:23,101 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 21:27:23,102 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 21:27:23,102 [INFO   ] Entry Date: 2026-01-05
+2026-01-05 21:27:23,102 [INFO   ] Entry Price: $43.66
+2026-01-05 21:27:23,102 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 21:27:23,102 [INFO   ] Renaming log file to indicate active trade...

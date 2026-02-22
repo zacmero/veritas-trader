@@ -1,0 +1,24 @@
+2026-01-05 21:51:35,758 [INFO   ] --- [Quick Strike Scanner v5.1 Started for SNDR] ---
+2026-01-05 21:51:36,355 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 21:52:09,854 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-31 at $26.53 !!!
+2026-01-05 21:52:09,855 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 2.04%) | Profit: 1.02% !!!
+2026-01-05 21:52:09,904 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-05 at $28.11 !!!
+2026-01-05 21:52:09,905 [INFO   ] 
+============================================================
+2026-01-05 21:52:09,905 [INFO   ] Total Trades: 1 | Win Rate: 100.00% | Avg P/L: 1.02%
+2026-01-05 21:52:09,905 [INFO   ] [36mSimulated Account ($10k start): $10,101.77 (Total Return: 1.02%)
+2026-01-05 21:52:09,911 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:----------------|:---------------------------------|-------------:|
+| 2025-12-31 00:00:00 | 2026-01-02 00:00:00 | L_CSCO_m90_ramp | Retracement Stop (Max Up: 2.04%) |      1.01771 |
+2026-01-05 21:52:09,911 [INFO   ] 
+============================================================
+2026-01-05 21:52:09,911 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 21:52:09,911 [INFO   ] ============================================================
+2026-01-05 21:52:09,911 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 21:52:09,911 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 21:52:09,911 [INFO   ] Entry Date: 2026-01-05
+2026-01-05 21:52:09,911 [INFO   ] Entry Price: $28.11
+2026-01-05 21:52:09,912 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 21:52:09,912 [INFO   ] Renaming log file to indicate active trade...

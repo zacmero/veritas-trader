@@ -1,0 +1,24 @@
+2026-01-05 19:51:23,238 [INFO   ] --- [Quick Strike Scanner v5.1 Started for QXO] ---
+2026-01-05 19:51:24,358 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 19:51:58,551 [INFO   ] [32m!!! BUY SIGNAL on 2023-02-10 at $22.03 !!!
+2026-01-05 19:51:58,551 [INFO   ] [32m!!! SELL: Break Even Stop | Profit: 0.00% !!!
+2026-01-05 19:51:58,584 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-05 at $23.16 !!!
+2026-01-05 19:51:58,584 [INFO   ] 
+============================================================
+2026-01-05 19:51:58,584 [INFO   ] Total Trades: 1 | Win Rate: 0.00% | Avg P/L: 0.00%
+2026-01-05 19:51:58,584 [INFO   ] [36mSimulated Account ($10k start): $10,000.00 (Total Return: 0.00%)
+2026-01-05 19:51:58,590 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason     |   profit_pct |
+|:--------------------|:--------------------|:----------------|:----------------|-------------:|
+| 2023-02-10 00:00:00 | 2023-02-13 00:00:00 | L_CSCO_m90_ramp | Break Even Stop |            0 |
+2026-01-05 19:51:58,590 [INFO   ] 
+============================================================
+2026-01-05 19:51:58,590 [INFO   ] [31m[1m--- [STRATEGY VERDICT: BLACK SHEEP] ---
+2026-01-05 19:51:58,590 [INFO   ] ============================================================
+2026-01-05 19:51:58,590 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 19:51:58,590 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 19:51:58,590 [INFO   ] Entry Date: 2026-01-05
+2026-01-05 19:51:58,590 [INFO   ] Entry Price: $23.16
+2026-01-05 19:51:58,590 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 19:51:58,591 [INFO   ] Renaming log file to indicate active trade...

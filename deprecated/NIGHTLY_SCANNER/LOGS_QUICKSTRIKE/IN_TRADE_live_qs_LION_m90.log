@@ -1,0 +1,24 @@
+2026-01-05 14:45:09,474 [INFO   ] --- [Quick Strike Scanner v5.1 Started for LION] ---
+2026-01-05 14:45:10,847 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 14:45:44,544 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-31 at $9.13 !!!
+2026-01-05 14:45:44,544 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 3.83%) | Profit: 1.92% !!!
+2026-01-05 14:45:44,567 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-05 at $9.24 !!!
+2026-01-05 14:45:44,567 [INFO   ] 
+============================================================
+2026-01-05 14:45:44,567 [INFO   ] Total Trades: 1 | Win Rate: 100.00% | Avg P/L: 1.92%
+2026-01-05 14:45:44,567 [INFO   ] [36mSimulated Account ($10k start): $10,191.68 (Total Return: 1.92%)
+2026-01-05 14:45:44,573 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:----------------|:---------------------------------|-------------:|
+| 2025-12-31 00:00:00 | 2026-01-02 00:00:00 | L_IYR_m120_ramp | Retracement Stop (Max Up: 3.83%) |      1.91675 |
+2026-01-05 14:45:44,573 [INFO   ] 
+============================================================
+2026-01-05 14:45:44,573 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 14:45:44,573 [INFO   ] ============================================================
+2026-01-05 14:45:44,573 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 14:45:44,573 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 14:45:44,573 [INFO   ] Entry Date: 2026-01-05
+2026-01-05 14:45:44,573 [INFO   ] Entry Price: $9.24
+2026-01-05 14:45:44,573 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 14:45:44,573 [INFO   ] Renaming log file to indicate active trade...

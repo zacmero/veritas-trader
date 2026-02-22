@@ -1,0 +1,27 @@
+2026-01-05 23:42:23,640 [INFO   ] --- [Quick Strike Scanner v5.1 Started for TSLA] ---
+2026-01-05 23:42:24,882 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 23:42:59,312 [INFO   ] [32m!!! BUY SIGNAL on 2021-11-02 at $390.67 !!!
+2026-01-05 23:42:59,313 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 3.70%) | Profit: 1.85% !!!
+2026-01-05 23:42:59,371 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-31 at $449.72 !!!
+2026-01-05 23:42:59,371 [INFO   ] [32m!!! SELL: Break Even Stop | Profit: 0.00% !!!
+2026-01-05 23:42:59,422 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-05 at $451.67 !!!
+2026-01-05 23:42:59,422 [INFO   ] 
+============================================================
+2026-01-05 23:42:59,422 [INFO   ] Total Trades: 2 | Win Rate: 50.00% | Avg P/L: 0.93%
+2026-01-05 23:42:59,422 [INFO   ] [36mSimulated Account ($10k start): $10,185.11 (Total Return: 1.85%)
+2026-01-05 23:42:59,428 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:----------------|:---------------------------------|-------------:|
+| 2021-11-02 00:00:00 | 2021-11-03 00:00:00 | L_IYR_m120_ramp | Retracement Stop (Max Up: 3.70%) |      1.85111 |
+| 2025-12-31 00:00:00 | 2026-01-02 00:00:00 | L_CSCO_m90_ramp | Break Even Stop                  |      0       |
+2026-01-05 23:42:59,428 [INFO   ] 
+============================================================
+2026-01-05 23:42:59,428 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 23:42:59,428 [INFO   ] ============================================================
+2026-01-05 23:42:59,428 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 23:42:59,428 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 23:42:59,428 [INFO   ] Entry Date: 2026-01-05
+2026-01-05 23:42:59,428 [INFO   ] Entry Price: $451.67
+2026-01-05 23:42:59,428 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 23:42:59,428 [INFO   ] Renaming log file to indicate active trade...

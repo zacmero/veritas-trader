@@ -1,0 +1,24 @@
+2026-01-05 16:41:00,219 [INFO   ] --- [Quick Strike Scanner v5.1 Started for NEWP] ---
+2026-01-05 16:41:01,381 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 16:41:35,491 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-31 at $3.51 !!!
+2026-01-05 16:41:35,491 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 3.70%) | Profit: 1.85% !!!
+2026-01-05 16:41:35,541 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-05 at $3.56 !!!
+2026-01-05 16:41:35,541 [INFO   ] 
+============================================================
+2026-01-05 16:41:35,541 [INFO   ] Total Trades: 1 | Win Rate: 100.00% | Avg P/L: 1.85%
+2026-01-05 16:41:35,541 [INFO   ] [36mSimulated Account ($10k start): $10,185.19 (Total Return: 1.85%)
+2026-01-05 16:41:35,547 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:----------------|:---------------------------------|-------------:|
+| 2025-12-31 00:00:00 | 2026-01-02 00:00:00 | L_CSCO_m90_ramp | Retracement Stop (Max Up: 3.70%) |      1.85185 |
+2026-01-05 16:41:35,547 [INFO   ] 
+============================================================
+2026-01-05 16:41:35,548 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 16:41:35,548 [INFO   ] ============================================================
+2026-01-05 16:41:35,548 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 16:41:35,548 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 16:41:35,548 [INFO   ] Entry Date: 2026-01-05
+2026-01-05 16:41:35,548 [INFO   ] Entry Price: $3.56
+2026-01-05 16:41:35,548 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 16:41:35,548 [INFO   ] Renaming log file to indicate active trade...

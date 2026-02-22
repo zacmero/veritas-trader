@@ -1,0 +1,24 @@
+2026-01-06 02:16:27,136 [INFO   ] --- [Quick Strike Scanner v5.1 Started for ZURA] ---
+2026-01-06 02:16:27,686 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-06 02:17:00,985 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-31 at $5.24 !!!
+2026-01-06 02:17:00,986 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 9.73%) | Profit: 4.87% !!!
+2026-01-06 02:17:01,050 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-05 at $4.80 !!!
+2026-01-06 02:17:01,050 [INFO   ] 
+============================================================
+2026-01-06 02:17:01,050 [INFO   ] Total Trades: 1 | Win Rate: 100.00% | Avg P/L: 4.87%
+2026-01-06 02:17:01,050 [INFO   ] [36mSimulated Account ($10k start): $10,486.64 (Total Return: 4.87%)
+2026-01-06 02:17:01,062 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:----------------|:---------------------------------|-------------:|
+| 2025-12-31 00:00:00 | 2026-01-02 00:00:00 | L_IYR_m120_ramp | Retracement Stop (Max Up: 9.73%) |      4.86641 |
+2026-01-06 02:17:01,062 [INFO   ] 
+============================================================
+2026-01-06 02:17:01,062 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-06 02:17:01,062 [INFO   ] ============================================================
+2026-01-06 02:17:01,062 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-06 02:17:01,062 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-06 02:17:01,062 [INFO   ] Entry Date: 2026-01-05
+2026-01-06 02:17:01,062 [INFO   ] Entry Price: $4.80
+2026-01-06 02:17:01,062 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-06 02:17:01,062 [INFO   ] Renaming log file to indicate active trade...

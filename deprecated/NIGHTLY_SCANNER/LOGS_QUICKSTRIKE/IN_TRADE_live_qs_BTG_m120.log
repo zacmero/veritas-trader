@@ -1,0 +1,17 @@
+2026-01-05 05:27:49,832 [INFO   ] --- [Quick Strike Scanner v5.1 Started for BTG] ---
+2026-01-05 05:27:51,120 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 05:28:24,845 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-30 at $4.56 !!!
+2026-01-05 05:28:24,845 [INFO   ] 
+============================================================
+2026-01-05 05:28:24,845 [INFO   ] No trades were executed during the simulation period.
+2026-01-05 05:28:24,845 [INFO   ] 
+============================================================
+2026-01-05 05:28:24,845 [INFO   ] [34m--- [STRATEGY VERDICT: PASSIVE] ---
+2026-01-05 05:28:24,845 [INFO   ] ============================================================
+2026-01-05 05:28:24,845 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 05:28:24,845 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 05:28:24,845 [INFO   ] Entry Date: 2025-12-30
+2026-01-05 05:28:24,846 [INFO   ] Entry Price: $4.56
+2026-01-05 05:28:24,846 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 05:28:24,846 [INFO   ] Renaming log file to indicate active trade...

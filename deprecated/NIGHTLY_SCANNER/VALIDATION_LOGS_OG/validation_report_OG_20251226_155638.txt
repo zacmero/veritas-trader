@@ -1,0 +1,45 @@
+--- [TRUE PROFIT VALIDATOR v2.0 - BUBBLE SCANNER] ---
+Target Directory: /home/zacmero/IN_TRADE2/profitable
+Saving results to: /home/zacmero/stock-bubble/NIGHTLY_SCANNER/VALIDATION_LOGS_OG/validation_report_OG_20251226_155638.txt
+
+Ticker   | M   | Entry Date   | Exit Date    | Entry $  | Status                              | Profit %
+---------------------------------------------------------------------------------------------------------
+ACMR     | 120 | 2025-12-17   | 2025-12-18   | 37.36    | Retracement (Max Up 5.59%)          | 2.80%
+ACMR     | 60  | 2025-12-17   | 2025-12-18   | 37.36    | Retracement (Max Up 5.59%)          | 2.80%
+ACMR     | 90  | 2025-12-17   | 2025-12-18   | 37.36    | Retracement (Max Up 5.59%)          | 2.80%
+CHYM     | 15  | 2025-12-17   | 2025-12-18   | 24.70    | Retracement (Max Up 4.90%)          | 2.45%
+CHYM     | 30  | 2025-12-17   | 2025-12-18   | 24.70    | Retracement (Max Up 4.90%)          | 2.45%
+CHYM     | 60  | 2025-12-17   | 2025-12-18   | 24.70    | Retracement (Max Up 4.90%)          | 2.45%
+FROG     | 120 | 2025-12-17   | 2025-12-18   | 63.99    | Retracement (Max Up 5.27%)          | 2.63%
+GCT      | 120 | 2025-12-17   | 2025-12-18   | 39.95    | Retracement (Max Up 9.76%)          | 4.88%
+GCT      | 90  | 2025-12-17   | 2025-12-18   | 39.95    | Retracement (Max Up 9.76%)          | 4.88%
+IDAI     | 15  | 2025-07-14   | 2025-07-15   | 3.12     | Retracement (Max Up 5.13%)          | 2.56%
+IDN      | 90  | 2025-12-17   | 2025-12-18   | 6.73     | Retracement (Max Up 5.65%)          | 2.82%
+LASR     | 120 | 2025-12-19   | 2025-12-22   | 37.71    | Retracement (Max Up 3.39%)          | 1.70%
+LASR     | 60  | 2025-12-19   | 2025-12-22   | 37.71    | Retracement (Max Up 3.39%)          | 1.70%
+LASR     | 90  | 2025-12-19   | 2025-12-22   | 37.71    | Retracement (Max Up 3.39%)          | 1.70%
+LITE     | 15  | 2025-05-30   | 2025-06-02   | 72.28    | Retracement (Max Up 5.51%)          | 2.75%
+LTRX     | 60  | 2025-12-17   | 2025-12-18   | 5.34     | Retracement (Max Up 4.87%)          | 2.43%
+MCHPP    | 15  | 2025-12-19   | 2025-12-23   | 59.28    | Retracement (Max Up 2.65%)          | 1.32%
+MCHPP    | 30  | 2025-12-19   | 2025-12-23   | 59.28    | Retracement (Max Up 2.65%)          | 1.32%
+MCHPP    | 60  | 2025-12-19   | 2025-12-23   | 59.28    | Retracement (Max Up 2.65%)          | 1.32%
+MCHPP    | 90  | 2025-12-19   | 2025-12-23   | 59.28    | Retracement (Max Up 2.65%)          | 1.32%
+NN       | 120 | 2025-12-17   | 2025-12-18   | 16.63    | Retracement (Max Up 3.97%)          | 1.98%
+NYAX     | 120 | 2025-12-18   | 2025-12-22   | 46.22    | Retracement (Max Up 2.99%)          | 1.49%
+NYAX     | 60  | 2025-12-18   | 2025-12-22   | 46.22    | Retracement (Max Up 2.99%)          | 1.49%
+NYAX     | 90  | 2025-12-18   | 2025-12-22   | 46.22    | Retracement (Max Up 2.99%)          | 1.49%
+POET     | 30  | 2025-12-18   | 2025-12-19   | 6.13     | Retracement (Max Up 11.42%)         | 5.71%
+RDZN     | 120 | 2025-12-18   | 2025-12-22   | 1.68     | Retracement (Max Up 14.29%)         | 7.14%
+RDZN     | 90  | 2025-12-18   | 2025-12-22   | 1.68     | Retracement (Max Up 14.29%)         | 7.14%
+SONO     | 120 | 2025-12-18   | 2025-12-26   | 18.30    | STILL_OPEN                          | -1.16%
+TTAN     | 120 | 2025-12-17   | 2025-12-18   | 105.89   | Retracement (Max Up 2.80%)          | 1.40%
+TTAN     | 30  | 2025-12-17   | 2025-12-18   | 105.89   | Retracement (Max Up 2.80%)          | 1.40%
+TTAN     | 60  | 2025-12-17   | 2025-12-18   | 105.89   | Retracement (Max Up 2.80%)          | 1.40%
+TTAN     | 90  | 2025-12-17   | 2025-12-18   | 105.89   | Retracement (Max Up 2.80%)          | 1.40%
+
+========================================
+TOTAL TRADES ANALYZED: 32
+REAL WIN RATE: 96.88%
+AVERAGE P/L: 2.50%
+TOTAL P/L SUM: 80.00%
+========================================

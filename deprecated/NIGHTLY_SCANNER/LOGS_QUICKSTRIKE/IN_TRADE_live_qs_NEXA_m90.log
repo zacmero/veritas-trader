@@ -1,0 +1,24 @@
+2026-01-05 16:41:39,209 [INFO   ] --- [Quick Strike Scanner v5.1 Started for NEXA] ---
+2026-01-05 16:41:39,712 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 16:42:13,726 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-31 at $8.85 !!!
+2026-01-05 16:42:13,727 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 3.84%) | Profit: 1.92% !!!
+2026-01-05 16:42:13,777 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-05 at $9.14 !!!
+2026-01-05 16:42:13,777 [INFO   ] 
+============================================================
+2026-01-05 16:42:13,777 [INFO   ] Total Trades: 1 | Win Rate: 100.00% | Avg P/L: 1.92%
+2026-01-05 16:42:13,777 [INFO   ] [36mSimulated Account ($10k start): $10,192.09 (Total Return: 1.92%)
+2026-01-05 16:42:13,784 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:----------------|:---------------------------------|-------------:|
+| 2025-12-31 00:00:00 | 2026-01-02 00:00:00 | L_IYR_m120_ramp | Retracement Stop (Max Up: 3.84%) |       1.9209 |
+2026-01-05 16:42:13,784 [INFO   ] 
+============================================================
+2026-01-05 16:42:13,784 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 16:42:13,784 [INFO   ] ============================================================
+2026-01-05 16:42:13,784 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 16:42:13,784 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 16:42:13,784 [INFO   ] Entry Date: 2026-01-05
+2026-01-05 16:42:13,784 [INFO   ] Entry Price: $9.14
+2026-01-05 16:42:13,784 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 16:42:13,784 [INFO   ] Renaming log file to indicate active trade...

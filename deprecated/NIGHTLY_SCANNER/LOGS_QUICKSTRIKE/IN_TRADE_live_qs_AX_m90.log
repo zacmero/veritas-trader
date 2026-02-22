@@ -1,0 +1,24 @@
+2026-01-05 04:16:50,021 [INFO   ] --- [Quick Strike Scanner v5.1 Started for AX] ---
+2026-01-05 04:16:50,423 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 04:17:23,529 [INFO   ] [32m!!! BUY SIGNAL on 2021-10-14 at $54.78 !!!
+2026-01-05 04:17:23,529 [INFO   ] [32m!!! SELL: Break Even Stop | Profit: 0.00% !!!
+2026-01-05 04:17:23,600 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-30 at $86.76 !!!
+2026-01-05 04:17:23,601 [INFO   ] 
+============================================================
+2026-01-05 04:17:23,601 [INFO   ] Total Trades: 1 | Win Rate: 0.00% | Avg P/L: 0.00%
+2026-01-05 04:17:23,601 [INFO   ] [36mSimulated Account ($10k start): $10,000.00 (Total Return: 0.00%)
+2026-01-05 04:17:23,612 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason     |   profit_pct |
+|:--------------------|:--------------------|:----------------|:----------------|-------------:|
+| 2021-10-14 00:00:00 | 2021-10-15 00:00:00 | L_IYR_m120_ramp | Break Even Stop |            0 |
+2026-01-05 04:17:23,612 [INFO   ] 
+============================================================
+2026-01-05 04:17:23,612 [INFO   ] [31m[1m--- [STRATEGY VERDICT: BLACK SHEEP] ---
+2026-01-05 04:17:23,612 [INFO   ] ============================================================
+2026-01-05 04:17:23,612 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 04:17:23,612 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 04:17:23,612 [INFO   ] Entry Date: 2025-12-30
+2026-01-05 04:17:23,612 [INFO   ] Entry Price: $86.76
+2026-01-05 04:17:23,612 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 04:17:23,612 [INFO   ] Renaming log file to indicate active trade...

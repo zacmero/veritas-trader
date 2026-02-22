@@ -1,0 +1,24 @@
+2026-01-05 06:51:35,802 [INFO   ] --- [Quick Strike Scanner v5.1 Started for CMTL] ---
+2026-01-05 06:51:36,360 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 06:52:02,629 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-30 at $5.37 !!!
+2026-01-05 06:52:02,629 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 2.98%) | Profit: 1.49% !!!
+2026-01-05 06:52:02,680 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-02 at $5.53 !!!
+2026-01-05 06:52:02,680 [INFO   ] 
+============================================================
+2026-01-05 06:52:02,680 [INFO   ] Total Trades: 1 | Win Rate: 100.00% | Avg P/L: 1.49%
+2026-01-05 06:52:02,680 [INFO   ] [36mSimulated Account ($10k start): $10,148.98 (Total Return: 1.49%)
+2026-01-05 06:52:02,687 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:----------------|:---------------------------------|-------------:|
+| 2025-12-30 00:00:00 | 2025-12-31 00:00:00 | L_IYR_m120_ramp | Retracement Stop (Max Up: 2.98%) |      1.48976 |
+2026-01-05 06:52:02,687 [INFO   ] 
+============================================================
+2026-01-05 06:52:02,687 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 06:52:02,687 [INFO   ] ============================================================
+2026-01-05 06:52:02,687 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 06:52:02,687 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 06:52:02,687 [INFO   ] Entry Date: 2026-01-02
+2026-01-05 06:52:02,687 [INFO   ] Entry Price: $5.53
+2026-01-05 06:52:02,687 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 06:52:02,687 [INFO   ] Renaming log file to indicate active trade...

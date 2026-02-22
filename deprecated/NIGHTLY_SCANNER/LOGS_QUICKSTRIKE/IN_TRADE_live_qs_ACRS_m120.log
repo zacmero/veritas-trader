@@ -1,0 +1,24 @@
+2026-01-05 02:15:46,717 [INFO   ] --- [Quick Strike Scanner v5.1 Started for ACRS] ---
+2026-01-05 02:15:47,560 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 02:16:21,184 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-30 at $2.90 !!!
+2026-01-05 02:16:21,184 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 4.31%) | Profit: 2.16% !!!
+2026-01-05 02:16:21,224 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-02 at $2.88 !!!
+2026-01-05 02:16:21,224 [INFO   ] 
+============================================================
+2026-01-05 02:16:21,224 [INFO   ] Total Trades: 1 | Win Rate: 100.00% | Avg P/L: 2.16%
+2026-01-05 02:16:21,224 [INFO   ] [36mSimulated Account ($10k start): $10,215.52 (Total Return: 2.16%)
+2026-01-05 02:16:21,230 [INFO   ] 
+| entry_date          | exit_date           | match_name         | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:-------------------|:---------------------------------|-------------:|
+| 2025-12-30 00:00:00 | 2025-12-31 00:00:00 | C_GME_20201109_m90 | Retracement Stop (Max Up: 4.31%) |      2.15517 |
+2026-01-05 02:16:21,230 [INFO   ] 
+============================================================
+2026-01-05 02:16:21,230 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 02:16:21,230 [INFO   ] ============================================================
+2026-01-05 02:16:21,230 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 02:16:21,230 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 02:16:21,230 [INFO   ] Entry Date: 2026-01-02
+2026-01-05 02:16:21,230 [INFO   ] Entry Price: $2.88
+2026-01-05 02:16:21,230 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 02:16:21,231 [INFO   ] Renaming log file to indicate active trade...

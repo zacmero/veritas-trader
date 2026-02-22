@@ -1,0 +1,24 @@
+2026-01-05 10:35:26,628 [INFO   ] --- [Quick Strike Scanner v5.1 Started for FOXA] ---
+2026-01-05 10:35:27,616 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 10:36:01,008 [INFO   ] [32m!!! BUY SIGNAL on 2023-02-06 at $32.64 !!!
+2026-01-05 10:36:01,009 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 8.33%) | Profit: 4.17% !!!
+2026-01-05 10:36:01,065 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-30 at $73.70 !!!
+2026-01-05 10:36:01,065 [INFO   ] 
+============================================================
+2026-01-05 10:36:01,065 [INFO   ] Total Trades: 1 | Win Rate: 100.00% | Avg P/L: 4.17%
+2026-01-05 10:36:01,066 [INFO   ] [36mSimulated Account ($10k start): $10,416.54 (Total Return: 4.17%)
+2026-01-05 10:36:01,072 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:----------------|:---------------------------------|-------------:|
+| 2023-02-06 00:00:00 | 2023-02-08 00:00:00 | L_IYR_m120_ramp | Retracement Stop (Max Up: 8.33%) |      4.16543 |
+2026-01-05 10:36:01,072 [INFO   ] 
+============================================================
+2026-01-05 10:36:01,072 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 10:36:01,072 [INFO   ] ============================================================
+2026-01-05 10:36:01,072 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 10:36:01,072 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 10:36:01,072 [INFO   ] Entry Date: 2025-12-30
+2026-01-05 10:36:01,072 [INFO   ] Entry Price: $73.70
+2026-01-05 10:36:01,072 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 10:36:01,072 [INFO   ] Renaming log file to indicate active trade...

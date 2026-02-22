@@ -1,0 +1,24 @@
+2026-01-05 20:56:37,562 [INFO   ] --- [Quick Strike Scanner v5.1 Started for SATL] ---
+2026-01-05 20:56:38,677 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 20:57:11,708 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-31 at $1.87 !!!
+2026-01-05 20:57:11,708 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 5.35%) | Profit: 2.67% !!!
+2026-01-05 20:57:11,758 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-05 at $2.30 !!!
+2026-01-05 20:57:11,758 [INFO   ] 
+============================================================
+2026-01-05 20:57:11,758 [INFO   ] Total Trades: 1 | Win Rate: 100.00% | Avg P/L: 2.67%
+2026-01-05 20:57:11,758 [INFO   ] [36mSimulated Account ($10k start): $10,267.38 (Total Return: 2.67%)
+2026-01-05 20:57:11,764 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:----------------|:---------------------------------|-------------:|
+| 2025-12-31 00:00:00 | 2026-01-02 00:00:00 | L_CSCO_m90_ramp | Retracement Stop (Max Up: 5.35%) |       2.6738 |
+2026-01-05 20:57:11,765 [INFO   ] 
+============================================================
+2026-01-05 20:57:11,765 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 20:57:11,765 [INFO   ] ============================================================
+2026-01-05 20:57:11,765 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 20:57:11,765 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 20:57:11,765 [INFO   ] Entry Date: 2026-01-05
+2026-01-05 20:57:11,765 [INFO   ] Entry Price: $2.30
+2026-01-05 20:57:11,765 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 20:57:11,765 [INFO   ] Renaming log file to indicate active trade...

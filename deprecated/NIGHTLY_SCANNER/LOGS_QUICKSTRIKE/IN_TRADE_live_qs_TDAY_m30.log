@@ -1,0 +1,24 @@
+2026-01-05 22:48:14,286 [INFO   ] --- [Quick Strike Scanner v5.1 Started for TDAY] ---
+2026-01-05 22:48:15,525 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 22:48:49,520 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-31 at $5.15 !!!
+2026-01-05 22:48:49,520 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 2.33%) | Profit: 1.17% !!!
+2026-01-05 22:48:49,603 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-05 at $5.31 !!!
+2026-01-05 22:48:49,604 [INFO   ] 
+============================================================
+2026-01-05 22:48:49,604 [INFO   ] Total Trades: 1 | Win Rate: 100.00% | Avg P/L: 1.17%
+2026-01-05 22:48:49,604 [INFO   ] [36mSimulated Account ($10k start): $10,116.50 (Total Return: 1.17%)
+2026-01-05 22:48:49,610 [INFO   ] 
+| entry_date          | exit_date           | match_name         | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:-------------------|:---------------------------------|-------------:|
+| 2025-12-31 00:00:00 | 2026-01-02 00:00:00 | C_SOL_20210823_m10 | Retracement Stop (Max Up: 2.33%) |      1.16505 |
+2026-01-05 22:48:49,610 [INFO   ] 
+============================================================
+2026-01-05 22:48:49,610 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 22:48:49,610 [INFO   ] ============================================================
+2026-01-05 22:48:49,610 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 22:48:49,610 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 22:48:49,610 [INFO   ] Entry Date: 2026-01-05
+2026-01-05 22:48:49,610 [INFO   ] Entry Price: $5.31
+2026-01-05 22:48:49,610 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 22:48:49,610 [INFO   ] Renaming log file to indicate active trade...

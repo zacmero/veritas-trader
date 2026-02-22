@@ -1,0 +1,28 @@
+Here is the final summary table comparing the 30-day
+  percentage growth of true bubbles versus the false positives.
+
+  Final Summary Table
+
+
+  ┌─────────────────┬───────────────┬─────────────────┐
+  │ Category        │ Asset/Date    │ 30-Day % Growth │
+  ├─────────────────┼───────────────┼─────────────────┤
+  │ True Bubbles    │ GME           │ 35.16           │
+  │ True Bubbles    │ AMC           │ 93.82           │
+  │ True Bubbles    │ VWAGY         │ -27.72          │
+  │ True Bubbles    │ CSCO          │ 47.74           │
+  │ True Bubbles    │ IYR           │ 10.26           │
+  │ True Bubbles    │ SSYS          │ 5.50            │
+  │ True Bubbles    │ DOGE-USD      │ 48.10           │
+  │ True Bubbles    │ SHIB-USD      │ 19.44           │
+  │ False Positives │ KO 2018-10-10 │ 8.10            │
+  │ False Positives │ KO 2019-03-21 │ 6.33            │
+  │ False Positives │ KO 2019-08-13 │ 2.24            │
+  │ False Positives │ KO 2019-12-06 │ 5.05            │
+  │ False Positives │ KO 2020-07-02 │ 7.80            │
+  │ False Positives │ KO 2021-04-14 │ 3.22            │
+  │ False Positives │ KO 2021-07-09 │ 4.41            │
+  │ False Positives │ KO 2019-03-15 │ 6.53            │
+  │ False Positives │ KO 2019-11-08 │ 6.07            │
+  │ False Positives │ KO 2020-08-13 │ 1.48            │
+  └─────────────────┴───────────────┴─────────────────┘

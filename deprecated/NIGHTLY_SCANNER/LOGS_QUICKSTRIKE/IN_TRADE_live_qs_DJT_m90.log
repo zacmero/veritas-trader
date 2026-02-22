@@ -1,0 +1,24 @@
+2026-01-05 08:26:56,193 [INFO   ] --- [Quick Strike Scanner v5.1 Started for DJT] ---
+2026-01-05 08:26:57,393 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 08:27:31,760 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-30 at $12.57 !!!
+2026-01-05 08:27:31,760 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 9.79%) | Profit: 4.89% !!!
+2026-01-05 08:27:31,782 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-02 at $13.77 !!!
+2026-01-05 08:27:31,783 [INFO   ] 
+============================================================
+2026-01-05 08:27:31,783 [INFO   ] Total Trades: 1 | Win Rate: 100.00% | Avg P/L: 4.89%
+2026-01-05 08:27:31,783 [INFO   ] [36mSimulated Account ($10k start): $10,489.26 (Total Return: 4.89%)
+2026-01-05 08:27:31,788 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:----------------|:---------------------------------|-------------:|
+| 2025-12-30 00:00:00 | 2025-12-31 00:00:00 | L_IYR_m120_ramp | Retracement Stop (Max Up: 9.79%) |       4.8926 |
+2026-01-05 08:27:31,788 [INFO   ] 
+============================================================
+2026-01-05 08:27:31,788 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 08:27:31,788 [INFO   ] ============================================================
+2026-01-05 08:27:31,788 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 08:27:31,788 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 08:27:31,788 [INFO   ] Entry Date: 2026-01-02
+2026-01-05 08:27:31,788 [INFO   ] Entry Price: $13.77
+2026-01-05 08:27:31,788 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 08:27:31,788 [INFO   ] Renaming log file to indicate active trade...

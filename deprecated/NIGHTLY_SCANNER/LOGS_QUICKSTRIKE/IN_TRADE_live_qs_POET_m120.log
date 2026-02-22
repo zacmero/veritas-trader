@@ -1,0 +1,27 @@
+2026-01-05 19:10:06,110 [INFO   ] --- [Quick Strike Scanner v5.1 Started for POET] ---
+2026-01-05 19:10:06,617 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 19:10:40,593 [INFO   ] [32m!!! BUY SIGNAL on 2023-02-14 at $4.45 !!!
+2026-01-05 19:10:40,593 [INFO   ] [31m!!! SELL: Stop Loss (-5.0%) | Profit: -5.00% !!!
+2026-01-05 19:10:40,649 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-31 at $6.33 !!!
+2026-01-05 19:10:40,649 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 13.59%) | Profit: 6.79% !!!
+2026-01-05 19:10:40,699 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-05 at $7.45 !!!
+2026-01-05 19:10:40,699 [INFO   ] 
+============================================================
+2026-01-05 19:10:40,700 [INFO   ] Total Trades: 2 | Win Rate: 50.00% | Avg P/L: 0.90%
+2026-01-05 19:10:40,700 [INFO   ] [36mSimulated Account ($10k start): $10,145.34 (Total Return: 1.45%)
+2026-01-05 19:10:40,706 [INFO   ] 
+| entry_date          | exit_date           | match_name         | exit_reason                       |   profit_pct |
+|:--------------------|:--------------------|:-------------------|:----------------------------------|-------------:|
+| 2023-02-14 00:00:00 | 2023-02-16 00:00:00 | C_GME_20201109_m90 | Stop Loss (-5.0%)                 |     -5       |
+| 2025-12-31 00:00:00 | 2026-01-02 00:00:00 | L_CSCO_m90_ramp    | Retracement Stop (Max Up: 13.59%) |      6.79305 |
+2026-01-05 19:10:40,706 [INFO   ] 
+============================================================
+2026-01-05 19:10:40,706 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 19:10:40,706 [INFO   ] ============================================================
+2026-01-05 19:10:40,706 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 19:10:40,706 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 19:10:40,706 [INFO   ] Entry Date: 2026-01-05
+2026-01-05 19:10:40,706 [INFO   ] Entry Price: $7.45
+2026-01-05 19:10:40,706 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 19:10:40,706 [INFO   ] Renaming log file to indicate active trade...

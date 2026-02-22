@@ -1,0 +1,24 @@
+2026-01-05 20:21:22,338 [INFO   ] --- [Quick Strike Scanner v5.1 Started for RJF] ---
+2026-01-05 20:21:23,035 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 20:21:56,742 [INFO   ] [32m!!! BUY SIGNAL on 2022-08-05 at $97.18 !!!
+2026-01-05 20:21:56,742 [INFO   ] [32m!!! SELL: Time Stop (7 days) | Profit: 8.34% !!!
+2026-01-05 20:21:56,800 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-05 at $167.32 !!!
+2026-01-05 20:21:56,801 [INFO   ] 
+============================================================
+2026-01-05 20:21:56,801 [INFO   ] Total Trades: 1 | Win Rate: 100.00% | Avg P/L: 8.34%
+2026-01-05 20:21:56,801 [INFO   ] [36mSimulated Account ($10k start): $10,833.82 (Total Return: 8.34%)
+2026-01-05 20:21:56,807 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason        |   profit_pct |
+|:--------------------|:--------------------|:----------------|:-------------------|-------------:|
+| 2022-08-05 00:00:00 | 2022-08-16 00:00:00 | L_IYR_m120_ramp | Time Stop (7 days) |      8.33823 |
+2026-01-05 20:21:56,807 [INFO   ] 
+============================================================
+2026-01-05 20:21:56,807 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 20:21:56,807 [INFO   ] ============================================================
+2026-01-05 20:21:56,807 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 20:21:56,807 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 20:21:56,807 [INFO   ] Entry Date: 2026-01-05
+2026-01-05 20:21:56,807 [INFO   ] Entry Price: $167.32
+2026-01-05 20:21:56,807 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 20:21:56,807 [INFO   ] Renaming log file to indicate active trade...

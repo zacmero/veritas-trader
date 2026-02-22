@@ -1,0 +1,24 @@
+2026-01-05 02:31:49,822 [INFO   ] --- [Quick Strike Scanner v5.1 Started for AEVA] ---
+2026-01-05 02:31:51,039 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 02:32:25,721 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-30 at $13.20 !!!
+2026-01-05 02:32:25,721 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 2.80%) | Profit: 1.40% !!!
+2026-01-05 02:32:25,771 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-02 at $12.75 !!!
+2026-01-05 02:32:25,772 [INFO   ] 
+============================================================
+2026-01-05 02:32:25,772 [INFO   ] Total Trades: 1 | Win Rate: 100.00% | Avg P/L: 1.40%
+2026-01-05 02:32:25,772 [INFO   ] [36mSimulated Account ($10k start): $10,140.15 (Total Return: 1.40%)
+2026-01-05 02:32:25,778 [INFO   ] 
+| entry_date          | exit_date           | match_name         | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:-------------------|:---------------------------------|-------------:|
+| 2025-12-30 00:00:00 | 2025-12-31 00:00:00 | C_GME_20201109_m90 | Retracement Stop (Max Up: 2.80%) |      1.40151 |
+2026-01-05 02:32:25,778 [INFO   ] 
+============================================================
+2026-01-05 02:32:25,778 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 02:32:25,778 [INFO   ] ============================================================
+2026-01-05 02:32:25,778 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 02:32:25,778 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 02:32:25,778 [INFO   ] Entry Date: 2026-01-02
+2026-01-05 02:32:25,778 [INFO   ] Entry Price: $12.75
+2026-01-05 02:32:25,779 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 02:32:25,779 [INFO   ] Renaming log file to indicate active trade...

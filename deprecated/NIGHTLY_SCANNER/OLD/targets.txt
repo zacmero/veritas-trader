@@ -1,0 +1,32 @@
+# This is the list of assets for the Nightly Scanner.
+# Add one ticker symbol per line.
+# yfinance format is used (e.g., "BTC-USD", "GME").
+# Lines starting with # are comments and will be ignored.
+
+# --- Meme Stocks ---
+GME
+AMC
+BBBYQ
+
+# --- Major Crypto ---
+BTC-USD
+ETH-USD
+
+# --- Meme Coins ---
+SHIB-USD
+DOGE-USD
+
+# --- AI & Tech ---
+NVDA
+AMD
+MSFT
+META
+
+# --- Major Indices & ETFs ---
+^GSPC
+USO
+IYR
+
+# --- Historical Archetype Tickers ---
+VWAGY
+CSCO

@@ -1,0 +1,24 @@
+2026-01-05 17:06:25,679 [INFO   ] --- [Quick Strike Scanner v5.1 Started for NRXS] ---
+2026-01-05 17:06:26,653 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 17:06:59,218 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-31 at $4.54 !!!
+2026-01-05 17:06:59,218 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 2.20%) | Profit: 1.10% !!!
+2026-01-05 17:06:59,278 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-05 at $4.41 !!!
+2026-01-05 17:06:59,278 [INFO   ] 
+============================================================
+2026-01-05 17:06:59,278 [INFO   ] Total Trades: 1 | Win Rate: 100.00% | Avg P/L: 1.10%
+2026-01-05 17:06:59,278 [INFO   ] [36mSimulated Account ($10k start): $10,110.13 (Total Return: 1.10%)
+2026-01-05 17:06:59,290 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:----------------|:---------------------------------|-------------:|
+| 2025-12-31 00:00:00 | 2026-01-02 00:00:00 | L_IYR_m120_ramp | Retracement Stop (Max Up: 2.20%) |      1.10132 |
+2026-01-05 17:06:59,290 [INFO   ] 
+============================================================
+2026-01-05 17:06:59,290 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 17:06:59,290 [INFO   ] ============================================================
+2026-01-05 17:06:59,291 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 17:06:59,291 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 17:06:59,291 [INFO   ] Entry Date: 2026-01-05
+2026-01-05 17:06:59,291 [INFO   ] Entry Price: $4.41
+2026-01-05 17:06:59,291 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 17:06:59,291 [INFO   ] Renaming log file to indicate active trade...

@@ -1,0 +1,27 @@
+2026-01-05 21:52:14,401 [INFO   ] --- [Quick Strike Scanner v5.1 Started for SNDX] ---
+2026-01-05 21:52:14,897 [INFO   ] Data loaded from fixed start date: 2020-01-01
+2026-01-05 21:52:49,251 [INFO   ] [32m!!! BUY SIGNAL on 2022-03-17 at $16.80 !!!
+2026-01-05 21:52:49,251 [INFO   ] [32m!!! SELL: Retracement Stop (Max Up: 4.76%) | Profit: 2.38% !!!
+2026-01-05 21:52:49,310 [INFO   ] [32m!!! BUY SIGNAL on 2025-12-31 at $21.01 !!!
+2026-01-05 21:52:49,310 [INFO   ] [32m!!! SELL: Break Even Stop | Profit: 0.00% !!!
+2026-01-05 21:52:49,358 [INFO   ] [32m!!! BUY SIGNAL on 2026-01-05 at $20.22 !!!
+2026-01-05 21:52:49,359 [INFO   ] 
+============================================================
+2026-01-05 21:52:49,359 [INFO   ] Total Trades: 2 | Win Rate: 50.00% | Avg P/L: 1.19%
+2026-01-05 21:52:49,359 [INFO   ] [36mSimulated Account ($10k start): $10,238.10 (Total Return: 2.38%)
+2026-01-05 21:52:49,365 [INFO   ] 
+| entry_date          | exit_date           | match_name      | exit_reason                      |   profit_pct |
+|:--------------------|:--------------------|:----------------|:---------------------------------|-------------:|
+| 2022-03-17 00:00:00 | 2022-03-18 00:00:00 | L_IYR_m120_ramp | Retracement Stop (Max Up: 4.76%) |      2.38096 |
+| 2025-12-31 00:00:00 | 2026-01-02 00:00:00 | L_CSCO_m90_ramp | Break Even Stop                  |      0       |
+2026-01-05 21:52:49,365 [INFO   ] 
+============================================================
+2026-01-05 21:52:49,365 [INFO   ] [32m[1m--- [STRATEGY VERDICT: PROFITABLE] ---
+2026-01-05 21:52:49,365 [INFO   ] ============================================================
+2026-01-05 21:52:49,365 [INFO   ] [1m[32m
+--- [LIVE STATUS] ---
+2026-01-05 21:52:49,365 [INFO   ] The simulation finished while IN A TRADE.
+2026-01-05 21:52:49,366 [INFO   ] Entry Date: 2026-01-05
+2026-01-05 21:52:49,366 [INFO   ] Entry Price: $20.22
+2026-01-05 21:52:49,366 [INFO   ] This is a potential LIVE BUY SIGNAL.
+2026-01-05 21:52:49,366 [INFO   ] Renaming log file to indicate active trade...
