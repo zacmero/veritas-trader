@@ -1,1 +1,1 @@
-EntryPrice,ExitPrice,Qty,PL_Dollars,PL_Percent,ExitDate,ExitReason,Ticker
+Ticker,ReadableSymbol,Type,EntryPrice,ExitPrice,Qty,PL_Dollars,PL_Percent,ExitDate

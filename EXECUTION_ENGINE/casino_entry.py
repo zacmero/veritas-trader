@@ -2,7 +2,7 @@
 Veritas Trader - Casino Entry (Gamma Scalp Initiator)
 -----------------------------------------------------
 This script initiates the strategy. It scans the options chain for a highly liquid 
-ETF (e.g., SPY), finds an At-The-Money (ATM) Call option expiring in ~30 days, 
+ETF (e.g., SPY, SPLG), finds an At-The-Money (ATM) Call option expiring in ~30 days, 
 and purchases it. 
 
 Once purchased, the `dynamic_hedger.py` daemon will automatically detect it 
@@ -14,13 +14,14 @@ from datetime import datetime, timedelta
 from colorama import init, Fore, Style
 from .alpaca_executor import AlpacaExecutor
 from .utils import load_env_file
+from .risk_manager import get_eastern_time
 from alpaca.trading.requests import GetOptionContractsRequest
 from alpaca.trading.enums import ContractType
 
 init(autoreset=True)
 
 # --- CONFIGURATION ---
-TARGET_ETF = "SPY"
+TARGET_ETF = "SPLG"
 TARGET_DAYS_TO_EXPIRY = 30
 CONTRACTS_TO_BUY = 1
 
@@ -29,6 +30,21 @@ def main():
     print(f"{Fore.CYAN}{'='*80}")
     print(f"!!! VERITAS TRADER: CASINO ENTRY ONLINE !!!")
     print(f"{Style.RESET_ALL}{'='*80}")
+
+    # --- WAIT FOR MARKET HOURS (9:35 AM - 3:55 PM ET) ---
+    while True:
+        et_now = get_eastern_time()
+        # 0 = Monday, 4 = Friday
+        if et_now.weekday() < 5:
+            # 9:35 AM = 9*60 + 35 = 575
+            # 3:55 PM = 15*60 + 55 = 955
+            current_minutes = et_now.hour * 60 + et_now.minute
+            if 575 <= current_minutes <= 955:
+                print(f"{Fore.GREEN}Market is within stable hours ({et_now.strftime('%H:%M:%S')} ET). Proceeding with entry...{Style.RESET_ALL}")
+                break
+        
+        print(f"{Fore.YELLOW}Waiting for stable market hours (9:35 AM - 3:55 PM ET). Current: {et_now.strftime('%H:%M:%S')} ET. Sleeping 60s...{Style.RESET_ALL}")
+        time.sleep(60)
     
     bot = AlpacaExecutor(paper_trading=True)
     try:

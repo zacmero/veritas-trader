@@ -1,0 +1,19 @@
+============================================================
+              VERITAS TRADER: ALGORITHMIC REPORT            
+============================================================
+Date:           2026-02-22 23:32:11
+Account ID:     PA3BRT0CZPIP
+Status:         AccountStatus.ACTIVE
+Buying Power:   $200,000.00
+Equity:         $100,000.00
+------------------------------------------------------------
+DAY P/L:        $0.00 (+0.00%)
+LIFETIME P/L:   $0.00 (Realized)
+WIN RATE:       0.0% (0 Verified Trades)
+============================================================
+
+--- [OPEN POSITIONS (Active)] ---
+No open positions.
+
+--- [CLOSED TRADES (FIFO - Daily Aggregated)] ---
+No closed trades.
