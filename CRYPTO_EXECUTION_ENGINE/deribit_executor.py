@@ -61,6 +61,24 @@ class DeribitExecutor:
             # print(f"Error fetching price for {instrument_name}: {e}")
             return 0.0
 
+    def get_account_summary(self, currency="BTC"):
+        """Returns the account summary for a specific currency."""
+        if not self.access_token:
+            self.connect()
+            
+        url = f"{self.base_url}/private/get_account_summary"
+        params = {"currency": currency, "extended": "true"}
+        try:
+            response = requests.get(url, headers=self.headers, params=params)
+            response.raise_for_status()
+            data = response.json()
+            if "result" in data:
+                return data["result"]
+            return {}
+        except Exception as e:
+            print(f"Error fetching account summary: {e}")
+            return {}
+
     def get_all_positions(self):
         """Returns a list of active positions."""
         if not self.access_token:

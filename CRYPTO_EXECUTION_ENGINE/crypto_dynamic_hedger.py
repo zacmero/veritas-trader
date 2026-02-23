@@ -179,7 +179,17 @@ def main():
                     
                     target_perp_hedges["BTC-PERPETUAL"] += required_usd_short
                     
-                    print(f"OPT: {symbol} | S: ${spot_price:.2f} | IV: {iv*100:.1f}% | Delta (BTC): {delta_per_btc:.3f} | Net Delta (BTC): {total_position_delta_btc:.3f}")
+                    # Visual Countdown Logic
+                    if days_to_expiry > 10:
+                        time_color = Fore.GREEN
+                    elif days_to_expiry > 3:
+                        time_color = Fore.YELLOW
+                    else:
+                        time_color = Fore.RED
+                    
+                    expiry_str = f"{time_color}[T-Minus: {days_to_expiry:.1f} Days]{Style.RESET_ALL}"
+
+                    print(f"OPT: {symbol} {expiry_str} | S: ${spot_price:.2f} | IV: {iv*100:.1f}% | Delta (BTC): {delta_per_btc:.3f} | Net Delta (BTC): {total_position_delta_btc:.3f}")
 
                 except Exception as e:
                     print(f"{Fore.RED}Error processing option {opt.get('instrument_name', 'Unknown')}: {e}{Style.RESET_ALL}")
