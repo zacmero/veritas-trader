@@ -116,7 +116,11 @@ def main():
                         
                         # 2. Liquidate the underlying stock hedge
                         bot.cancel_all_orders(underlying)
-                        bot.trading_client.close_position(underlying)
+                        try:
+                            bot.trading_client.close_position(underlying)
+                        except Exception as e:
+                            if "position not found" not in str(e).lower():
+                                print(f"{Fore.RED}Failed to close underlying position {underlying}: {e}{Style.RESET_ALL}")
                         
                         continue # Skip delta math for this option, it's dead to us
                     
