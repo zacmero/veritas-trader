@@ -27,6 +27,7 @@ tabulate             # Required: For formatting the investment report
 # Alpaca Connection:
 alpaca-py
 
-
+# Deribit Connection:
+requests
 
 # OBS: install command: pip install -r requirements.txt

@@ -152,15 +152,17 @@ def main():
 
         df_ledger = pd.DataFrame(ledger)
         
-        # 3. AGGREGATION LOGIC (Aggregate by Ticker, Date, and Type)
+        # 3. AGGREGATION LOGIC
         if not df_ledger.empty:
             df_ledger['ExitDateObj'] = pd.to_datetime(df_ledger['ExitDate'])
             df_ledger['Day'] = df_ledger['ExitDateObj'].dt.floor('D') 
             
             agg_list = []
-            for name, group in df_ledger.groupby(['Ticker', 'Day', 'Type']):
+            
+            # Group Options (by Ticker, Day, Type)
+            options_df = df_ledger[df_ledger['IsOption'] == True]
+            for name, group in options_df.groupby(['Ticker', 'Day', 'Type']):
                 total_qty = group['Qty'].sum()
-                # Weighted averages
                 avg_entry = (group['EntryPrice'] * group['Qty']).sum() / total_qty
                 avg_exit = (group['ExitPrice'] * group['Qty']).sum() / total_qty
                 total_pl = group['PL_Dollars'].sum()
@@ -179,7 +181,28 @@ def main():
                     'Qty': total_qty,
                     'PL_Dollars': total_pl,
                     'PL_Percent': pl_pct,
-                    'ExitDate': group['ExitDate'].max()
+                    'ExitDate': group['ExitDate'].max(),
+                    'IsOption': True,
+                    'NumTrades': len(group)
+                })
+
+            # Group Stocks (by Ticker, Day) - Combine into one Delta Hedging line
+            stocks_df = df_ledger[df_ledger['IsOption'] == False]
+            for name, group in stocks_df.groupby(['Ticker', 'Day']):
+                total_pl = group['PL_Dollars'].sum()
+                
+                agg_list.append({
+                    'Ticker': name[0],
+                    'ReadableSymbol': f"{name[0]} (Delta Hedging)",
+                    'Type': "-",
+                    'EntryPrice': 0.0,
+                    'ExitPrice': 0.0,
+                    'Qty': 0.0,
+                    'PL_Dollars': total_pl,
+                    'PL_Percent': 0.0, # Not highly relevant for micro-hedges
+                    'ExitDate': group['ExitDate'].max(),
+                    'IsOption': False,
+                    'NumTrades': len(group)
                 })
                 
             df_agg = pd.DataFrame(agg_list)
@@ -266,17 +289,22 @@ def main():
                 
                 c = Fore.GREEN if pl_d >= 0 else Fore.RED
                 pl_d_str = f"{c}${pl_d:,.2f}{Style.RESET_ALL}"
-                pl_p_str = f"{c}{pl_p:+.2f}%{Style.RESET_ALL}"
                 
                 # Truncate time to just date and hour/min for cleaner look
                 trd_time = row['ExitDate'][:16] 
                 
-                trd_table.append([
-                    row['ReadableSymbol'], row['Type'], f"${row['EntryPrice']:.2f}", f"${row['ExitPrice']:.2f}", 
-                    f"{row['Qty']:.2f}", pl_d_str, pl_p_str, trd_time
-                ])
+                if not row['IsOption']:
+                    trd_table.append([
+                        row['ReadableSymbol'], row['Type'], row['NumTrades'], "-", "-", "-", pl_d_str, "-", trd_time
+                    ])
+                else:
+                    pl_p_str = f"{c}{pl_p:+.2f}%{Style.RESET_ALL}"
+                    trd_table.append([
+                        row['ReadableSymbol'], row['Type'], row['NumTrades'], f"${row['EntryPrice']:.2f}", f"${row['ExitPrice']:.2f}", 
+                        f"{row['Qty']:.2f}", pl_d_str, pl_p_str, trd_time
+                    ])
                 
-            report.append(tabulate(trd_table, headers=["Symbol", "Type", "Entry", "Exit", "Qty", "P/L $", "P/L %", "Time"], tablefmt="simple"))
+            report.append(tabulate(trd_table, headers=["Symbol", "Type", "Trades", "Entry", "Exit", "Qty", "P/L $", "P/L %", "Time"], tablefmt="simple"))
             report.append("\n")
         else:
             report.append("No closed trades.\n")
