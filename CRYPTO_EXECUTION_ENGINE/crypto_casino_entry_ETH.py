@@ -1,9 +1,9 @@
 """
 Veritas Trader - Crypto Casino Entry
 ------------------------------------
-Initiates a Gamma Scalping campaign on the Deribit Testnet using BTC Options.
+Initiates a Gamma Scalping campaign on the Deribit Testnet using ETH Options.
 Finds an ATM Call expiring in ~30 days, checks the Volatility Stop (IV Crush Risk),
-buys 0.1 BTC contracts, and saves the initial cost state for the Hard Equity Stop.
+buys 0.1 ETH contracts, and saves the initial cost state for the Hard Equity Stop.
 """
 
 import time
@@ -22,14 +22,14 @@ init(autoreset=True)
 
 # --- CONFIGURATION ---
 TARGET_DAYS_TO_EXPIRY = 30
-CONTRACTS_TO_BUY = 0.1 # BTC
+CONTRACTS_TO_BUY = 1.0 # ETH
 RISK_FREE_RATE = 0.045
-STATE_FILE = os.path.join(os.path.dirname(__file__), "crypto_state.json")
+STATE_FILE = os.path.join(os.path.dirname(__file__), "eth_state.json")
 
 def main():
     load_env_file()
     print(f"{Fore.CYAN}{'='*80}")
-    print(f"!!! VERITAS TRADER: CRYPTO CASINO ENTRY ONLINE !!!")
+    print(f"!!! VERITAS TRADER: ETH CASINO ENTRY ONLINE !!!")
     print(f"{Style.RESET_ALL}{'='*80}")
 
     bot = DeribitExecutor()
@@ -39,23 +39,23 @@ def main():
         print(f"{Fore.RED}Connection Failed: {e}{Style.RESET_ALL}")
         return
 
-    # 1. Get Current Spot Price (We use BTC-PERPETUAL or index price as spot proxy)
+    # 1. Get Current Spot Price (We use ETH-PERPETUAL or index price as spot proxy)
     try:
-        # Fetching index price for BTC
-        current_price = bot.get_current_price("BTC-PERPETUAL")
+        # Fetching index price for ETH
+        current_price = bot.get_current_price("ETH-PERPETUAL")
         if current_price == 0:
-            raise Exception("Failed to get BTC-PERPETUAL price.")
-        print(f"Current BTC Spot Proxy (BTC-PERPETUAL) Price: ${current_price:.2f}")
+            raise Exception("Failed to get ETH-PERPETUAL price.")
+        print(f"Current ETH Spot Proxy (ETH-PERPETUAL) Price: ${current_price:.2f}")
     except Exception as e:
         print(f"{Fore.RED}Failed to fetch underlying price: {e}{Style.RESET_ALL}")
         return
 
     # 2. Fetch Option Chain from Deribit
-    print("Fetching BTC Option Chain...")
+    print("Fetching ETH Option Chain...")
     try:
         # Deribit public API for active options
         url = f"{bot.base_url}/public/get_instruments"
-        params = {"currency": "BTC", "kind": "option", "expired": "false"}
+        params = {"currency": "ETH", "kind": "option", "expired": "false"}
         response = requests.get(url, params=params)
         response.raise_for_status()
         data = response.json()
@@ -105,9 +105,9 @@ def main():
     print(f"Expiry: {expiry.strftime('%Y-%m-%d %H:%M:%S UTC')}")
 
     # 4. Volatility Stop Check
-    opt_price_btc = bot.get_current_price(best_contract["instrument_name"])
-    # Deribit prices options in BTC, so multiply by current_price for USD value
-    opt_market_price_usd = opt_price_btc * current_price 
+    opt_price_eth = bot.get_current_price(best_contract["instrument_name"])
+    # Deribit prices options in ETH, so multiply by current_price for USD value
+    opt_market_price_usd = opt_price_eth * current_price 
     
     T = max(0.001, (expiry - datetime.now(pytz.utc)).days / 365.0)
 
@@ -129,12 +129,12 @@ def main():
     print(f"{Fore.GREEN}IV is acceptable. Proceeding...{Style.RESET_ALL}")
 
     # 5. Execute the Purchase
-    print(f"\nInitiating Gamma Scalp. Buying {CONTRACTS_TO_BUY} BTC contracts of {best_contract['instrument_name']}...")
-    success, filled_price_btc = bot.place_market_buy(best_contract['instrument_name'], CONTRACTS_TO_BUY)
+    print(f"\nInitiating Gamma Scalp. Buying {CONTRACTS_TO_BUY} ETH contracts of {best_contract['instrument_name']}...")
+    success, filled_price_eth = bot.place_market_buy(best_contract['instrument_name'], CONTRACTS_TO_BUY)
     
     if success:
-        initial_cost_usd = filled_price_btc * current_price * CONTRACTS_TO_BUY
-        print(f"{Fore.GREEN}SUCCESS! Option purchased at ~{filled_price_btc} BTC (${initial_cost_usd:.2f} USD).{Style.RESET_ALL}")
+        initial_cost_usd = filled_price_eth * current_price * CONTRACTS_TO_BUY
+        print(f"{Fore.GREEN}SUCCESS! Option purchased at ~{filled_price_eth} ETH (${initial_cost_usd:.2f} USD).{Style.RESET_ALL}")
         
         # 6. Save State
         state = {
@@ -147,7 +147,7 @@ def main():
             json.dump(state, f, indent=4)
             
         print(f"{Fore.YELLOW}Saved initial cost state for Hard Equity Stop tracking.{Style.RESET_ALL}")
-        print(f"{Fore.YELLOW}The Crypto Dynamic Hedger will now detect this position and begin shorting BTC-PERPETUAL to neutralize Delta.{Style.RESET_ALL}")
+        print(f"{Fore.YELLOW}The Crypto Dynamic Hedger will now detect this position and begin shorting ETH-PERPETUAL to neutralize Delta.{Style.RESET_ALL}")
     else:
         print(f"{Fore.RED}Failed to execute option purchase.{Style.RESET_ALL}")
 

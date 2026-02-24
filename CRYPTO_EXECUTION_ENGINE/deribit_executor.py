@@ -79,13 +79,13 @@ class DeribitExecutor:
             print(f"Error fetching account summary: {e}")
             return {}
 
-    def get_all_positions(self):
+    def get_all_positions(self, currency="BTC"):
         """Returns a list of active positions."""
         if not self.access_token:
             self.connect()
             
         url = f"{self.base_url}/private/get_positions"
-        params = {"currency": "BTC", "kind": "any"}
+        params = {"currency": currency, "kind": "any"}
         try:
             response = requests.get(url, headers=self.headers, params=params)
             response.raise_for_status()

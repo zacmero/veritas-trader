@@ -10,7 +10,7 @@ from datetime import datetime
 import pytz
 
 MIN_DAYS_TO_EXPIRY = 2
-MAX_ENTRY_IV = 0.65  # Do not enter if IV is above 65% (Volatility Stop)
+MAX_ENTRY_IV = 0.90  # Increased to 90% to accommodate ETH's higher natural volatility
 MAX_DRAWDOWN_PCT = -0.15 # Liquidate if portfolio drops 15% (Hard Equity Stop)
 
 def is_expiration_danger(expiry_date: datetime) -> bool:
