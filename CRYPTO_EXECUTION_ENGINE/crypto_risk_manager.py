@@ -11,7 +11,7 @@ import pytz
 
 MIN_DAYS_TO_EXPIRY = 2
 MAX_ENTRY_IV = 0.90  # Increased to 90% to accommodate ETH's higher natural volatility
-MAX_DRAWDOWN_PCT = -0.15 # Liquidate if portfolio drops 15% (Hard Equity Stop)
+MAX_DRAWDOWN_PCT = -0.30 # Liquidate if portfolio drops 15% (Hard Equity Stop)
 
 def is_expiration_danger(expiry_date: datetime) -> bool:
     """TIME STOP: Checks if an option is within 48 hours of expiration."""

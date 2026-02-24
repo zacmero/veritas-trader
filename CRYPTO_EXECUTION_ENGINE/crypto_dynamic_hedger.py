@@ -127,11 +127,11 @@ def main():
                         bot.place_market_sell(symbol, opt_qty)
                         
                         # 2. Liquidate Hedge
-                        current_perp = perp_positions.get("BTC-PERPETUAL", 0.0)
+                        current_perp = int(perp_positions.get("BTC-PERPETUAL", 0.0))
                         if current_perp > 0:
-                            bot.place_market_sell("BTC-PERPETUAL", abs(current_perp))
+                            bot.place_market_sell("BTC-PERPETUAL", int(abs(current_perp)))
                         elif current_perp < 0:
-                            bot.place_market_buy("BTC-PERPETUAL", abs(current_perp))
+                            bot.place_market_buy("BTC-PERPETUAL", int(abs(current_perp)))
                             
                         # Delete state file to reset
                         if os.path.exists(STATE_FILE):
@@ -189,7 +189,13 @@ def main():
                     
                     expiry_str = f"{time_color}[T-Minus: {days_to_expiry:.1f} Days]{Style.RESET_ALL}"
 
-                    print(f"OPT: {symbol} {expiry_str} | S: ${spot_price:.2f} | IV: {iv*100:.1f}% | Delta (BTC): {delta_per_btc:.3f} | Net Delta (BTC): {total_position_delta_btc:.3f}")
+                    # Calculate True Net Delta
+                    current_hedge_usd = float(perp_positions.get("BTC-PERPETUAL", 0.0))
+                    hedge_delta_coin = current_hedge_usd / spot_price
+                    true_net_delta = total_position_delta_btc + hedge_delta_coin
+
+                    print(f"OPT: {symbol} {expiry_str} | S: ${spot_price:.2f} | IV: {iv*100:.1f}%")
+                    print(f"DELTAS -> Option: {total_position_delta_btc:.3f} | Hedge: {hedge_delta_coin:.3f} | TRUE NET: {true_net_delta:.3f}")
 
                 except Exception as e:
                     print(f"{Fore.RED}Error processing option {opt.get('instrument_name', 'Unknown')}: {e}{Style.RESET_ALL}")
@@ -219,11 +225,11 @@ def main():
                                 bot.place_market_sell(opt["instrument_name"], float(opt.get("size", 0)))
                             
                             # Liquidate Hedge
-                            current_perp = perp_positions.get("BTC-PERPETUAL", 0.0)
+                            current_perp = int(perp_positions.get("BTC-PERPETUAL", 0.0))
                             if current_perp > 0:
-                                bot.place_market_sell("BTC-PERPETUAL", abs(current_perp))
+                                bot.place_market_sell("BTC-PERPETUAL", int(abs(current_perp)))
                             elif current_perp < 0:
-                                bot.place_market_buy("BTC-PERPETUAL", abs(current_perp))
+                                bot.place_market_buy("BTC-PERPETUAL", int(abs(current_perp)))
                                 
                             os.remove(STATE_FILE)
                             print(f"{Fore.RED}>>> LIQUIDATION COMPLETE. SHUTTING DOWN.{Style.RESET_ALL}")
@@ -247,12 +253,21 @@ def main():
                 
                 # Only trade if the imbalance is larger than our fee-safe threshold
                 if abs(usd_to_trade) >= HEDGE_THRESHOLD_USD:
+                    trade_amount = int(abs(usd_to_trade))
                     if usd_to_trade > 0:
-                        print(f"{Fore.MAGENTA}>>> REBALANCING: Buying {usd_to_trade} USD of {underlying}{Style.RESET_ALL}")
-                        bot.place_market_buy(underlying, usd_to_trade)
+                        print(f"{Fore.MAGENTA}>>> REBALANCING: Buying {trade_amount} USD of {underlying}{Style.RESET_ALL}")
+                        bot.place_market_buy(underlying, trade_amount)
                     else:
-                        print(f"{Fore.MAGENTA}>>> REBALANCING: Selling/Shorting {abs(usd_to_trade)} USD of {underlying}{Style.RESET_ALL}")
-                        bot.place_market_sell(underlying, abs(usd_to_trade))
+                        print(f"{Fore.MAGENTA}>>> REBALANCING: Selling/Shorting {trade_amount} USD of {underlying}{Style.RESET_ALL}")
+                        bot.place_market_sell(underlying, trade_amount)
+                        
+                    # --- POST-TRADE CONFIRMATION LOG ---
+                    # Calculate projected state after order fills
+                    new_hedge_usd = current_usd + usd_to_trade
+                    projected_hedge_delta = new_hedge_usd / spot_price
+                    # Note: Use total_position_delta_btc here
+                    projected_net_delta = total_position_delta_btc + projected_hedge_delta
+                    print(f"{Fore.CYAN}>>> POST-TRADE PROJECTION | Hedge Delta: {projected_hedge_delta:.3f} | TRUE NET DELTA: {projected_net_delta:.3f}{Style.RESET_ALL}")
                 else:
                     print(f"{Fore.GREEN}>>> Delta Neutral (Imbalance ${abs(usd_to_trade)} is below ${HEDGE_THRESHOLD_USD} threshold). No action required.{Style.RESET_ALL}")
 
