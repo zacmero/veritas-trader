@@ -23,9 +23,9 @@ from . import prime_math
 init(autoreset=True)
 
 # --- CONFIGURATION ---
-SLEEP_INTERVAL = 5               # Reduced from 60s to 5s for high-frequency crypto monitoring
-HEDGE_THRESHOLD_USD = 50.0      # Minimum USD imbalance required to trigger a rebalance trade
-RISK_FREE_RATE = 0.045           # 4.5% Risk-Free Rate
+SLEEP_INTERVAL = 5
+DELTA_BAND = 0.02  # Rebalance if Net Delta strays beyond +/- 0.02
+RISK_FREE_RATE = 0.045
 STATE_FILE = os.path.join(os.path.dirname(__file__), "eth_state.json")
 
 def parse_deribit_symbol(symbol: str) -> dict:
@@ -99,6 +99,8 @@ def main():
             
             # Risk Management Tracking
             total_current_value_usd = 0.0
+            
+            portfolio_delta_coin = 0.0  # Accumulator for all options
 
             # Process Options & Calculate Required Hedges
             for opt in options_positions:
@@ -140,62 +142,33 @@ def main():
                         print(f"{Fore.RED}>>> LIQUIDATION COMPLETE. SHUTTING DOWN.{Style.RESET_ALL}")
                         return 
                     
-                    # Calculate Time to Expiry (T) in years
-                    days_to_expiry = (occ_data["expiry"] - datetime.now(pytz.utc)).days
-                    T = max(0.001, days_to_expiry / 365.0) 
+                    # Calculate Time to Expiry (T) accurately using seconds
+                    seconds_to_expiry = (occ_data["expiry"] - datetime.now(pytz.utc)).total_seconds()
+                    days_to_expiry = seconds_to_expiry / (24 * 3600)
+                    T = max(1.0 / 3650.0, seconds_to_expiry / (365.0 * 24 * 3600)) # Prevent zero
                     
-                    # Math Engine
-                    iv = prime_math.get_implied_volatility(
-                        market_price=opt_mark_eth * spot_price, # USD representation
-                        S=spot_price,
-                        K=occ_data["strike"],
-                        T=T,
-                        r=RISK_FREE_RATE,
-                        option_type=occ_data["type"]
-                    )
-                    
-                    delta_per_eth = prime_math.calculate_delta(
-                        S=spot_price,
-                        K=occ_data["strike"],
-                        T=T,
-                        r=RISK_FREE_RATE,
-                        sigma=iv,
-                        option_type=occ_data["type"]
-                    )
-                    
-                    # Total Position Delta in ETH
-                    total_position_delta_eth = delta_per_eth * opt_qty
-                    
-                    # Target ETH-PERPETUAL Hedge: Inverse of the Option Delta
-                    # Deribit ETH-PERPETUAL contracts are sized in USD (1 contract = $10 USD)
-                    # We need to short `total_position_delta_eth` amount of ETH.
-                    # USD Value of Delta = total_position_delta_eth * spot_price
-                    # Contracts = USD Value / 10
-                    # Note: Deribit API `amount` parameter for ETH-PERPETUAL is typically in USD (e.g. 100 means $100).
-                    # We will request the amount in USD directly if that's what API expects.
-                    # Wait, standard Deribit ETH-PERPETUAL amount is in USD: e.g. amount=100 is 10 contracts of $10 each.
-                    # So the required amount to trade is the exact USD value of the delta!
-                    required_usd_short = - (total_position_delta_eth * spot_price)
-                    
-                    target_perp_hedges["ETH-PERPETUAL"] += required_usd_short
-                    
-                    # Visual Countdown Logic
-                    if days_to_expiry > 10:
-                        time_color = Fore.GREEN
-                    elif days_to_expiry > 3:
-                        time_color = Fore.YELLOW
+                    # Use Deribit's native Greeks if available, otherwise fallback to prime_math
+                    greeks = opt.get("greeks", {})
+                    if "delta" in greeks and "mark_iv" in opt:
+                        delta_per_coin = float(greeks["delta"])
+                        iv = float(opt["mark_iv"]) / 100.0
                     else:
-                        time_color = Fore.RED
+                        iv = prime_math.get_implied_volatility(
+                            market_price=opt_mark_eth * spot_price,
+                            S=spot_price, K=occ_data["strike"], T=T, r=RISK_FREE_RATE, option_type=occ_data["type"]
+                        )
+                        delta_per_coin = prime_math.calculate_delta(
+                            S=spot_price, K=occ_data["strike"], T=T, r=RISK_FREE_RATE, sigma=iv, option_type=occ_data["type"]
+                        )
                     
-                    expiry_str = f"{time_color}[T-Minus: {days_to_expiry:.1f} Days]{Style.RESET_ALL}"
-
-                    # Calculate True Net Delta
-                    current_hedge_usd = float(perp_positions.get("ETH-PERPETUAL", 0.0))
-                    hedge_delta_coin = current_hedge_usd / spot_price
-                    true_net_delta = total_position_delta_eth + hedge_delta_coin
-
-                    print(f"OPT: {symbol} {expiry_str} | S: ${spot_price:.2f} | IV: {iv*100:.1f}%")
-                    print(f"DELTAS -> Option: {total_position_delta_eth:.3f} | Hedge: {hedge_delta_coin:.3f} | TRUE NET: {true_net_delta:.3f}")
+                    # Add to Portfolio Delta
+                    position_delta = delta_per_coin * opt_qty
+                    portfolio_delta_coin += position_delta
+                    
+                    # Visual Countdown
+                    time_color = Fore.GREEN if days_to_expiry > 10 else (Fore.YELLOW if days_to_expiry > 3 else Fore.RED)
+                    expiry_str = f"{time_color}[T-Minus: {days_to_expiry:.2f} Days]{Style.RESET_ALL}"
+                    print(f"OPT: {symbol} {expiry_str} | S: ${spot_price:.2f} | IV: {iv*100:.1f}% | Pos Delta: {position_delta:.3f}")
 
                 except Exception as e:
                     print(f"{Fore.RED}Error processing option {opt.get('instrument_name', 'Unknown')}: {e}{Style.RESET_ALL}")
@@ -240,36 +213,50 @@ def main():
                 except Exception as e:
                     print(f"Error checking Equity Stop: {e}")
 
-            # Execute Rebalancing Trades
-            for underlying, target_usd in target_perp_hedges.items():
-                # Deribit ETH-PERPETUAL contracts are in increments of $1 USD.
-                # We round to the nearest $10.
-                target_usd = round(target_usd / 1.0) * 1.0
-                current_usd = float(perp_positions.get(underlying, 0.0))
+            # --- CALCULATE TRUE NET DELTA ---
+            # Get current hedge delta
+            perp_symbol = "ETH-PERPETUAL"
+            current_hedge_usd = float(perp_positions.get(perp_symbol, 0.0))
+            hedge_delta_coin = current_hedge_usd / spot_price
+            
+            true_net_delta = portfolio_delta_coin + hedge_delta_coin
+            print(f"\n{Fore.CYAN}=== PORTFOLIO STATE ==={Style.RESET_ALL}")
+            print(f"Options Delta: {portfolio_delta_coin:.4f} | Hedge Delta: {hedge_delta_coin:.4f} | TRUE NET DELTA: {true_net_delta:.4f}")
+            
+            # --- EXECUTE REBALANCING (DELTA BAND) ---
+            if abs(true_net_delta) >= DELTA_BAND:
+                # 1. Cancel any hanging unfilled orders from the last cycle
+                bot.cancel_all_orders(perp_symbol)
                 
-                usd_to_trade = target_usd - current_usd
+                # We need to trade enough USD to bring true_net_delta back to 0
+                # If net delta is +0.05, we need to short 0.05 coins.
+                coin_to_trade = -true_net_delta
+                usd_to_trade = coin_to_trade * spot_price
                 
-                print(f"HEDGE [{underlying}]: Target USD: {target_usd} | Current USD: {current_usd} | Diff: {usd_to_trade}")
+                # Round to nearest contract size ($1.0 for ETH)
+                contract_size = 1.0
+                trade_amount_usd = int(round(usd_to_trade / contract_size) * contract_size)
                 
-                # Only trade if the imbalance is larger than our fee-safe threshold
-                if abs(usd_to_trade) >= HEDGE_THRESHOLD_USD:
-                    trade_amount = int(abs(usd_to_trade))
-                    if usd_to_trade > 0:
-                        print(f"{Fore.MAGENTA}>>> REBALANCING: Buying {trade_amount} USD of {underlying}{Style.RESET_ALL}")
-                        bot.place_market_buy(underlying, trade_amount)
+                if trade_amount_usd != 0:
+                    # Use Limit Orders at the current spot_price to capture Maker fees (0.00%)
+                    # Deribit ETH tick size is $0.05
+                    limit_price = round(spot_price * 20) / 20.0
+                    
+                    if trade_amount_usd > 0:
+                        print(f"{Fore.MAGENTA}>>> REBALANCING: LIMIT BUY {trade_amount_usd} USD of {perp_symbol} @ ${limit_price}{Style.RESET_ALL}")
+                        bot.place_limit_buy(perp_symbol, trade_amount_usd, limit_price)
                     else:
-                        print(f"{Fore.MAGENTA}>>> REBALANCING: Selling/Shorting {trade_amount} USD of {underlying}{Style.RESET_ALL}")
-                        bot.place_market_sell(underlying, trade_amount)
+                        print(f"{Fore.MAGENTA}>>> REBALANCING: LIMIT SELL {abs(trade_amount_usd)} USD of {perp_symbol} @ ${limit_price}{Style.RESET_ALL}")
+                        bot.place_limit_sell(perp_symbol, abs(trade_amount_usd), limit_price)
                         
                     # --- POST-TRADE CONFIRMATION LOG ---
                     # Calculate projected state after order fills
-                    new_hedge_usd = current_usd + usd_to_trade
+                    new_hedge_usd = current_hedge_usd + trade_amount_usd
                     projected_hedge_delta = new_hedge_usd / spot_price
-                    # Note: Use total_position_delta_eth here
-                    projected_net_delta = total_position_delta_eth + projected_hedge_delta
+                    projected_net_delta = portfolio_delta_coin + projected_hedge_delta
                     print(f"{Fore.CYAN}>>> POST-TRADE PROJECTION | Hedge Delta: {projected_hedge_delta:.3f} | TRUE NET DELTA: {projected_net_delta:.3f}{Style.RESET_ALL}")
-                else:
-                    print(f"{Fore.GREEN}>>> Delta Neutral (Imbalance ${abs(usd_to_trade)} is below ${HEDGE_THRESHOLD_USD} threshold). No action required.{Style.RESET_ALL}")
+            else:
+                print(f"{Fore.GREEN}>>> Delta Neutral (Net Delta {abs(true_net_delta):.4f} is within {DELTA_BAND} band). No action required.{Style.RESET_ALL}")
 
             print(f"Cycle Complete. Sleeping {SLEEP_INTERVAL}s...")
             time.sleep(SLEEP_INTERVAL)

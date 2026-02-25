@@ -132,3 +132,22 @@ def get_implied_volatility(market_price: float, S: float, K: float, T: float, r:
             sigma = 0.001
             
     return sigma
+
+def calculate_realized_volatility(daily_closes: list) -> float:
+    """
+    Calculates annualized Realized Volatility (RV) from a list of daily closing prices.
+    Requires at least 2 days of data. Usually calculated over 20-30 days.
+    """
+    if len(daily_closes) < 2:
+        return 0.0
+    
+    closes = np.array(daily_closes)
+    # Calculate daily logarithmic returns
+    log_returns = np.log(closes[1:] / closes[:-1])
+    
+    # Standard deviation of daily returns
+    daily_vol = np.std(log_returns, ddof=1)
+    
+    # Annualize it (Crypto trades 365 days a year)
+    annualized_vol = daily_vol * np.sqrt(365)
+    return annualized_vol

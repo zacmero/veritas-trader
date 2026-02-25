@@ -126,7 +126,18 @@ def main():
         print(f"{Fore.RED}VOLATILITY STOP ACTIVATED: IV ({iv*100:.2f}%) exceeds maximum allowed ({MAX_ENTRY_IV*100:.2f}%). Aborting entry to avoid IV Crush.{Style.RESET_ALL}")
         return
         
-    print(f"{Fore.GREEN}IV is acceptable. Proceeding...{Style.RESET_ALL}")
+    # --- V3: VOLATILITY ARBITRAGE (RV vs IV) ---
+    print("Calculating Realized Volatility (RV)...")
+    historical_closes = bot.get_historical_closes("ETH-PERPETUAL", 30)
+    rv = prime_math.calculate_realized_volatility(historical_closes)
+    
+    print(f"30-Day Realized Volatility (RV): {rv*100:.2f}%")
+    
+    if iv > rv * 1.15:
+        print(f"{Fore.RED}Insurance is too expensive (IV: {iv*100:.1f}%, RV: {rv*100:.1f}%). Waiting for IV Crush.{Style.RESET_ALL}")
+        return
+        
+    print(f"{Fore.GREEN}Volatility Arbitrage favorable (IV is <= 115% of RV). Proceeding...{Style.RESET_ALL}")
 
     # 5. Execute the Purchase
     print(f"\nInitiating Gamma Scalp. Buying {CONTRACTS_TO_BUY} ETH contracts of {best_contract['instrument_name']}...")
