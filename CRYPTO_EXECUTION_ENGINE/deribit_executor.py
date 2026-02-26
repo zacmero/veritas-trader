@@ -68,22 +68,24 @@ class DeribitExecutor:
             
         url = f"{self.base_url}{endpoint}"
         
-        try:
+        # First attempt
+        response = requests.get(url, headers=self.headers, params=params)
+        
+        # Deribit throws 400 or 401 for expired/invalid tokens
+        if response.status_code in [400, 401]:
+            print(f"{Fore.YELLOW}Token likely expired (Status {response.status_code}). Refreshing authentication...{Style.RESET_ALL}")
+            self.connect() # This updates self.headers
+            
+            # Second attempt with fresh token
             response = requests.get(url, headers=self.headers, params=params)
-            response.raise_for_status()
-            data = response.json()
-            if "error" in data:
-                raise requests.exceptions.HTTPError(f"API Error: {data['error']}")
-        except requests.exceptions.HTTPError as e:
-            if hasattr(e, 'response') and e.response is not None and e.response.status_code == 401:
-                print(f"{Fore.YELLOW}Token likely expired. Reconnecting...{Style.RESET_ALL}")
-                self.connect()
-                response = requests.get(url, headers=self.headers, params=params)
-                response.raise_for_status()
-                data = response.json()
-            else:
-                raise e
-                
+            
+        # Raise exception if it STILL fails after retry
+        response.raise_for_status() 
+        
+        data = response.json()
+        if "error" in data:
+            raise Exception(f"API Error: {data['error']}")
+            
         return data
 
     def get_account_summary(self, currency="BTC"):
