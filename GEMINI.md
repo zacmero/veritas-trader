@@ -1,5 +1,17 @@
 # Veritas Trader (v1.0) - The Casino Engine
 
+# 0. General Observations: Serena (MCP) is the primary code navigation + editing tool
+
+When working in this repo, always prefer Serena MCP tools over manual file reading or text-based search:
+- Use `find_symbol`, `get_symbols_overview`, `find_referencing_symbols` to locate code.
+- Use symbol-targeted edits (`replace_symbol_body`, `replace_content`, `insert_before_symbol/after_symbol`) instead of editing whole files.
+- Only read full files when symbol-level retrieval is insufficient.
+- Use at most ~5 Serena calls to locate and understand something; if still unclear, ask for a full-file read of the single best candidate.
+- If Serena can’t find it, switch to search_for_pattern or a targeted file read.
+- If Serena calls exceed ~8 steps without resolving the question, stop and switch strategy:
+(1) pick the single most relevant file, (2) read only that file/section, (3) proceed with a plan. Avoid long tool-call loops.
+Goal: minimize token usage and avoid brittle search/replace; keep changes precise and reviewable via `git diff`.
+
 ## 1. System Philosophy & Edge
 Veritas Trader is a quantitative, market-neutral algorithmic trading system. It does not predict stock direction. Instead, it trades **Volatility** using the Black-Scholes-Merton options pricing model.
 
