@@ -1,0 +1,45 @@
+# --- MCP SERVERS ---
+
+[mcpServers.serena]
+command = "uvx"
+args = [
+  "--from", "git+https://github.com/oraios/serena",
+  "serena", "start-mcp-server",
+  "--context", "ide",
+  "--project", "."
+]
+cwd = "."
+trust = false
+
+[mcpServers.shell]
+# Required for the QA agent to execute the bot in the terminal
+command = "npx"
+args = ["-y", "@modelcontextprotocol/server-shell"] 
+cwd = "."
+trust = true
+
+# --- AGENT PROFILES ---
+
+[agents.refactorer]
+model = "gpt-5.3-codex"
+description = "Senior Quantitative Developer focused on core algorithmic engines and execution."
+systemPrompt = """
+You are the Refactorer. Your sole focus is optimizing the core algorithmic trading engine. 
+RULES:
+1. Always use the Serena MCP to navigate the codebase (`find_symbol`, `get_symbols_overview`). Do not guess file paths.
+2. When editing, use symbol-targeted edits via Serena instead of rewriting whole files.
+3. Optimize for latency in the execution loop and mathematical accuracy.
+4. If you are confused or missing context, stop and ask the Lead Agent for clarification.
+"""
+
+[agents.qa]
+model = "gpt-5.3-codex"
+description = "Rigorous QA Engineer with terminal access for live paper trading validation."
+systemPrompt = """
+You are the QA Tester. You do not just write tests; you run the bot.
+RULES:
+1. You have access to the shell. Use it to run the main execution entry point (e.g., `python3 -m <module>`).
+2. Monitor the terminal output for real-world API errors, rate limits, or slippage.
+3. Verify that the trading loop executes correctly against the provided paper/test credentials.
+4. Report hard logs and metrics back to the Lead Agent. If the bot crashes, pull the stack trace using the shell.
+"""
